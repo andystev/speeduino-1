@@ -807,6 +807,34 @@ X DRAIN1 8 1700 0 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
+# VNS3NV04DP-E_VNS3NV04DP-E
+#
+DEF VNS3NV04DP-E_VNS3NV04DP-E IC 0 30 Y Y 1 F N
+F0 "IC" 1450 300 50 H V L CNN
+F1 "VNS3NV04DP-E_VNS3NV04DP-E" 1450 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1450 100 50 H I L CNN
+F3 "https://www.st.com/resource/en/datasheet/vns3nv04dp-e.pdf" 1450 0 50 H I L CNN
+F4 "STMicroelectronics VNS3NV04DP-E Load Switch IC, 8-Pin, SOIC" 1450 -100 50 H I L CNN "Description"
+F5 "1.75" 1450 -200 50 H I L CNN "Height"
+F6 "STMicroelectronics" 1450 -300 50 H I L CNN "Manufacturer_Name"
+F7 "VNS3NV04DP-E" 1450 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "VNS3NV04DP-E" 1450 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/vns3nv04dp-e/stmicroelectronics" 1450 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "511-VNS3NV04DP-E" 1450 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.com/Search/Refine.aspx?Keyword=511-VNS3NV04DP-E" 1450 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 1400 100 1400 -400 200 -400 200 100 N
+X SOURCE_1 1 0 0 200 R 50 50 0 0 P
+X INPUT_1 2 0 -100 200 R 50 50 0 0 P
+X SOURCE_2 3 0 -200 200 R 50 50 0 0 P
+X INPUT_2 4 0 -300 200 R 50 50 0 0 P
+X DRAIN_2_1 5 1600 -300 200 L 50 50 0 0 P
+X DRAIN_2_2 6 1600 -200 200 L 50 50 0 0 P
+X DRAIN_1_1 7 1600 -100 200 L 50 50 0 0 P
+X DRAIN_1_2 8 1600 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # power_GND
 #
 DEF power_GND #PWR 0 0 Y Y 1 F P

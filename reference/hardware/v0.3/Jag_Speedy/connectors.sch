@@ -514,8 +514,8 @@ L Interface_CAN_LIN:SN65HVD230 U?
 U 1 1 5F25636D
 P 4450 4600
 AR Path="/5F25636D" Ref="U?"  Part="1" 
-AR Path="/5EF0527D/5F25636D" Ref="U?"  Part="1" 
-F 0 "U?" H 4450 5081 50  0000 C CNN
+AR Path="/5EF0527D/5F25636D" Ref="U5"  Part="1" 
+F 0 "U5" H 4450 5081 50  0000 C CNN
 F 1 "SN65HVD230" H 4450 4990 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4450 4100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf" H 4350 5000 50  0001 C CNN
@@ -531,10 +531,10 @@ Text GLabel 4450 3850 1    50   Input ~ 0
 Text GLabel 4450 5200 3    50   Input ~ 0
 SignalGnd
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J7
 U 1 1 5F25E793
 P 5300 4600
-F 0 "J?" H 5218 4075 50  0000 C CNN
+F 0 "J7" H 5218 4075 50  0000 C CNN
 F 1 "Canbus" H 5218 4166 50  0000 C CNN
 F 2 "Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Horizontal" H 5300 4600 50  0001 C CNN
 F 3 "~" H 5300 4600 50  0001 C CNN
@@ -542,10 +542,10 @@ F 3 "~" H 5300 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R92
 U 1 1 5F25F382
 P 4200 5150
-F 0 "R?" V 4407 5150 50  0000 C CNN
+F 0 "R92" V 4407 5150 50  0000 C CNN
 F 1 "10K" V 4316 5150 50  0000 C CNN
 F 2 "" V 4130 5150 50  0001 C CNN
 F 3 "~" H 4200 5150 50  0001 C CNN

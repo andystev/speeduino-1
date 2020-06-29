@@ -1391,4 +1391,23 @@ Text GLabel 3900 1050 2    50   Output ~ 0
 Inj01-OUT
 Text GLabel 3900 2150 2    50   Output ~ 0
 Inj02-OUT
+$Comp
+L VNS3NV04DP-E:VNS3NV04DP-E IC?
+U 1 1 5F28A4DE
+P -2600 1500
+F 0 "IC?" H -1800 1765 50  0000 C CNN
+F 1 "VNS3NV04DP-E" H -1800 1674 50  0000 C CNN
+F 2 "SOIC127P600X175-8N" H -1150 1600 50  0001 L CNN
+F 3 "https://www.st.com/resource/en/datasheet/vns3nv04dp-e.pdf" H -1150 1500 50  0001 L CNN
+F 4 "STMicroelectronics VNS3NV04DP-E Load Switch IC, 8-Pin, SOIC" H -1150 1400 50  0001 L CNN "Description"
+F 5 "1.75" H -1150 1300 50  0001 L CNN "Height"
+F 6 "STMicroelectronics" H -1150 1200 50  0001 L CNN "Manufacturer_Name"
+F 7 "VNS3NV04DP-E" H -1150 1100 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "VNS3NV04DP-E" H -1150 1000 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/vns3nv04dp-e/stmicroelectronics" H -1150 900 50  0001 L CNN "Arrow Price/Stock"
+F 10 "511-VNS3NV04DP-E" H -1150 800 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=511-VNS3NV04DP-E" H -1150 700 50  0001 L CNN "Mouser Price/Stock"
+	1    -2600 1500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

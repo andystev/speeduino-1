@@ -383,35 +383,6 @@ Wire Wire Line
 	7000 3250 7300 3250
 Wire Wire Line
 	7300 3400 7000 3400
-$Comp
-L Connector_Generic:Conn_01x06 J7
-U 1 1 5EFFD7CF
-P 4100 4050
-F 0 "J7" H 4018 3525 50  0000 C CNN
-F 1 "Canbus" H 4018 3616 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Horizontal" H 4100 4050 50  0001 C CNN
-F 3 "~" H 4100 4050 50  0001 C CNN
-	1    4100 4050
-	-1   0    0    1   
-$EndComp
-Text GLabel 4800 4250 2    50   Input ~ 0
-SignalGnd
-Text GLabel 4800 4050 2    50   Input ~ 0
-CAN-Tx
-Text GLabel 4800 3950 2    50   Input ~ 0
-CAN-Rx
-Text GLabel 4800 4150 2    50   Output ~ 0
-5V
-Wire Wire Line
-	4300 3950 4800 3950
-Wire Wire Line
-	4800 4050 4300 4050
-Wire Wire Line
-	4300 4150 4800 4150
-Wire Wire Line
-	4800 4250 4300 4250
-NoConn ~ 4300 3750
-NoConn ~ 4300 3850
 Text GLabel 7000 3550 0    50   Output ~ 0
 IdlePWM-Signal
 Text GLabel 7000 3850 0    50   Output ~ 0
@@ -538,4 +509,70 @@ Wire Wire Line
 	8800 3700 9250 3700
 Wire Wire Line
 	9250 3550 8800 3550
+$Comp
+L Interface_CAN_LIN:SN65HVD230 U?
+U 1 1 5F25636D
+P 4450 4600
+AR Path="/5F25636D" Ref="U?"  Part="1" 
+AR Path="/5EF0527D/5F25636D" Ref="U5"  Part="1" 
+F 0 "U5" H 4450 5081 50  0000 C CNN
+F 1 "SN65HVD230" H 4450 4990 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4450 4100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf" H 4350 5000 50  0001 C CNN
+	1    4450 4600
+	1    0    0    -1  
+$EndComp
+Text GLabel 3700 4500 0    50   Input ~ 0
+CAN-Tx
+Text GLabel 3700 4600 0    50   Input ~ 0
+CAN-Rx
+Text GLabel 4450 3850 1    50   Input ~ 0
+3V3
+Text GLabel 4450 5200 3    50   Input ~ 0
+SignalGnd
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 5F25E793
+P 5300 4600
+F 0 "J7" H 5218 4075 50  0000 C CNN
+F 1 "Canbus" H 5218 4166 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Horizontal" H 5300 4600 50  0001 C CNN
+F 3 "~" H 5300 4600 50  0001 C CNN
+	1    5300 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R92
+U 1 1 5F25F382
+P 4200 5150
+F 0 "R92" V 4407 5150 50  0000 C CNN
+F 1 "10K" V 4316 5150 50  0000 C CNN
+F 2 "" V 4130 5150 50  0001 C CNN
+F 3 "~" H 4200 5150 50  0001 C CNN
+	1    4200 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4450 5200 4450 5150
+Wire Wire Line
+	4450 3850 4450 4300
+Wire Wire Line
+	3700 4500 4050 4500
+Wire Wire Line
+	4050 4600 3700 4600
+Wire Wire Line
+	4050 5150 3900 5150
+Wire Wire Line
+	3900 5150 3900 4800
+Wire Wire Line
+	3900 4800 4050 4800
+Wire Wire Line
+	4350 5150 4450 5150
+Connection ~ 4450 5150
+Wire Wire Line
+	4450 5150 4450 5000
+Wire Wire Line
+	4850 4700 5100 4700
+Wire Wire Line
+	5100 4600 4850 4600
 $EndSCHEMATC
