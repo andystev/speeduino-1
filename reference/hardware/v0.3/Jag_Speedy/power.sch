@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LM2940T:LM2940T-5.0_NOPB IC9
+L Jag_Speedy-rescue:LM2940T-5.0_NOPB-LM2940T IC9
 U 1 1 5EFCE38E
 P 4650 2950
 F 0 "IC9" V 5038 2622 50  0000 R CNN
@@ -33,7 +33,7 @@ F 11 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM2940T-50-NOPB?q
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ERZV14D220:ERZV14D220 RV1
+L Jag_Speedy-rescue:ERZV14D220-ERZV14D220 RV1
 U 1 1 5EFCEC0A
 P 3050 2950
 F 0 "RV1" V 3446 2822 50  0000 R CNN
@@ -63,9 +63,11 @@ F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 3500 2950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 1N5919BG:1N5919BG D20
+L Jag_Speedy-rescue:1N5919BG-1N5919BG D20
 U 1 1 5EFD0FB3
 P 5900 2950
+AR Path="/5EFD0FB3" Ref="D20"  Part="1" 
+AR Path="/5EF0923F/5EFD0FB3" Ref="D20"  Part="1" 
 F 0 "D20" V 6154 3078 50  0000 L CNN
 F 1 "1N5919BG" V 6245 3078 50  0000 L CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal" H 6350 2950 50  0001 L CNN

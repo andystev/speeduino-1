@@ -13,14 +13,14 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 900  750  0    157  ~ 0
-Injector 01 (D08) & 02 (D09)
-Text Notes 1000 2900 0    157  ~ 0
-Injector 03 (D10) & 04 (D11)
-Text Notes 1000 5150 0    157  ~ 0
-Injector 05 (D12) & 06 (D07)
+Text Notes 1600 800  0    157  ~ 0
+Injector 01 & 02
+Text Notes 1650 2900 0    157  ~ 0
+Injector 03 & 04
+Text Notes 1650 5150 0    157  ~ 0
+Injector 05 & 06
 $Comp
-L TC4424EPA:TC4424EPA IC6
+L Jag_Speedy-rescue:TC4424EPA-TC4424EPA IC6
 U 1 1 5F1EF1D7
 P 8200 1550
 AR Path="/5EF090BF/5F1EF1D7" Ref="IC6"  Part="1" 
@@ -274,7 +274,7 @@ Connection ~ 9500 2250
 Wire Wire Line
 	9500 1850 9500 2250
 $Comp
-L TC4424EPA:TC4424EPA IC7
+L Jag_Speedy-rescue:TC4424EPA-TC4424EPA IC7
 U 1 1 5F0F7B19
 P 8250 3500
 AR Path="/5EF090BF/5F0F7B19" Ref="IC7"  Part="1" 
@@ -522,7 +522,7 @@ Connection ~ 9550 4200
 Wire Wire Line
 	9550 3800 9550 4200
 $Comp
-L TC4424EPA:TC4424EPA IC8
+L Jag_Speedy-rescue:TC4424EPA-TC4424EPA IC8
 U 1 1 5F10DC80
 P 8250 5450
 AR Path="/5EF090BF/5F10DC80" Ref="IC8"  Part="1" 
@@ -769,593 +769,6 @@ $EndComp
 Connection ~ 9550 6150
 Wire Wire Line
 	9550 5750 9550 6150
-Wire Wire Line
-	3850 3400 3900 3400
-Connection ~ 3850 3400
-Wire Wire Line
-	3850 3800 3850 3400
-Wire Wire Line
-	3350 3800 3850 3800
-Wire Wire Line
-	3850 4500 3900 4500
-Connection ~ 3850 4500
-Wire Wire Line
-	3850 4000 3850 4500
-Wire Wire Line
-	3350 4000 3850 4000
-Wire Wire Line
-	3250 4500 3850 4500
-Wire Wire Line
-	3250 3400 3850 3400
-Wire Wire Line
-	1650 3800 1550 3800
-Wire Wire Line
-	1550 4000 1650 4000
-Wire Wire Line
-	1250 4300 1250 4500
-Wire Wire Line
-	1250 3500 1250 3400
-NoConn ~ 1650 3900
-NoConn ~ 1650 4100
-Text GLabel 1250 3400 2    50   Input ~ 0
-SignalGnd
-Text GLabel 1250 4500 2    50   Input ~ 0
-SignalGnd
-Text GLabel 3350 4100 2    50   Input ~ 0
-PowerGnd
-Text GLabel 3350 3900 2    50   Input ~ 0
-PowerGnd
-Text GLabel 2350 4500 0    50   Input ~ 0
-12V
-$Comp
-L Device:R R53
-U 1 1 5F1DEEA7
-P 2500 4500
-AR Path="/5EF090BF/5F1DEEA7" Ref="R53"  Part="1" 
-AR Path="/5F198969/5F1DEEA7" Ref="R?"  Part="1" 
-F 0 "R53" V 2707 4500 50  0000 C CNN
-F 1 "680" V 2616 4500 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2430 4500 50  0001 C CNN
-F 3 "~" H 2500 4500 50  0001 C CNN
-	1    2500 4500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED D4
-U 1 1 5F1DEEA1
-P 2800 4500
-AR Path="/5EF090BF/5F1DEEA1" Ref="D4"  Part="1" 
-AR Path="/5F198969/5F1DEEA1" Ref="D?"  Part="1" 
-F 0 "D4" H 2793 4245 50  0000 C CNN
-F 1 "LED" H 2793 4336 50  0000 C CNN
-F 2 "LED_THT:LED_D3.0mm" H 2800 4500 50  0001 C CNN
-F 3 "~" H 2800 4500 50  0001 C CNN
-	1    2800 4500
-	-1   0    0    1   
-$EndComp
-$Comp
-L Diode:1N4004 D10
-U 1 1 5F1DEE9B
-P 3100 4500
-AR Path="/5EF090BF/5F1DEE9B" Ref="D10"  Part="1" 
-AR Path="/5F198969/5F1DEE9B" Ref="D?"  Part="1" 
-F 0 "D10" H 3100 4283 50  0000 C CNN
-F 1 "1N4004" H 3100 4374 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3100 4325 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 3100 4500 50  0001 C CNN
-	1    3100 4500
-	-1   0    0    1   
-$EndComp
-Text GLabel 2350 3400 0    50   Input ~ 0
-12V
-$Comp
-L Device:R R52
-U 1 1 5F1D6EA6
-P 2500 3400
-AR Path="/5EF090BF/5F1D6EA6" Ref="R52"  Part="1" 
-AR Path="/5F198969/5F1D6EA6" Ref="R?"  Part="1" 
-F 0 "R52" V 2707 3400 50  0000 C CNN
-F 1 "680" V 2616 3400 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2430 3400 50  0001 C CNN
-F 3 "~" H 2500 3400 50  0001 C CNN
-	1    2500 3400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED D3
-U 1 1 5F1D6570
-P 2800 3400
-AR Path="/5EF090BF/5F1D6570" Ref="D3"  Part="1" 
-AR Path="/5F198969/5F1D6570" Ref="D?"  Part="1" 
-F 0 "D3" H 2793 3145 50  0000 C CNN
-F 1 "LED" H 2793 3236 50  0000 C CNN
-F 2 "LED_THT:LED_D3.0mm" H 2800 3400 50  0001 C CNN
-F 3 "~" H 2800 3400 50  0001 C CNN
-	1    2800 3400
-	-1   0    0    1   
-$EndComp
-$Comp
-L Diode:1N4004 D9
-U 1 1 5F1D56B2
-P 3100 3400
-AR Path="/5EF090BF/5F1D56B2" Ref="D9"  Part="1" 
-AR Path="/5F198969/5F1D56B2" Ref="D?"  Part="1" 
-F 0 "D9" H 3100 3183 50  0000 C CNN
-F 1 "1N4004" H 3100 3274 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3100 3225 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 3100 3400 50  0001 C CNN
-	1    3100 3400
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R47
-U 1 1 5F1D53D8
-P 1400 4000
-AR Path="/5EF090BF/5F1D53D8" Ref="R47"  Part="1" 
-AR Path="/5F198969/5F1D53D8" Ref="R?"  Part="1" 
-F 0 "R47" V 1607 4000 50  0000 C CNN
-F 1 "1k" V 1516 4000 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1330 4000 50  0001 C CNN
-F 3 "~" H 1400 4000 50  0001 C CNN
-	1    1400 4000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R41
-U 1 1 5F1D5033
-P 1250 4150
-AR Path="/5EF090BF/5F1D5033" Ref="R41"  Part="1" 
-AR Path="/5F198969/5F1D5033" Ref="R?"  Part="1" 
-F 0 "R41" H 1320 4196 50  0000 L CNN
-F 1 "100k" H 1320 4105 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1180 4150 50  0001 C CNN
-F 3 "~" H 1250 4150 50  0001 C CNN
-	1    1250 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R46
-U 1 1 5F1D4C2C
-P 1400 3800
-AR Path="/5EF090BF/5F1D4C2C" Ref="R46"  Part="1" 
-AR Path="/5F198969/5F1D4C2C" Ref="R?"  Part="1" 
-F 0 "R46" V 1607 3800 50  0000 C CNN
-F 1 "1k" V 1516 3800 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1330 3800 50  0001 C CNN
-F 3 "~" H 1400 3800 50  0001 C CNN
-	1    1400 3800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R40
-U 1 1 5F1D46C0
-P 1250 3650
-AR Path="/5EF090BF/5F1D46C0" Ref="R40"  Part="1" 
-AR Path="/5F198969/5F1D46C0" Ref="R?"  Part="1" 
-F 0 "R40" H 1320 3696 50  0000 L CNN
-F 1 "100k" H 1320 3605 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1180 3650 50  0001 C CNN
-F 3 "~" H 1250 3650 50  0001 C CNN
-	1    1250 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L VNLD5090-E:VNLD5090-E IC4
-U 1 1 5F1D3E63
-P 1650 3800
-F 0 "IC4" H 2500 4065 50  0000 C CNN
-F 1 "VNLD5090-E" H 2500 3974 50  0000 C CNN
-F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 3200 3900 50  0001 L CNN
-F 3 "https://www.st.com/resource/en/datasheet/vnld5090-e.pdf" H 3200 3800 50  0001 L CNN
-F 4 "Gate Drivers OMNIFET III fully protect lo-side drvr" H 3200 3700 50  0001 L CNN "Description"
-F 5 "1.75" H 3200 3600 50  0001 L CNN "Height"
-F 6 "STMicroelectronics" H 3200 3500 50  0001 L CNN "Manufacturer_Name"
-F 7 "VNLD5090-E" H 3200 3400 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "VNLD5090-E" H 3200 3300 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/vnld5090-e/stmicroelectronics" H 3200 3200 50  0001 L CNN "Arrow Price/Stock"
-F 10 "511-VNLD5090-E" H 3200 3100 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=511-VNLD5090-E" H 3200 3000 50  0001 L CNN "Mouser Price/Stock"
-	1    1650 3800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3850 1050 3900 1050
-Connection ~ 3850 1050
-Wire Wire Line
-	3850 1450 3850 1050
-Wire Wire Line
-	3350 1450 3850 1450
-Wire Wire Line
-	3850 2150 3900 2150
-Connection ~ 3850 2150
-Wire Wire Line
-	3850 1650 3850 2150
-Wire Wire Line
-	3350 1650 3850 1650
-Wire Wire Line
-	3250 2150 3850 2150
-Wire Wire Line
-	3250 1050 3850 1050
-Wire Wire Line
-	1650 1450 1550 1450
-Wire Wire Line
-	1550 1650 1650 1650
-Wire Wire Line
-	1250 1950 1250 2150
-Wire Wire Line
-	1250 1150 1250 1050
-NoConn ~ 1650 1550
-NoConn ~ 1650 1750
-Text GLabel 1250 1050 2    50   Input ~ 0
-SignalGnd
-Text GLabel 1250 2150 2    50   Input ~ 0
-SignalGnd
-Text GLabel 3350 1750 2    50   Input ~ 0
-PowerGnd
-Text GLabel 3350 1550 2    50   Input ~ 0
-PowerGnd
-Text GLabel 2350 2150 0    50   Input ~ 0
-12V
-$Comp
-L Device:R R51
-U 1 1 5F2658E2
-P 2500 2150
-AR Path="/5EF090BF/5F2658E2" Ref="R51"  Part="1" 
-AR Path="/5F198969/5F2658E2" Ref="R?"  Part="1" 
-F 0 "R51" V 2707 2150 50  0000 C CNN
-F 1 "680" V 2616 2150 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2430 2150 50  0001 C CNN
-F 3 "~" H 2500 2150 50  0001 C CNN
-	1    2500 2150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED D2
-U 1 1 5F2658E8
-P 2800 2150
-AR Path="/5EF090BF/5F2658E8" Ref="D2"  Part="1" 
-AR Path="/5F198969/5F2658E8" Ref="D?"  Part="1" 
-F 0 "D2" H 2793 1895 50  0000 C CNN
-F 1 "LED" H 2793 1986 50  0000 C CNN
-F 2 "LED_THT:LED_D3.0mm" H 2800 2150 50  0001 C CNN
-F 3 "~" H 2800 2150 50  0001 C CNN
-	1    2800 2150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Diode:1N4004 D8
-U 1 1 5F2658EE
-P 3100 2150
-AR Path="/5EF090BF/5F2658EE" Ref="D8"  Part="1" 
-AR Path="/5F198969/5F2658EE" Ref="D?"  Part="1" 
-F 0 "D8" H 3100 1933 50  0000 C CNN
-F 1 "1N4004" H 3100 2024 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3100 1975 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 3100 2150 50  0001 C CNN
-	1    3100 2150
-	-1   0    0    1   
-$EndComp
-Text GLabel 2350 1050 0    50   Input ~ 0
-12V
-$Comp
-L Device:R R50
-U 1 1 5F2658F5
-P 2500 1050
-AR Path="/5EF090BF/5F2658F5" Ref="R50"  Part="1" 
-AR Path="/5F198969/5F2658F5" Ref="R?"  Part="1" 
-F 0 "R50" V 2707 1050 50  0000 C CNN
-F 1 "680" V 2616 1050 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2430 1050 50  0001 C CNN
-F 3 "~" H 2500 1050 50  0001 C CNN
-	1    2500 1050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED D1
-U 1 1 5F2658FB
-P 2800 1050
-AR Path="/5EF090BF/5F2658FB" Ref="D1"  Part="1" 
-AR Path="/5F198969/5F2658FB" Ref="D?"  Part="1" 
-F 0 "D1" H 2793 795 50  0000 C CNN
-F 1 "LED" H 2793 886 50  0000 C CNN
-F 2 "LED_THT:LED_D3.0mm" H 2800 1050 50  0001 C CNN
-F 3 "~" H 2800 1050 50  0001 C CNN
-	1    2800 1050
-	-1   0    0    1   
-$EndComp
-$Comp
-L Diode:1N4004 D7
-U 1 1 5F265901
-P 3100 1050
-AR Path="/5EF090BF/5F265901" Ref="D7"  Part="1" 
-AR Path="/5F198969/5F265901" Ref="D?"  Part="1" 
-F 0 "D7" H 3100 833 50  0000 C CNN
-F 1 "1N4004" H 3100 924 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3100 875 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 3100 1050 50  0001 C CNN
-	1    3100 1050
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R45
-U 1 1 5F265908
-P 1400 1650
-AR Path="/5EF090BF/5F265908" Ref="R45"  Part="1" 
-AR Path="/5F198969/5F265908" Ref="R?"  Part="1" 
-F 0 "R45" V 1607 1650 50  0000 C CNN
-F 1 "1k" V 1516 1650 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1330 1650 50  0001 C CNN
-F 3 "~" H 1400 1650 50  0001 C CNN
-	1    1400 1650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R39
-U 1 1 5F26590E
-P 1250 1800
-AR Path="/5EF090BF/5F26590E" Ref="R39"  Part="1" 
-AR Path="/5F198969/5F26590E" Ref="R?"  Part="1" 
-F 0 "R39" H 1320 1846 50  0000 L CNN
-F 1 "100k" H 1320 1755 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1180 1800 50  0001 C CNN
-F 3 "~" H 1250 1800 50  0001 C CNN
-	1    1250 1800
-	1    0    0    -1  
-$EndComp
-Text GLabel 1250 1650 0    50   Input ~ 0
-Inj02-Trigger
-$Comp
-L Device:R R44
-U 1 1 5F265915
-P 1400 1450
-AR Path="/5EF090BF/5F265915" Ref="R44"  Part="1" 
-AR Path="/5F198969/5F265915" Ref="R?"  Part="1" 
-F 0 "R44" V 1607 1450 50  0000 C CNN
-F 1 "1k" V 1516 1450 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1330 1450 50  0001 C CNN
-F 3 "~" H 1400 1450 50  0001 C CNN
-	1    1400 1450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R38
-U 1 1 5F26591B
-P 1250 1300
-AR Path="/5EF090BF/5F26591B" Ref="R38"  Part="1" 
-AR Path="/5F198969/5F26591B" Ref="R?"  Part="1" 
-F 0 "R38" H 1320 1346 50  0000 L CNN
-F 1 "100k" H 1320 1255 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1180 1300 50  0001 C CNN
-F 3 "~" H 1250 1300 50  0001 C CNN
-	1    1250 1300
-	1    0    0    -1  
-$EndComp
-Text GLabel 1250 1450 0    50   Input ~ 0
-Inj01-Trigger
-$Comp
-L VNLD5090-E:VNLD5090-E IC3
-U 1 1 5F26592A
-P 1650 1450
-F 0 "IC3" H 2500 1715 50  0000 C CNN
-F 1 "VNLD5090-E" H 2500 1624 50  0000 C CNN
-F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 3200 1550 50  0001 L CNN
-F 3 "https://www.st.com/resource/en/datasheet/vnld5090-e.pdf" H 3200 1450 50  0001 L CNN
-F 4 "Gate Drivers OMNIFET III fully protect lo-side drvr" H 3200 1350 50  0001 L CNN "Description"
-F 5 "1.75" H 3200 1250 50  0001 L CNN "Height"
-F 6 "STMicroelectronics" H 3200 1150 50  0001 L CNN "Manufacturer_Name"
-F 7 "VNLD5090-E" H 3200 1050 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "VNLD5090-E" H 3200 950 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/vnld5090-e/stmicroelectronics" H 3200 850 50  0001 L CNN "Arrow Price/Stock"
-F 10 "511-VNLD5090-E" H 3200 750 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=511-VNLD5090-E" H 3200 650 50  0001 L CNN "Mouser Price/Stock"
-	1    1650 1450
-	1    0    0    -1  
-$EndComp
-Text GLabel 1250 3800 0    50   Input ~ 0
-Inj03-Trigger
-Text GLabel 3900 3400 2    50   Output ~ 0
-Inj03-OUT
-Text GLabel 1250 4000 0    50   Input ~ 0
-Inj04-Trigger
-Text GLabel 3900 4500 2    50   Output ~ 0
-Inj04-OUT
-Wire Wire Line
-	3850 5600 3900 5600
-Connection ~ 3850 5600
-Wire Wire Line
-	3850 6000 3850 5600
-Wire Wire Line
-	3350 6000 3850 6000
-Wire Wire Line
-	3850 6700 3900 6700
-Connection ~ 3850 6700
-Wire Wire Line
-	3850 6200 3850 6700
-Wire Wire Line
-	3350 6200 3850 6200
-Wire Wire Line
-	3250 6700 3850 6700
-Wire Wire Line
-	3250 5600 3850 5600
-Wire Wire Line
-	1650 6000 1550 6000
-Wire Wire Line
-	1550 6200 1650 6200
-Wire Wire Line
-	1250 6500 1250 6700
-Wire Wire Line
-	1250 5700 1250 5600
-NoConn ~ 1650 6100
-NoConn ~ 1650 6300
-Text GLabel 1250 5600 2    50   Input ~ 0
-SignalGnd
-Text GLabel 1250 6700 2    50   Input ~ 0
-SignalGnd
-Text GLabel 3350 6300 2    50   Input ~ 0
-PowerGnd
-Text GLabel 3350 6100 2    50   Input ~ 0
-PowerGnd
-Text GLabel 2350 6700 0    50   Input ~ 0
-12V
-$Comp
-L Device:R R55
-U 1 1 5F28A41D
-P 2500 6700
-AR Path="/5EF090BF/5F28A41D" Ref="R55"  Part="1" 
-AR Path="/5F198969/5F28A41D" Ref="R?"  Part="1" 
-F 0 "R55" V 2707 6700 50  0000 C CNN
-F 1 "680" V 2616 6700 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2430 6700 50  0001 C CNN
-F 3 "~" H 2500 6700 50  0001 C CNN
-	1    2500 6700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED D6
-U 1 1 5F28A423
-P 2800 6700
-AR Path="/5EF090BF/5F28A423" Ref="D6"  Part="1" 
-AR Path="/5F198969/5F28A423" Ref="D?"  Part="1" 
-F 0 "D6" H 2793 6445 50  0000 C CNN
-F 1 "LED" H 2793 6536 50  0000 C CNN
-F 2 "LED_THT:LED_D3.0mm" H 2800 6700 50  0001 C CNN
-F 3 "~" H 2800 6700 50  0001 C CNN
-	1    2800 6700
-	-1   0    0    1   
-$EndComp
-$Comp
-L Diode:1N4004 D12
-U 1 1 5F28A429
-P 3100 6700
-AR Path="/5EF090BF/5F28A429" Ref="D12"  Part="1" 
-AR Path="/5F198969/5F28A429" Ref="D?"  Part="1" 
-F 0 "D12" H 3100 6483 50  0000 C CNN
-F 1 "1N4004" H 3100 6574 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3100 6525 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 3100 6700 50  0001 C CNN
-	1    3100 6700
-	-1   0    0    1   
-$EndComp
-Text GLabel 2350 5600 0    50   Input ~ 0
-12V
-$Comp
-L Device:R R54
-U 1 1 5F28A430
-P 2500 5600
-AR Path="/5EF090BF/5F28A430" Ref="R54"  Part="1" 
-AR Path="/5F198969/5F28A430" Ref="R?"  Part="1" 
-F 0 "R54" V 2707 5600 50  0000 C CNN
-F 1 "680" V 2616 5600 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2430 5600 50  0001 C CNN
-F 3 "~" H 2500 5600 50  0001 C CNN
-	1    2500 5600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED D5
-U 1 1 5F28A436
-P 2800 5600
-AR Path="/5EF090BF/5F28A436" Ref="D5"  Part="1" 
-AR Path="/5F198969/5F28A436" Ref="D?"  Part="1" 
-F 0 "D5" H 2793 5345 50  0000 C CNN
-F 1 "LED" H 2793 5436 50  0000 C CNN
-F 2 "LED_THT:LED_D3.0mm" H 2800 5600 50  0001 C CNN
-F 3 "~" H 2800 5600 50  0001 C CNN
-	1    2800 5600
-	-1   0    0    1   
-$EndComp
-$Comp
-L Diode:1N4004 D11
-U 1 1 5F28A43C
-P 3100 5600
-AR Path="/5EF090BF/5F28A43C" Ref="D11"  Part="1" 
-AR Path="/5F198969/5F28A43C" Ref="D?"  Part="1" 
-F 0 "D11" H 3100 5383 50  0000 C CNN
-F 1 "1N4004" H 3100 5474 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3100 5425 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 3100 5600 50  0001 C CNN
-	1    3100 5600
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R49
-U 1 1 5F28A442
-P 1400 6200
-AR Path="/5EF090BF/5F28A442" Ref="R49"  Part="1" 
-AR Path="/5F198969/5F28A442" Ref="R?"  Part="1" 
-F 0 "R49" V 1607 6200 50  0000 C CNN
-F 1 "1k" V 1516 6200 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1330 6200 50  0001 C CNN
-F 3 "~" H 1400 6200 50  0001 C CNN
-	1    1400 6200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R43
-U 1 1 5F28A448
-P 1250 6350
-AR Path="/5EF090BF/5F28A448" Ref="R43"  Part="1" 
-AR Path="/5F198969/5F28A448" Ref="R?"  Part="1" 
-F 0 "R43" H 1320 6396 50  0000 L CNN
-F 1 "100k" H 1320 6305 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1180 6350 50  0001 C CNN
-F 3 "~" H 1250 6350 50  0001 C CNN
-	1    1250 6350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R48
-U 1 1 5F28A44E
-P 1400 6000
-AR Path="/5EF090BF/5F28A44E" Ref="R48"  Part="1" 
-AR Path="/5F198969/5F28A44E" Ref="R?"  Part="1" 
-F 0 "R48" V 1607 6000 50  0000 C CNN
-F 1 "1k" V 1516 6000 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1330 6000 50  0001 C CNN
-F 3 "~" H 1400 6000 50  0001 C CNN
-	1    1400 6000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R42
-U 1 1 5F28A454
-P 1250 5850
-AR Path="/5EF090BF/5F28A454" Ref="R42"  Part="1" 
-AR Path="/5F198969/5F28A454" Ref="R?"  Part="1" 
-F 0 "R42" H 1320 5896 50  0000 L CNN
-F 1 "100k" H 1320 5805 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1180 5850 50  0001 C CNN
-F 3 "~" H 1250 5850 50  0001 C CNN
-	1    1250 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L VNLD5090-E:VNLD5090-E IC5
-U 1 1 5F28A462
-P 1650 6000
-F 0 "IC5" H 2500 6265 50  0000 C CNN
-F 1 "VNLD5090-E" H 2500 6174 50  0000 C CNN
-F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 3200 6100 50  0001 L CNN
-F 3 "https://www.st.com/resource/en/datasheet/vnld5090-e.pdf" H 3200 6000 50  0001 L CNN
-F 4 "Gate Drivers OMNIFET III fully protect lo-side drvr" H 3200 5900 50  0001 L CNN "Description"
-F 5 "1.75" H 3200 5800 50  0001 L CNN "Height"
-F 6 "STMicroelectronics" H 3200 5700 50  0001 L CNN "Manufacturer_Name"
-F 7 "VNLD5090-E" H 3200 5600 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "VNLD5090-E" H 3200 5500 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/vnld5090-e/stmicroelectronics" H 3200 5400 50  0001 L CNN "Arrow Price/Stock"
-F 10 "511-VNLD5090-E" H 3200 5300 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=511-VNLD5090-E" H 3200 5200 50  0001 L CNN "Mouser Price/Stock"
-	1    1650 6000
-	1    0    0    -1  
-$EndComp
-Text GLabel 1250 6000 0    50   Input ~ 0
-Inj05-Trigger
-Text GLabel 1250 6200 0    50   Input ~ 0
-Inj06-Trigger
-Text GLabel 3900 5600 2    50   Output ~ 0
-Inj05-OUT
-Text GLabel 3900 6700 2    50   Output ~ 0
-Inj06-OUT
 $Comp
 L Jumper:Jumper_3_Bridged12 JP?
 U 1 1 5F2B7284
@@ -1387,27 +800,637 @@ NoConn ~ 9450 3500
 NoConn ~ 8250 3500
 NoConn ~ 8250 5450
 NoConn ~ 9450 5450
-Text GLabel 3900 1050 2    50   Output ~ 0
-Inj01-OUT
-Text GLabel 3900 2150 2    50   Output ~ 0
-Inj02-OUT
 $Comp
-L VNS3NV04DP-E:VNS3NV04DP-E IC?
+L Jag_Speedy-rescue:VNS3NV04DP-E-VNS3NV04DP-E IC3
 U 1 1 5F28A4DE
-P -2600 1500
-F 0 "IC?" H -1800 1765 50  0000 C CNN
-F 1 "VNS3NV04DP-E" H -1800 1674 50  0000 C CNN
-F 2 "SOIC127P600X175-8N" H -1150 1600 50  0001 L CNN
-F 3 "https://www.st.com/resource/en/datasheet/vns3nv04dp-e.pdf" H -1150 1500 50  0001 L CNN
-F 4 "STMicroelectronics VNS3NV04DP-E Load Switch IC, 8-Pin, SOIC" H -1150 1400 50  0001 L CNN "Description"
-F 5 "1.75" H -1150 1300 50  0001 L CNN "Height"
-F 6 "STMicroelectronics" H -1150 1200 50  0001 L CNN "Manufacturer_Name"
-F 7 "VNS3NV04DP-E" H -1150 1100 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "VNS3NV04DP-E" H -1150 1000 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/vns3nv04dp-e/stmicroelectronics" H -1150 900 50  0001 L CNN "Arrow Price/Stock"
-F 10 "511-VNS3NV04DP-E" H -1150 800 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=511-VNS3NV04DP-E" H -1150 700 50  0001 L CNN "Mouser Price/Stock"
-	1    -2600 1500
+P 2150 1650
+F 0 "IC3" H 2950 1915 50  0000 C CNN
+F 1 "VNS3NV04DP-E" H 2950 1824 50  0000 C CNN
+F 2 "SOIC127P600X175-8N" H 3600 1750 50  0001 L CNN
+F 3 "https://www.st.com/resource/en/datasheet/vns3nv04dp-e.pdf" H 3600 1650 50  0001 L CNN
+F 4 "STMicroelectronics VNS3NV04DP-E Load Switch IC, 8-Pin, SOIC" H 3600 1550 50  0001 L CNN "Description"
+F 5 "1.75" H 3600 1450 50  0001 L CNN "Height"
+F 6 "STMicroelectronics" H 3600 1350 50  0001 L CNN "Manufacturer_Name"
+F 7 "VNS3NV04DP-E" H 3600 1250 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "VNS3NV04DP-E" H 3600 1150 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/vns3nv04dp-e/stmicroelectronics" H 3600 1050 50  0001 L CNN "Arrow Price/Stock"
+F 10 "511-VNS3NV04DP-E" H 3600 950 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=511-VNS3NV04DP-E" H 3600 850 50  0001 L CNN "Mouser Price/Stock"
+	1    2150 1650
 	1    0    0    -1  
 $EndComp
+Text GLabel 2150 1850 0    50   Input ~ 0
+PowerGnd
+Text GLabel 2150 1650 0    50   Input ~ 0
+PowerGnd
+Text GLabel 1300 1750 0    50   Input ~ 0
+Inj01-Trigger
+Text GLabel 1300 1950 0    50   Input ~ 0
+Inj02-Trigger
+$Comp
+L Device:R R38
+U 1 1 5EFB2DD8
+P 1350 1500
+AR Path="/5EF090BF/5EFB2DD8" Ref="R38"  Part="1" 
+AR Path="/5F198969/5EFB2DD8" Ref="R?"  Part="1" 
+F 0 "R38" H 1150 1550 50  0000 L CNN
+F 1 "100k" H 1100 1450 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1280 1500 50  0001 C CNN
+F 3 "~" H 1350 1500 50  0001 C CNN
+	1    1350 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R39
+U 1 1 5EFB30E0
+P 1350 2150
+AR Path="/5EF090BF/5EFB30E0" Ref="R39"  Part="1" 
+AR Path="/5F198969/5EFB30E0" Ref="R?"  Part="1" 
+F 0 "R39" H 1150 2200 50  0000 L CNN
+F 1 "100k" H 1100 2100 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1280 2150 50  0001 C CNN
+F 3 "~" H 1350 2150 50  0001 C CNN
+	1    1350 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R45
+U 1 1 5EFB34FA
+P 1600 1950
+AR Path="/5EF090BF/5EFB34FA" Ref="R45"  Part="1" 
+AR Path="/5F198969/5EFB34FA" Ref="R?"  Part="1" 
+F 0 "R45" V 1400 1950 50  0000 C CNN
+F 1 "1k" V 1500 1950 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1530 1950 50  0001 C CNN
+F 3 "~" H 1600 1950 50  0001 C CNN
+	1    1600 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R44
+U 1 1 5EFB39A1
+P 1600 1750
+AR Path="/5EF090BF/5EFB39A1" Ref="R44"  Part="1" 
+AR Path="/5F198969/5EFB39A1" Ref="R?"  Part="1" 
+F 0 "R44" V 1807 1750 50  0000 C CNN
+F 1 "1k" V 1716 1750 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1530 1750 50  0001 C CNN
+F 3 "~" H 1600 1750 50  0001 C CNN
+	1    1600 1750
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1550 1350 2    50   Input ~ 0
+SignalGnd
+Text GLabel 1550 2300 2    50   Input ~ 0
+SignalGnd
+Text GLabel 2400 1200 0    50   Input ~ 0
+12V
+$Comp
+L Device:R R50
+U 1 1 5EFB53C7
+P 2550 1200
+AR Path="/5EF090BF/5EFB53C7" Ref="R50"  Part="1" 
+AR Path="/5F198969/5EFB53C7" Ref="R?"  Part="1" 
+F 0 "R50" V 2757 1200 50  0000 C CNN
+F 1 "680" V 2666 1200 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2480 1200 50  0001 C CNN
+F 3 "~" H 2550 1200 50  0001 C CNN
+	1    2550 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5EFB53CD
+P 2850 1200
+AR Path="/5EF090BF/5EFB53CD" Ref="D1"  Part="1" 
+AR Path="/5F198969/5EFB53CD" Ref="D?"  Part="1" 
+F 0 "D1" H 2843 945 50  0000 C CNN
+F 1 "LED" H 2843 1036 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 2850 1200 50  0001 C CNN
+F 3 "~" H 2850 1200 50  0001 C CNN
+	1    2850 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4004 D7
+U 1 1 5EFB53D3
+P 3150 1200
+AR Path="/5EF090BF/5EFB53D3" Ref="D7"  Part="1" 
+AR Path="/5F198969/5EFB53D3" Ref="D?"  Part="1" 
+F 0 "D7" H 3150 983 50  0000 C CNN
+F 1 "1N4004" H 3150 1074 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3150 1025 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 3150 1200 50  0001 C CNN
+	1    3150 1200
+	-1   0    0    1   
+$EndComp
+Text GLabel 3950 1200 2    50   Output ~ 0
+Inj01-OUT
+Wire Wire Line
+	3300 1200 3850 1200
+Text GLabel 2400 2400 0    50   Input ~ 0
+12V
+$Comp
+L Device:R R51
+U 1 1 5EFBAE51
+P 2550 2400
+AR Path="/5EF090BF/5EFBAE51" Ref="R51"  Part="1" 
+AR Path="/5F198969/5EFBAE51" Ref="R?"  Part="1" 
+F 0 "R51" V 2757 2400 50  0000 C CNN
+F 1 "680" V 2666 2400 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2480 2400 50  0001 C CNN
+F 3 "~" H 2550 2400 50  0001 C CNN
+	1    2550 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5EFBAE57
+P 2850 2400
+AR Path="/5EF090BF/5EFBAE57" Ref="D2"  Part="1" 
+AR Path="/5F198969/5EFBAE57" Ref="D?"  Part="1" 
+F 0 "D2" H 2843 2145 50  0000 C CNN
+F 1 "LED" H 2843 2236 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 2850 2400 50  0001 C CNN
+F 3 "~" H 2850 2400 50  0001 C CNN
+	1    2850 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4004 D8
+U 1 1 5EFBAE5D
+P 3150 2400
+AR Path="/5EF090BF/5EFBAE5D" Ref="D8"  Part="1" 
+AR Path="/5F198969/5EFBAE5D" Ref="D?"  Part="1" 
+F 0 "D8" H 3150 2183 50  0000 C CNN
+F 1 "1N4004" H 3150 2274 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3150 2225 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 3150 2400 50  0001 C CNN
+	1    3150 2400
+	-1   0    0    1   
+$EndComp
+Text GLabel 3950 2400 2    50   Output ~ 0
+Inj02-OUT
+Wire Wire Line
+	3300 2400 3850 2400
+Wire Wire Line
+	3750 1750 3850 1750
+Wire Wire Line
+	3850 1750 3850 1200
+Connection ~ 3850 1200
+Wire Wire Line
+	3850 1200 3950 1200
+Wire Wire Line
+	3750 1950 3850 1950
+Wire Wire Line
+	3850 1950 3850 2400
+Connection ~ 3850 2400
+Wire Wire Line
+	3850 2400 3950 2400
+Wire Wire Line
+	1300 1750 1350 1750
+Wire Wire Line
+	1350 1350 1550 1350
+Wire Wire Line
+	1350 1650 1350 1750
+Connection ~ 1350 1750
+Wire Wire Line
+	1350 1750 1450 1750
+Wire Wire Line
+	1750 1750 2150 1750
+Wire Wire Line
+	1300 1950 1350 1950
+Wire Wire Line
+	1750 1950 2150 1950
+Wire Wire Line
+	1550 2300 1350 2300
+Wire Wire Line
+	1350 2000 1350 1950
+Connection ~ 1350 1950
+Wire Wire Line
+	1350 1950 1450 1950
+$Comp
+L Jag_Speedy-rescue:VNS3NV04DP-E-VNS3NV04DP-E IC4
+U 1 1 5F0265BB
+P 2150 3850
+F 0 "IC4" H 2950 4115 50  0000 C CNN
+F 1 "VNS3NV04DP-E" H 2950 4024 50  0000 C CNN
+F 2 "SOIC127P600X175-8N" H 3600 3950 50  0001 L CNN
+F 3 "https://www.st.com/resource/en/datasheet/vns3nv04dp-e.pdf" H 3600 3850 50  0001 L CNN
+F 4 "STMicroelectronics VNS3NV04DP-E Load Switch IC, 8-Pin, SOIC" H 3600 3750 50  0001 L CNN "Description"
+F 5 "1.75" H 3600 3650 50  0001 L CNN "Height"
+F 6 "STMicroelectronics" H 3600 3550 50  0001 L CNN "Manufacturer_Name"
+F 7 "VNS3NV04DP-E" H 3600 3450 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "VNS3NV04DP-E" H 3600 3350 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/vns3nv04dp-e/stmicroelectronics" H 3600 3250 50  0001 L CNN "Arrow Price/Stock"
+F 10 "511-VNS3NV04DP-E" H 3600 3150 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=511-VNS3NV04DP-E" H 3600 3050 50  0001 L CNN "Mouser Price/Stock"
+	1    2150 3850
+	1    0    0    -1  
+$EndComp
+Text GLabel 2150 4050 0    50   Input ~ 0
+PowerGnd
+Text GLabel 2150 3850 0    50   Input ~ 0
+PowerGnd
+Text GLabel 1300 3950 0    50   Input ~ 0
+Inj03-Trigger
+Text GLabel 1300 4150 0    50   Input ~ 0
+Inj04-Trigger
+$Comp
+L Device:R R40
+U 1 1 5F0265C5
+P 1350 3700
+AR Path="/5EF090BF/5F0265C5" Ref="R40"  Part="1" 
+AR Path="/5F198969/5F0265C5" Ref="R?"  Part="1" 
+F 0 "R40" H 1150 3750 50  0000 L CNN
+F 1 "100k" H 1100 3650 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1280 3700 50  0001 C CNN
+F 3 "~" H 1350 3700 50  0001 C CNN
+	1    1350 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R41
+U 1 1 5F0265CB
+P 1350 4350
+AR Path="/5EF090BF/5F0265CB" Ref="R41"  Part="1" 
+AR Path="/5F198969/5F0265CB" Ref="R?"  Part="1" 
+F 0 "R41" H 1150 4400 50  0000 L CNN
+F 1 "100k" H 1100 4300 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1280 4350 50  0001 C CNN
+F 3 "~" H 1350 4350 50  0001 C CNN
+	1    1350 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R47
+U 1 1 5F0265D1
+P 1600 4150
+AR Path="/5EF090BF/5F0265D1" Ref="R47"  Part="1" 
+AR Path="/5F198969/5F0265D1" Ref="R?"  Part="1" 
+F 0 "R47" V 1400 4150 50  0000 C CNN
+F 1 "1k" V 1500 4150 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1530 4150 50  0001 C CNN
+F 3 "~" H 1600 4150 50  0001 C CNN
+	1    1600 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R46
+U 1 1 5F0265D7
+P 1600 3950
+AR Path="/5EF090BF/5F0265D7" Ref="R46"  Part="1" 
+AR Path="/5F198969/5F0265D7" Ref="R?"  Part="1" 
+F 0 "R46" V 1807 3950 50  0000 C CNN
+F 1 "1k" V 1716 3950 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1530 3950 50  0001 C CNN
+F 3 "~" H 1600 3950 50  0001 C CNN
+	1    1600 3950
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1550 3550 2    50   Input ~ 0
+SignalGnd
+Text GLabel 1550 4500 2    50   Input ~ 0
+SignalGnd
+Text GLabel 2400 3400 0    50   Input ~ 0
+12V
+$Comp
+L Device:R R52
+U 1 1 5F0265E0
+P 2550 3400
+AR Path="/5EF090BF/5F0265E0" Ref="R52"  Part="1" 
+AR Path="/5F198969/5F0265E0" Ref="R?"  Part="1" 
+F 0 "R52" V 2757 3400 50  0000 C CNN
+F 1 "680" V 2666 3400 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2480 3400 50  0001 C CNN
+F 3 "~" H 2550 3400 50  0001 C CNN
+	1    2550 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 5F0265E6
+P 2850 3400
+AR Path="/5EF090BF/5F0265E6" Ref="D3"  Part="1" 
+AR Path="/5F198969/5F0265E6" Ref="D?"  Part="1" 
+F 0 "D3" H 2843 3145 50  0000 C CNN
+F 1 "LED" H 2843 3236 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 2850 3400 50  0001 C CNN
+F 3 "~" H 2850 3400 50  0001 C CNN
+	1    2850 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4004 D9
+U 1 1 5F0265EC
+P 3150 3400
+AR Path="/5EF090BF/5F0265EC" Ref="D9"  Part="1" 
+AR Path="/5F198969/5F0265EC" Ref="D?"  Part="1" 
+F 0 "D9" H 3150 3183 50  0000 C CNN
+F 1 "1N4004" H 3150 3274 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3150 3225 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 3150 3400 50  0001 C CNN
+	1    3150 3400
+	-1   0    0    1   
+$EndComp
+Text GLabel 3950 3400 2    50   Output ~ 0
+Inj03-OUT
+Wire Wire Line
+	3300 3400 3850 3400
+Text GLabel 2400 4600 0    50   Input ~ 0
+12V
+$Comp
+L Device:R R53
+U 1 1 5F0265F5
+P 2550 4600
+AR Path="/5EF090BF/5F0265F5" Ref="R53"  Part="1" 
+AR Path="/5F198969/5F0265F5" Ref="R?"  Part="1" 
+F 0 "R53" V 2757 4600 50  0000 C CNN
+F 1 "680" V 2666 4600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2480 4600 50  0001 C CNN
+F 3 "~" H 2550 4600 50  0001 C CNN
+	1    2550 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 5F0265FB
+P 2850 4600
+AR Path="/5EF090BF/5F0265FB" Ref="D4"  Part="1" 
+AR Path="/5F198969/5F0265FB" Ref="D?"  Part="1" 
+F 0 "D4" H 2843 4345 50  0000 C CNN
+F 1 "LED" H 2843 4436 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 2850 4600 50  0001 C CNN
+F 3 "~" H 2850 4600 50  0001 C CNN
+	1    2850 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4004 D10
+U 1 1 5F026601
+P 3150 4600
+AR Path="/5EF090BF/5F026601" Ref="D10"  Part="1" 
+AR Path="/5F198969/5F026601" Ref="D?"  Part="1" 
+F 0 "D10" H 3150 4383 50  0000 C CNN
+F 1 "1N4004" H 3150 4474 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3150 4425 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 3150 4600 50  0001 C CNN
+	1    3150 4600
+	-1   0    0    1   
+$EndComp
+Text GLabel 3950 4600 2    50   Output ~ 0
+Inj04-OUT
+Wire Wire Line
+	3300 4600 3850 4600
+Wire Wire Line
+	3750 3950 3850 3950
+Wire Wire Line
+	3850 3950 3850 3400
+Connection ~ 3850 3400
+Wire Wire Line
+	3850 3400 3950 3400
+Wire Wire Line
+	3750 4150 3850 4150
+Wire Wire Line
+	3850 4150 3850 4600
+Connection ~ 3850 4600
+Wire Wire Line
+	3850 4600 3950 4600
+Wire Wire Line
+	1300 3950 1350 3950
+Wire Wire Line
+	1350 3550 1550 3550
+Wire Wire Line
+	1350 3850 1350 3950
+Connection ~ 1350 3950
+Wire Wire Line
+	1350 3950 1450 3950
+Wire Wire Line
+	1750 3950 2150 3950
+Wire Wire Line
+	1300 4150 1350 4150
+Wire Wire Line
+	1750 4150 2150 4150
+Wire Wire Line
+	1550 4500 1350 4500
+Wire Wire Line
+	1350 4200 1350 4150
+Connection ~ 1350 4150
+Wire Wire Line
+	1350 4150 1450 4150
+$Comp
+L Jag_Speedy-rescue:VNS3NV04DP-E-VNS3NV04DP-E IC5
+U 1 1 5F03E989
+P 2150 6150
+F 0 "IC5" H 2950 6415 50  0000 C CNN
+F 1 "VNS3NV04DP-E" H 2950 6324 50  0000 C CNN
+F 2 "SOIC127P600X175-8N" H 3600 6250 50  0001 L CNN
+F 3 "https://www.st.com/resource/en/datasheet/vns3nv04dp-e.pdf" H 3600 6150 50  0001 L CNN
+F 4 "STMicroelectronics VNS3NV04DP-E Load Switch IC, 8-Pin, SOIC" H 3600 6050 50  0001 L CNN "Description"
+F 5 "1.75" H 3600 5950 50  0001 L CNN "Height"
+F 6 "STMicroelectronics" H 3600 5850 50  0001 L CNN "Manufacturer_Name"
+F 7 "VNS3NV04DP-E" H 3600 5750 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "VNS3NV04DP-E" H 3600 5650 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/vns3nv04dp-e/stmicroelectronics" H 3600 5550 50  0001 L CNN "Arrow Price/Stock"
+F 10 "511-VNS3NV04DP-E" H 3600 5450 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=511-VNS3NV04DP-E" H 3600 5350 50  0001 L CNN "Mouser Price/Stock"
+	1    2150 6150
+	1    0    0    -1  
+$EndComp
+Text GLabel 2150 6350 0    50   Input ~ 0
+PowerGnd
+Text GLabel 2150 6150 0    50   Input ~ 0
+PowerGnd
+Text GLabel 1300 6250 0    50   Input ~ 0
+Inj05-Trigger
+Text GLabel 1300 6450 0    50   Input ~ 0
+Inj06-Trigger
+$Comp
+L Device:R R42
+U 1 1 5F03E993
+P 1350 6000
+AR Path="/5EF090BF/5F03E993" Ref="R42"  Part="1" 
+AR Path="/5F198969/5F03E993" Ref="R?"  Part="1" 
+F 0 "R42" H 1150 6050 50  0000 L CNN
+F 1 "100k" H 1100 5950 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1280 6000 50  0001 C CNN
+F 3 "~" H 1350 6000 50  0001 C CNN
+	1    1350 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R43
+U 1 1 5F03E999
+P 1350 6650
+AR Path="/5EF090BF/5F03E999" Ref="R43"  Part="1" 
+AR Path="/5F198969/5F03E999" Ref="R?"  Part="1" 
+F 0 "R43" H 1150 6700 50  0000 L CNN
+F 1 "100k" H 1100 6600 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1280 6650 50  0001 C CNN
+F 3 "~" H 1350 6650 50  0001 C CNN
+	1    1350 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R49
+U 1 1 5F03E99F
+P 1600 6450
+AR Path="/5EF090BF/5F03E99F" Ref="R49"  Part="1" 
+AR Path="/5F198969/5F03E99F" Ref="R?"  Part="1" 
+F 0 "R49" V 1400 6450 50  0000 C CNN
+F 1 "1k" V 1500 6450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1530 6450 50  0001 C CNN
+F 3 "~" H 1600 6450 50  0001 C CNN
+	1    1600 6450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R48
+U 1 1 5F03E9A5
+P 1600 6250
+AR Path="/5EF090BF/5F03E9A5" Ref="R48"  Part="1" 
+AR Path="/5F198969/5F03E9A5" Ref="R?"  Part="1" 
+F 0 "R48" V 1807 6250 50  0000 C CNN
+F 1 "1k" V 1716 6250 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1530 6250 50  0001 C CNN
+F 3 "~" H 1600 6250 50  0001 C CNN
+	1    1600 6250
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1550 5850 2    50   Input ~ 0
+SignalGnd
+Text GLabel 1550 6800 2    50   Input ~ 0
+SignalGnd
+Text GLabel 2400 5700 0    50   Input ~ 0
+12V
+$Comp
+L Device:R R54
+U 1 1 5F03E9AE
+P 2550 5700
+AR Path="/5EF090BF/5F03E9AE" Ref="R54"  Part="1" 
+AR Path="/5F198969/5F03E9AE" Ref="R?"  Part="1" 
+F 0 "R54" V 2757 5700 50  0000 C CNN
+F 1 "680" V 2666 5700 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2480 5700 50  0001 C CNN
+F 3 "~" H 2550 5700 50  0001 C CNN
+	1    2550 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 5F03E9B4
+P 2850 5700
+AR Path="/5EF090BF/5F03E9B4" Ref="D5"  Part="1" 
+AR Path="/5F198969/5F03E9B4" Ref="D?"  Part="1" 
+F 0 "D5" H 2843 5445 50  0000 C CNN
+F 1 "LED" H 2843 5536 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 2850 5700 50  0001 C CNN
+F 3 "~" H 2850 5700 50  0001 C CNN
+	1    2850 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4004 D11
+U 1 1 5F03E9BA
+P 3150 5700
+AR Path="/5EF090BF/5F03E9BA" Ref="D11"  Part="1" 
+AR Path="/5F198969/5F03E9BA" Ref="D?"  Part="1" 
+F 0 "D11" H 3150 5483 50  0000 C CNN
+F 1 "1N4004" H 3150 5574 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3150 5525 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 3150 5700 50  0001 C CNN
+	1    3150 5700
+	-1   0    0    1   
+$EndComp
+Text GLabel 3950 5700 2    50   Output ~ 0
+Inj05-OUT
+Wire Wire Line
+	3300 5700 3850 5700
+Text GLabel 2400 6900 0    50   Input ~ 0
+12V
+$Comp
+L Device:R R55
+U 1 1 5F03E9C3
+P 2550 6900
+AR Path="/5EF090BF/5F03E9C3" Ref="R55"  Part="1" 
+AR Path="/5F198969/5F03E9C3" Ref="R?"  Part="1" 
+F 0 "R55" V 2757 6900 50  0000 C CNN
+F 1 "680" V 2666 6900 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2480 6900 50  0001 C CNN
+F 3 "~" H 2550 6900 50  0001 C CNN
+	1    2550 6900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D6
+U 1 1 5F03E9C9
+P 2850 6900
+AR Path="/5EF090BF/5F03E9C9" Ref="D6"  Part="1" 
+AR Path="/5F198969/5F03E9C9" Ref="D?"  Part="1" 
+F 0 "D6" H 2843 6645 50  0000 C CNN
+F 1 "LED" H 2843 6736 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 2850 6900 50  0001 C CNN
+F 3 "~" H 2850 6900 50  0001 C CNN
+	1    2850 6900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4004 D12
+U 1 1 5F03E9CF
+P 3150 6900
+AR Path="/5EF090BF/5F03E9CF" Ref="D12"  Part="1" 
+AR Path="/5F198969/5F03E9CF" Ref="D?"  Part="1" 
+F 0 "D12" H 3150 6683 50  0000 C CNN
+F 1 "1N4004" H 3150 6774 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3150 6725 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 3150 6900 50  0001 C CNN
+	1    3150 6900
+	-1   0    0    1   
+$EndComp
+Text GLabel 3950 6900 2    50   Output ~ 0
+Inj06-OUT
+Wire Wire Line
+	3300 6900 3850 6900
+Wire Wire Line
+	3750 6250 3850 6250
+Wire Wire Line
+	3850 6250 3850 5700
+Connection ~ 3850 5700
+Wire Wire Line
+	3850 5700 3950 5700
+Wire Wire Line
+	3750 6450 3850 6450
+Wire Wire Line
+	3850 6450 3850 6900
+Connection ~ 3850 6900
+Wire Wire Line
+	3850 6900 3950 6900
+Wire Wire Line
+	1300 6250 1350 6250
+Wire Wire Line
+	1350 5850 1550 5850
+Wire Wire Line
+	1350 6150 1350 6250
+Connection ~ 1350 6250
+Wire Wire Line
+	1350 6250 1450 6250
+Wire Wire Line
+	1750 6250 2150 6250
+Wire Wire Line
+	1300 6450 1350 6450
+Wire Wire Line
+	1750 6450 2150 6450
+Wire Wire Line
+	1550 6800 1350 6800
+Wire Wire Line
+	1350 6500 1350 6450
+Connection ~ 1350 6450
+Wire Wire Line
+	1350 6450 1450 6450
+NoConn ~ 3750 1650
+NoConn ~ 3750 1850
+NoConn ~ 3750 3850
+NoConn ~ 3750 4050
+NoConn ~ 3750 6150
+NoConn ~ 3750 6350
 $EndSCHEMATC

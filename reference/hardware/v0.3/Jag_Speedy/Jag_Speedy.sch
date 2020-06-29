@@ -992,7 +992,7 @@ Wire Wire Line
 	4500 2650 4900 2650
 NoConn ~ 4900 1450
 $Comp
-L Teensy:Teensy3.5 U3
+L Jag_Speedy-rescue:Teensy3.5-Teensy U3
 U 1 1 5EEF3E22
 P 6050 3300
 F 0 "U3" H 6050 5933 60  0000 C CNN
