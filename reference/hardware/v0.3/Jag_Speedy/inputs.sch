@@ -26,8 +26,6 @@ F 3 "~" H 1650 1250 50  0001 C CNN
 $EndComp
 Text GLabel 1050 1250 0    50   Input ~ 0
 O2Sensor
-Text GLabel 1900 1150 1    50   Input ~ 0
-ADCClamp05
 $Comp
 L Device:C C1
 U 1 1 5F067BE6
@@ -50,23 +48,16 @@ F 3 "~" H 2000 1400 50  0001 C CNN
 	1    2000 1400
 	1    0    0    -1  
 $EndComp
-Text GLabel 2350 1250 2    50   Input ~ 0
-O2-A8-5V
+Text GLabel 2350 1250 2    50   Output ~ 0
+O2-Signal-5V
 Wire Wire Line
 	1050 1250 1250 1250
 Wire Wire Line
 	1250 1250 1500 1250
 Connection ~ 1250 1250
 Wire Wire Line
-	1800 1250 1900 1250
-Wire Wire Line
 	2000 1250 2350 1250
 Connection ~ 2000 1250
-Wire Wire Line
-	1900 1150 1900 1250
-Connection ~ 1900 1250
-Wire Wire Line
-	1900 1250 2000 1250
 Wire Wire Line
 	2000 1550 1650 1550
 Text GLabel 1650 1600 3    50   Input ~ 0
@@ -91,8 +82,6 @@ F 3 "~" H 4300 1250 50  0001 C CNN
 $EndComp
 Text GLabel 3700 1250 0    50   Input ~ 0
 TPSSensor
-Text GLabel 4550 1150 1    50   Input ~ 0
-ADCClamp03
 $Comp
 L Device:C C9
 U 1 1 5F06BCB1
@@ -115,23 +104,16 @@ F 3 "~" H 4650 1400 50  0001 C CNN
 	1    4650 1400
 	1    0    0    -1  
 $EndComp
-Text GLabel 5000 1250 2    50   Input ~ 0
-TPS-A2-5V
+Text GLabel 5000 1250 2    50   Output ~ 0
+TPS-Signal-5V
 Wire Wire Line
 	3700 1250 3900 1250
 Wire Wire Line
 	3900 1250 4150 1250
 Connection ~ 3900 1250
 Wire Wire Line
-	4450 1250 4550 1250
-Wire Wire Line
 	4650 1250 5000 1250
 Connection ~ 4650 1250
-Wire Wire Line
-	4550 1150 4550 1250
-Connection ~ 4550 1250
-Wire Wire Line
-	4550 1250 4650 1250
 Wire Wire Line
 	4650 1550 4300 1550
 Text GLabel 4300 1600 3    50   Input ~ 0
@@ -191,8 +173,8 @@ F 3 "~" H 1550 3300 50  0001 C CNN
 	1    1550 3300
 	1    0    0    -1  
 $EndComp
-Text GLabel 1150 2850 1    50   Input ~ 0
-MAP-A3-5V
+Text GLabel 1150 2850 1    50   Output ~ 0
+MAP-Signal-5V
 Wire Wire Line
 	2150 3150 2150 3300
 Wire Wire Line
@@ -207,8 +189,6 @@ Wire Wire Line
 	1750 3600 2150 3600
 Connection ~ 2150 3600
 Connection ~ 1750 3600
-Wire Wire Line
-	1150 2850 1150 2950
 Wire Wire Line
 	1150 3900 1550 3900
 Wire Wire Line
@@ -268,8 +248,8 @@ F 3 "~" H 3300 3300 50  0001 C CNN
 	1    3300 3300
 	1    0    0    -1  
 $EndComp
-Text GLabel 2900 2850 1    50   Input ~ 0
-Barro-A5-5V
+Text GLabel 2900 2850 1    50   Output ~ 0
+Barro-Signal-5V
 Wire Wire Line
 	3900 3150 3900 3300
 Wire Wire Line
@@ -285,8 +265,6 @@ Wire Wire Line
 Connection ~ 3900 3600
 Connection ~ 3500 3600
 Wire Wire Line
-	2900 2850 2900 2900
-Wire Wire Line
 	2900 3900 3300 3900
 Wire Wire Line
 	3300 3450 3300 3900
@@ -297,8 +275,8 @@ Wire Wire Line
 	3300 3150 3300 3100
 Text Notes 2650 4200 0    118  ~ 0
 Barro Sensor
-Text GLabel 6600 1250 2    50   Input ~ 0
-BRV-A4-3.3V
+Text GLabel 6600 1250 2    50   Output ~ 0
+BRV-Signal-5V
 $Comp
 L Device:R R33
 U 1 1 5F07B084
@@ -345,8 +323,6 @@ F 3 "~" H 6050 1400 50  0001 C CNN
 $EndComp
 Text GLabel 6600 1550 2    50   Input ~ 0
 SensorGnd
-Text GLabel 6600 950  2    50   Input ~ 0
-ADCClamp04
 Wire Wire Line
 	6150 1250 6050 1250
 Wire Wire Line
@@ -361,23 +337,17 @@ Wire Wire Line
 	6050 1550 5750 1550
 Connection ~ 6050 1550
 Wire Wire Line
-	6600 1250 6450 1250
-Wire Wire Line
-	6050 950  6050 1250
+	6600 1250 6500 1250
 Text Notes 5350 750  0    118  ~ 0
 Battery Reference Voltage
-Wire Wire Line
-	6050 950  6600 950 
 Text GLabel 6600 850  2    50   Input ~ 0
 12V
 Wire Wire Line
 	6600 850  5750 850 
-Text GLabel 6650 2250 2    50   Input ~ 0
-IAT-A0-5V
+Text GLabel 6650 2250 2    50   Output ~ 0
+IAT-Signal-5V
 Text GLabel 6650 1850 2    50   Input ~ 0
 5V
-Text GLabel 6650 1950 2    50   Input ~ 0
-ADCClamp06
 Text GLabel 6650 2550 2    50   Input ~ 0
 SensorGnd
 Text GLabel 5300 2250 0    50   Input ~ 0
@@ -437,29 +407,18 @@ Wire Wire Line
 	6000 2250 5700 2250
 Wire Wire Line
 	6450 2250 6300 2250
-Wire Wire Line
-	6650 2250 6550 2250
 Connection ~ 6450 2250
 Wire Wire Line
 	6650 2550 6450 2550
 Wire Wire Line
 	6450 2550 5700 2550
 Connection ~ 6450 2550
-Wire Wire Line
-	6650 1950 6550 1950
-Wire Wire Line
-	6550 1950 6550 2250
-Connection ~ 6550 2250
-Wire Wire Line
-	6550 2250 6450 2250
 Text Notes 4900 2150 0    118  ~ 0
 Inlet Air\nTemp\nSensor
-Text GLabel 6650 3400 2    50   Input ~ 0
-CLT-A1-5V
+Text GLabel 6650 3400 2    50   Output ~ 0
+CLT-Signal-5V
 Text GLabel 6650 3000 2    50   Input ~ 0
 5V
-Text GLabel 6650 3100 2    50   Input ~ 0
-ADCClamp01
 Text GLabel 6650 3700 2    50   Input ~ 0
 SensorGnd
 Text GLabel 5300 3400 0    50   Input ~ 0
@@ -519,21 +478,12 @@ Wire Wire Line
 	6000 3400 5700 3400
 Wire Wire Line
 	6450 3400 6300 3400
-Wire Wire Line
-	6650 3400 6550 3400
 Connection ~ 6450 3400
 Wire Wire Line
 	6650 3700 6450 3700
 Wire Wire Line
 	6450 3700 5700 3700
 Connection ~ 6450 3700
-Wire Wire Line
-	6650 3100 6550 3100
-Wire Wire Line
-	6550 3100 6550 3400
-Connection ~ 6550 3400
-Wire Wire Line
-	6550 3400 6450 3400
 Text Notes 4900 3300 0    118  ~ 0
 Coolant\nTemp\nSensor
 $Comp
@@ -624,7 +574,7 @@ Crank-CPU-D23
 Text GLabel 10350 2400 2    50   Input ~ 0
 Cam-CPU-D36
 Text GLabel 9800 1700 1    50   Input ~ 0
-ADCClamp02
+ADCClamp01
 $Comp
 L Device:C C22
 U 1 1 5F0B9193
@@ -678,33 +628,13 @@ Wire Wire Line
 Wire Wire Line
 	9250 2600 9150 2600
 Wire Wire Line
-	9750 2600 9800 2600
-Wire Wire Line
 	9750 2300 9800 2300
 Wire Wire Line
 	8700 2200 8700 2400
 Wire Wire Line
 	8700 2700 8700 2500
-Text GLabel 1000 2850 1    50   Input ~ 0
-ADCClamp07
-Text GLabel 2750 2800 1    50   Input ~ 0
-ADCClamp08
 Wire Wire Line
-	2750 2800 2750 2900
-Wire Wire Line
-	2750 2900 2900 2900
-Connection ~ 2900 2900
-Wire Wire Line
-	2900 2900 2900 3900
-Wire Wire Line
-	1000 2850 1000 2950
-Wire Wire Line
-	1000 2950 1150 2950
-Connection ~ 1150 2950
-Wire Wire Line
-	1150 2950 1150 3900
-Wire Wire Line
-	9750 2400 9950 2400
+	9750 2400 9800 2400
 Wire Wire Line
 	9750 2500 10350 2500
 Wire Wire Line
@@ -715,7 +645,7 @@ Connection ~ 8050 2450
 Wire Wire Line
 	8050 2450 8050 2550
 Text GLabel 9800 3200 3    50   Input ~ 0
-ADCClamp09
+ADCClamp02
 $Comp
 L Device:R R37
 U 1 1 5F1240BC
@@ -749,20 +679,10 @@ Wire Wire Line
 	9800 2300 9950 2300
 Wire Wire Line
 	8700 3200 9100 3200
-Wire Wire Line
-	9400 3200 9800 3200
-Wire Wire Line
-	9800 3200 9800 2600
-Connection ~ 9800 2600
-Wire Wire Line
-	9800 2600 10350 2600
 Text GLabel 9950 3200 3    50   Input ~ 0
 SensorGnd
 Wire Wire Line
 	9950 3200 9950 3100
-Wire Wire Line
-	9950 3200 9800 3200
-Connection ~ 9800 3200
 Wire Wire Line
 	9950 2800 9950 2400
 Connection ~ 9950 2400
@@ -779,12 +699,10 @@ Wire Wire Line
 	8450 2950 8450 3150
 Text Notes 900  4850 0    118  ~ 0
 Flex Sensor
-Text GLabel 1250 5250 0    50   Input ~ 0
-ADCClamp10
 Text GLabel 1250 5450 0    50   Input ~ 0
 FlexFuelSensor
-Text GLabel 1250 5050 0    50   Input ~ 0
-FlexFuel
+Text GLabel 1250 5050 0    50   Output ~ 0
+FlexFuel-Signal
 $Comp
 L Device:R R19
 U 1 1 5F154320
@@ -817,8 +735,6 @@ Wire Wire Line
 	1350 5450 1350 5250
 Wire Wire Line
 	1350 5050 1250 5050
-Wire Wire Line
-	1250 5250 1350 5250
 Connection ~ 1350 5250
 Wire Wire Line
 	1350 5250 1350 5050
@@ -833,14 +749,12 @@ Wire Wire Line
 Connection ~ 1500 5250
 Wire Wire Line
 	1500 5250 1550 5250
-Text GLabel 3650 5000 2    50   Input ~ 0
-ADCClamp11
 Text Notes 2950 4800 0    118  ~ 0
 Clutch Input
 Text GLabel 2950 5250 0    50   Input ~ 0
 ClutchSwitch
-Text GLabel 3650 5250 2    50   Input ~ 0
-ClutchIn-CPU-D51
+Text GLabel 3650 5250 2    50   Output ~ 0
+ClutchIn-Signal
 Text GLabel 3400 6000 3    50   Input ~ 0
 SensorGnd
 $Comp
@@ -879,10 +793,6 @@ Wire Wire Line
 	3400 5250 3650 5250
 Connection ~ 3400 5250
 Wire Wire Line
-	3650 5000 3400 5000
-Wire Wire Line
-	3400 5000 3400 5250
-Wire Wire Line
 	3400 6000 3400 5850
 NoConn ~ 3800 3100
 NoConn ~ 3700 3100
@@ -892,8 +802,6 @@ NoConn ~ 1950 3100
 NoConn ~ 1850 3100
 Text GLabel 6650 4150 2    50   Input ~ 0
 5V
-Text GLabel 6650 4250 2    50   Input ~ 0
-ADCClamp12
 Text GLabel 6650 4850 2    50   Input ~ 0
 SensorGnd
 Text GLabel 5300 4550 0    50   Input ~ 0
@@ -953,29 +861,18 @@ Wire Wire Line
 	6000 4550 5700 4550
 Wire Wire Line
 	6450 4550 6300 4550
-Wire Wire Line
-	6650 4550 6550 4550
 Connection ~ 6450 4550
 Wire Wire Line
 	6650 4850 6450 4850
 Wire Wire Line
 	6450 4850 5700 4850
 Connection ~ 6450 4850
-Wire Wire Line
-	6650 4250 6550 4250
-Wire Wire Line
-	6550 4250 6550 4550
-Connection ~ 6550 4550
-Wire Wire Line
-	6550 4550 6450 4550
 Text Notes 4750 4450 0    118  ~ 0
 Fuel\nPressure\nSensor
 Text GLabel 6650 4550 2    50   Output ~ 0
-FPress-A10-5V
+FPress-Signal-5V
 Text GLabel 6650 5400 2    50   Input ~ 0
 5V
-Text GLabel 6650 5500 2    50   Input ~ 0
-ADCClamp13
 Text GLabel 6650 6100 2    50   Input ~ 0
 SensorGnd
 Text GLabel 5300 5800 0    50   Input ~ 0
@@ -1035,32 +932,20 @@ Wire Wire Line
 	6000 5800 5700 5800
 Wire Wire Line
 	6450 5800 6300 5800
-Wire Wire Line
-	6650 5800 6550 5800
 Connection ~ 6450 5800
 Wire Wire Line
 	6650 6100 6450 6100
 Wire Wire Line
 	6450 6100 5700 6100
 Connection ~ 6450 6100
-Wire Wire Line
-	6650 5500 6550 5500
-Wire Wire Line
-	6550 5500 6550 5800
-Connection ~ 6550 5800
-Wire Wire Line
-	6550 5800 6450 5800
 Text Notes 4750 5700 0    118  ~ 0
 Oil\nPressure\nSensor
 Text GLabel 6650 5800 2    50   Output ~ 0
-OPress-A11-5V
+OPress-Signal-5V
 Text GLabel 1650 3100 3    50   Input ~ 0
 SensorGnd
 Text GLabel 3400 3100 3    50   Input ~ 0
 SensorGnd
-Text GLabel 2550 6950 2    50   Input ~ 0
-ADCClamp14
-NoConn ~ 2550 6950
 $Comp
 L MPX4250AP:MPX4250AP IC1
 U 1 1 5F4B3E38
@@ -1099,4 +984,88 @@ F 11 "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/MPX4250AP?qs=r8O
 	1    3300 3100
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	1800 1250 2000 1250
+Wire Wire Line
+	4450 1250 4650 1250
+Wire Wire Line
+	6450 2250 6650 2250
+Wire Wire Line
+	6450 3400 6650 3400
+Wire Wire Line
+	2900 2850 2900 3900
+Wire Wire Line
+	1150 2850 1150 3900
+Wire Wire Line
+	6450 5800 6650 5800
+Wire Wire Line
+	6450 4550 6650 4550
+Wire Wire Line
+	9750 2600 10350 2600
+Wire Wire Line
+	9400 3200 9800 3200
+Wire Wire Line
+	9800 3200 9800 2400
+Connection ~ 9800 2400
+Wire Wire Line
+	9800 2400 9950 2400
+Text GLabel 2350 1150 2    50   Input ~ 0
+ADCClamp03
+Wire Wire Line
+	2350 1150 2000 1150
+Wire Wire Line
+	2000 1150 2000 1250
+Text GLabel 5000 1150 2    50   Input ~ 0
+ADCClamp04
+Wire Wire Line
+	5000 1150 4650 1150
+Wire Wire Line
+	4650 1150 4650 1250
+Text GLabel 6600 1150 2    50   Input ~ 0
+ADCClamp05
+Wire Wire Line
+	6600 1150 6500 1150
+Wire Wire Line
+	6500 1150 6500 1250
+Connection ~ 6500 1250
+Wire Wire Line
+	6500 1250 6450 1250
+Text GLabel 1050 2850 1    50   Input ~ 0
+ADCClamp06
+Wire Wire Line
+	1050 2850 1050 3900
+Wire Wire Line
+	1050 3900 1150 3900
+Connection ~ 1150 3900
+Text GLabel 2800 2850 1    50   Input ~ 0
+ADCClamp07
+Wire Wire Line
+	2800 2850 2800 3900
+Wire Wire Line
+	2800 3900 2900 3900
+Connection ~ 2900 3900
+Text GLabel 6650 2150 2    50   Input ~ 0
+ADCClamp08
+Wire Wire Line
+	6650 2150 6450 2150
+Wire Wire Line
+	6450 2150 6450 2250
+Text GLabel 6650 3300 2    50   Input ~ 0
+ADCClamp09
+Wire Wire Line
+	6650 3300 6450 3300
+Wire Wire Line
+	6450 3300 6450 3400
+Text GLabel 6650 4450 2    50   Input ~ 0
+ADCClamp10
+Wire Wire Line
+	6650 4450 6450 4450
+Wire Wire Line
+	6450 4450 6450 4550
+Text GLabel 6650 5700 2    50   Input ~ 0
+ADCClamp11
+Wire Wire Line
+	6650 5700 6450 5700
+Wire Wire Line
+	6450 5700 6450 5800
 $EndSCHEMATC

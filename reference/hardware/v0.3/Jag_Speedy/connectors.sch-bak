@@ -279,30 +279,30 @@ Wire Wire Line
 	4300 3150 4800 3150
 Wire Wire Line
 	4800 3250 4300 3250
-Text GLabel 4200 3650 0    50   Output ~ 0
+Text GLabel 4500 950  0    50   Output ~ 0
 SignalGnd
-Text GLabel 4200 3800 0    50   Output ~ 0
+Text GLabel 4500 1100 0    50   Output ~ 0
 PowerGnd
 $Comp
 L power:GND #PWR0105
 U 1 1 5F2FFFD9
-P 4600 4000
-F 0 "#PWR0105" H 4600 3750 50  0001 C CNN
-F 1 "GND" H 4605 3827 50  0000 C CNN
-F 2 "" H 4600 4000 50  0001 C CNN
-F 3 "" H 4600 4000 50  0001 C CNN
-	1    4600 4000
+P 4900 1300
+F 0 "#PWR0105" H 4900 1050 50  0001 C CNN
+F 1 "GND" H 4905 1127 50  0000 C CNN
+F 2 "" H 4900 1300 50  0001 C CNN
+F 3 "" H 4900 1300 50  0001 C CNN
+	1    4900 1300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 3650 4600 3650
+	4500 950  4900 950 
 Wire Wire Line
-	4600 3650 4600 3800
+	4900 950  4900 1100
 Wire Wire Line
-	4200 3800 4600 3800
-Connection ~ 4600 3800
+	4500 1100 4900 1100
+Connection ~ 4900 1100
 Wire Wire Line
-	4600 3800 4600 4000
+	4900 1100 4900 1300
 NoConn ~ 2400 900 
 NoConn ~ 4300 2750
 NoConn ~ 4300 2850
@@ -311,4 +311,147 @@ NoConn ~ 2400 5600
 NoConn ~ 2400 5000
 Wire Wire Line
 	4300 1750 4800 1750
+Text GLabel 7000 1750 0    50   Output ~ 0
+Inj01-Trigger
+Text GLabel 7000 1900 0    50   Output ~ 0
+Inj02-Trigger
+Text GLabel 7000 2050 0    50   Output ~ 0
+Inj03-Trigger
+Text GLabel 7000 2200 0    50   Output ~ 0
+Inj04-Trigger
+Text GLabel 7000 2500 0    50   Output ~ 0
+Inj06-Trigger
+Text GLabel 7300 1750 2    50   Input ~ 0
+CPU-D08
+Text GLabel 7300 1900 2    50   Input ~ 0
+CPU-D09
+Text GLabel 7300 2050 2    50   Input ~ 0
+CPU-D10
+Text GLabel 7300 2200 2    50   Input ~ 0
+CPU-D11
+Text GLabel 7300 2350 2    50   Input ~ 0
+CPU-D12
+Text GLabel 7300 3700 2    50   Input ~ 0
+CPU-D07
+Text GLabel 7000 2350 0    50   Output ~ 0
+Inj05-Trigger
+Wire Wire Line
+	7000 1750 7300 1750
+Wire Wire Line
+	7300 1900 7000 1900
+Wire Wire Line
+	7000 2050 7300 2050
+Wire Wire Line
+	7300 2200 7000 2200
+Wire Wire Line
+	7000 2350 7300 2350
+Wire Wire Line
+	7300 2500 7000 2500
+Text GLabel 7000 2650 0    50   Output ~ 0
+Ign01-Trigger
+Text GLabel 7000 2800 0    50   Output ~ 0
+Ign02-Trigger
+Text GLabel 7000 2950 0    50   Output ~ 0
+Ign03-Trigger
+Text GLabel 7000 3100 0    50   Output ~ 0
+Ign04-Trigger
+Text GLabel 7000 3250 0    50   Output ~ 0
+Ign05-Trigger
+Text GLabel 7000 3400 0    50   Output ~ 0
+Ign06-Trigger
+Text GLabel 7300 2650 2    50   Input ~ 0
+CPU-D39
+Text GLabel 7300 2800 2    50   Input ~ 0
+CPU-D38
+Text GLabel 7300 2950 2    50   Input ~ 0
+CPU-D31
+Text GLabel 7300 3100 2    50   Input ~ 0
+CPU-D21
+Text GLabel 7300 3250 2    50   Input ~ 0
+CPU-D32
+Text GLabel 7300 3400 2    50   Input ~ 0
+CPU-D35
+Wire Wire Line
+	7000 2650 7300 2650
+Wire Wire Line
+	7300 2800 7000 2800
+Wire Wire Line
+	7000 2950 7300 2950
+Wire Wire Line
+	7300 3100 7000 3100
+Wire Wire Line
+	7000 3250 7300 3250
+Wire Wire Line
+	7300 3400 7000 3400
+$Comp
+L Connector_Generic:Conn_01x06 J?
+U 1 1 5EFFD7CF
+P 4100 4050
+F 0 "J?" H 4018 3525 50  0000 C CNN
+F 1 "Canbus" H 4018 3616 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Horizontal" H 4100 4050 50  0001 C CNN
+F 3 "~" H 4100 4050 50  0001 C CNN
+	1    4100 4050
+	-1   0    0    1   
+$EndComp
+Text GLabel 4800 4250 2    50   Input ~ 0
+SignalGnd
+Text GLabel 4800 4050 2    50   Input ~ 0
+CAN-Tx
+Text GLabel 4800 3950 2    50   Input ~ 0
+CAN-Rx
+Text GLabel 4800 4150 2    50   Output ~ 0
+5V
+Wire Wire Line
+	4300 3950 4800 3950
+Wire Wire Line
+	4800 4050 4300 4050
+Wire Wire Line
+	4300 4150 4800 4150
+Wire Wire Line
+	4800 4250 4300 4250
+NoConn ~ 4300 3750
+NoConn ~ 4300 3850
+Text GLabel 7000 3550 0    50   Output ~ 0
+IdlePWM-Signal
+Text GLabel 7000 3850 0    50   Output ~ 0
+TachoOut-Signal
+Text GLabel 7000 4000 0    50   Output ~ 0
+Fan-Signal
+Text GLabel 7000 4150 0    50   Output ~ 0
+FuelPump-Signal
+Text GLabel 7300 3550 2    50   Input ~ 0
+CPU-D05
+Text GLabel 7300 2500 2    50   Input ~ 0
+CPU-D13
+Text GLabel 7300 3850 2    50   Input ~ 0
+CPU-D28
+Text GLabel 7300 4000 2    50   Input ~ 0
+CPU-D27
+Text GLabel 7300 4150 2    50   Input ~ 0
+CPU-D37
+Text GLabel 7000 3700 0    50   Output ~ 0
+BoostPWM-Signal
+Text GLabel 7000 4300 0    50   Output ~ 0
+Idle02-Signal
+Text GLabel 7300 4300 2    50   Input ~ 0
+CPU-D06
+Text GLabel 7000 4450 0    50   Output ~ 0
+VVT-Signal
+Wire Wire Line
+	7000 3550 7300 3550
+Wire Wire Line
+	7300 3700 7000 3700
+Wire Wire Line
+	7000 3850 7300 3850
+Wire Wire Line
+	7300 4000 7000 4000
+Wire Wire Line
+	7000 4150 7300 4150
+Wire Wire Line
+	7300 4300 7000 4300
+Text GLabel 7300 4450 2    50   Input ~ 0
+CPU-D29
+Wire Wire Line
+	7300 4450 7000 4450
 $EndSCHEMATC

@@ -125,14 +125,12 @@ F 3 "~" H 5000 3100 50  0001 C CNN
 	1    5000 3100
 	1    0    0    -1  
 $EndComp
-Text GLabel 6300 2950 2    50   Output ~ 0
+Text GLabel 5900 2800 1    50   Output ~ 0
 5V
 Text GLabel 2800 2950 0    50   Input ~ 0
 12VRaw
 Text GLabel 3200 2750 1    50   Output ~ 0
 12V
-Wire Wire Line
-	4750 2950 4750 3850
 Wire Wire Line
 	4750 3850 4300 3850
 Wire Wire Line
@@ -168,10 +166,7 @@ Connection ~ 5000 2950
 Wire Wire Line
 	5450 2950 5900 2950
 Connection ~ 5450 2950
-Wire Wire Line
-	5900 2950 6300 2950
-Connection ~ 5900 2950
-Text GLabel 4750 3950 3    50   Output ~ 0
+Text GLabel 4750 3950 3    50   Input ~ 0
 PowerGnd
 Wire Wire Line
 	4750 3950 4750 3850
@@ -195,4 +190,9 @@ Wire Wire Line
 Connection ~ 3900 3850
 Wire Wire Line
 	3900 3850 3050 3850
+Connection ~ 5900 2950
+Wire Wire Line
+	5900 2800 5900 2950
+Wire Wire Line
+	4750 2950 4750 3850
 $EndSCHEMATC

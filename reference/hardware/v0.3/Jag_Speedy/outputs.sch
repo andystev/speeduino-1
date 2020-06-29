@@ -60,9 +60,9 @@ PowerGnd
 Text GLabel 2350 4250 2    50   Input ~ 0
 PowerGnd
 Text GLabel 1450 4050 0    50   Input ~ 0
-FuelPump-CPU-D37
+FuelPump-Signal
 Text GLabel 1400 2700 0    50   Input ~ 0
-Fan-CPU-D27
+Fan-Signal
 Wire Wire Line
 	1400 2700 1550 2700
 Wire Wire Line
@@ -97,7 +97,7 @@ F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=757-SSM3K357RLF" H 2100 
 	1    0    0    -1  
 $EndComp
 Text GLabel 1650 1450 0    50   Input ~ 0
-TachoOut-CPU-D28
+TachoOut-Signal
 Text GLabel 2200 1650 2    50   Input ~ 0
 PowerGnd
 Text GLabel 2200 1050 2    50   Input ~ 0
@@ -131,18 +131,18 @@ F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=511-VNLD5090-E" H 6200 8
 	1    4650 1650
 	1    0    0    -1  
 $EndComp
-Text GLabel 6350 1650 2    50   Input ~ 0
-BoostPWM-OUT
 Text GLabel 6350 1850 2    50   Input ~ 0
+BoostPWM-OUT
+Text GLabel 6350 1650 2    50   Input ~ 0
 IdlePWM-OUT
 Text GLabel 6350 1750 2    50   Input ~ 0
 PowerGnd
 Text GLabel 6350 1950 2    50   Input ~ 0
 PowerGnd
 Text GLabel 4100 1650 0    50   Input ~ 0
-IdlePWM-CPU-D05
+IdlePWM-Signal
 Text GLabel 4100 1850 0    50   Input ~ 0
-BoostPWM-CPU-A21
+BoostPWM-Signal
 $Comp
 L Device:R R80
 U 1 1 5F1CCDB4
@@ -208,10 +208,10 @@ Connection ~ 4250 1850
 NoConn ~ 4650 1750
 NoConn ~ 4650 1950
 Text GLabel 4350 2850 0    50   Input ~ 0
-Idle02
+Idle02-Signal
 NoConn ~ 4350 2850
 Text GLabel 4350 3150 0    50   Input ~ 0
-VVT
+VVT-Signal
 NoConn ~ 4350 3150
 Text GLabel 4900 2850 2    50   Input ~ 0
 Idle02-OUT

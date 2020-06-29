@@ -147,9 +147,9 @@ F 3 "~" H 8050 1850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 7700 1650 0    50   Input ~ 0
-Ign01-CPU-D39
+Ign01-Trigger
 Text GLabel 7700 1850 0    50   Input ~ 0
-Ign02-CPU-D38
+Ign02-Trigger
 Text GLabel 9800 1200 2    50   Output ~ 0
 Ign01-OUT
 Text GLabel 9800 2250 2    50   Output ~ 0
@@ -401,9 +401,9 @@ F 3 "~" H 8100 3800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 7750 3600 0    50   Input ~ 0
-Ign03-CPU-D31
+Ign03-Trigger
 Text GLabel 7750 3800 0    50   Input ~ 0
-Ign04-CPU-D21
+Ign04-Trigger
 Text GLabel 9850 3150 2    50   Output ~ 0
 Ign03-OUT
 Text GLabel 9850 4200 2    50   Output ~ 0
@@ -649,9 +649,9 @@ F 3 "~" H 8100 5750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 7750 5550 0    50   Input ~ 0
-Ign05-CPU-D32
+Ign05-Trigger
 Text GLabel 7750 5750 0    50   Input ~ 0
-Ign06-CPU-D35
+Ign06-Trigger
 Text GLabel 9850 5100 2    50   Output ~ 0
 Ign05-OUT
 Text GLabel 9850 6150 2    50   Output ~ 0
@@ -994,8 +994,6 @@ Text GLabel 3350 1750 2    50   Input ~ 0
 PowerGnd
 Text GLabel 3350 1550 2    50   Input ~ 0
 PowerGnd
-Text GLabel 3900 2150 2    50   Output ~ 0
-Inj02-OUT
 Text GLabel 2350 2150 0    50   Input ~ 0
 12V
 $Comp
@@ -1078,8 +1076,6 @@ F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 3100 1050 50  0001 C CNN
 	1    3100 1050
 	-1   0    0    1   
 $EndComp
-Text GLabel 3900 1050 2    50   Output ~ 0
-Inj01-OUT
 $Comp
 L Device:R R45
 U 1 1 5F265908
@@ -1107,7 +1103,7 @@ F 3 "~" H 1250 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 1250 1650 0    50   Input ~ 0
-Inj02-CPU-D09
+Inj02-Trigger
 $Comp
 L Device:R R44
 U 1 1 5F265915
@@ -1135,7 +1131,7 @@ F 3 "~" H 1250 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 1250 1450 0    50   Input ~ 0
-Inj01-CPU-D08
+Inj01-Trigger
 $Comp
 L VNLD5090-E:VNLD5090-E IC3
 U 1 1 5F26592A
@@ -1156,11 +1152,11 @@ F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=511-VNLD5090-E" H 3200 6
 	1    0    0    -1  
 $EndComp
 Text GLabel 1250 3800 0    50   Input ~ 0
-Inj03-CPU-D10
+Inj03-Trigger
 Text GLabel 3900 3400 2    50   Output ~ 0
 Inj03-OUT
 Text GLabel 1250 4000 0    50   Input ~ 0
-Inj04-CPU-D11
+Inj04-Trigger
 Text GLabel 3900 4500 2    50   Output ~ 0
 Inj04-OUT
 Wire Wire Line
@@ -1353,9 +1349,9 @@ F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=511-VNLD5090-E" H 3200 5
 	1    0    0    -1  
 $EndComp
 Text GLabel 1250 6000 0    50   Input ~ 0
-Inj05-CPU-D12
+Inj05-Trigger
 Text GLabel 1250 6200 0    50   Input ~ 0
-Inj06-CPU-D07
+Inj06-Trigger
 Text GLabel 3900 5600 2    50   Output ~ 0
 Inj05-OUT
 Text GLabel 3900 6700 2    50   Output ~ 0
@@ -1391,4 +1387,8 @@ NoConn ~ 9450 3500
 NoConn ~ 8250 3500
 NoConn ~ 8250 5450
 NoConn ~ 9450 5450
+Text GLabel 3900 1050 2    50   Output ~ 0
+Inj01-OUT
+Text GLabel 3900 2150 2    50   Output ~ 0
+Inj02-OUT
 $EndSCHEMATC

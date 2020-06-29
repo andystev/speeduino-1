@@ -17,16 +17,39 @@ Text GLabel 4500 1900 0    50   Input ~ 0
 ADCClamp01
 Text GLabel 4500 2000 0    50   Input ~ 0
 ADCClamp02
-Text GLabel 4500 2100 0    50   Input ~ 0
-ADCClamp03
-Text GLabel 4500 2300 0    50   Input ~ 0
-ADCClamp05
-Text GLabel 4500 2200 0    50   Input ~ 0
-ADCClamp04
-Text GLabel 4500 2400 0    50   Input ~ 0
-ADCClamp06
 Text GLabel 6000 1900 2    50   Input ~ 0
 5V
+Text GLabel 4500 2600 0    50   Input ~ 0
+SignalGnd
+Wire Wire Line
+	4500 1900 4650 1900
+Wire Wire Line
+	4650 2000 4500 2000
+Wire Wire Line
+	4650 2600 4500 2600
+Wire Wire Line
+	5850 1900 6000 1900
+NoConn ~ 5850 2000
+NoConn ~ 5850 2100
+NoConn ~ 5850 2200
+Text GLabel 4500 2100 0    50   Input ~ 0
+ADCClamp03
+Text GLabel 4500 2200 0    50   Input ~ 0
+ADCClamp04
+Text GLabel 4500 2300 0    50   Input ~ 0
+ADCClamp05
+Text GLabel 4500 2400 0    50   Input ~ 0
+ADCClamp06
+Text GLabel 4500 2500 0    50   Input ~ 0
+ADCClamp07
+Text GLabel 6000 2600 2    50   Input ~ 0
+ADCClamp08
+Text GLabel 6000 2500 2    50   Input ~ 0
+ADCClamp09
+Text GLabel 6000 2400 2    50   Input ~ 0
+ADCClamp10
+Text GLabel 6000 2300 2    50   Input ~ 0
+ADCClamp11
 $Comp
 L SP720APP:SP720APP IC10
 U 1 1 5F118B50
@@ -46,28 +69,6 @@ F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=576-SP720APP" H 5700 110
 	1    4650 1900
 	1    0    0    -1  
 $EndComp
-Text GLabel 4500 2600 0    50   Input ~ 0
-SignalGnd
-Text GLabel 4500 2500 0    50   Input ~ 0
-ADCClamp07
-Text GLabel 6000 2600 2    50   Input ~ 0
-ADCClamp08
-Text GLabel 6000 2500 2    50   Input ~ 0
-ADCClamp09
-Text GLabel 6000 2400 2    50   Input ~ 0
-ADCClamp10
-Text GLabel 6000 2300 2    50   Input ~ 0
-ADCClamp11
-Text GLabel 6000 2200 2    50   Input ~ 0
-ADCClamp12
-Text GLabel 6000 2100 2    50   Input ~ 0
-ADCClamp13
-Text GLabel 6000 2000 2    50   Input ~ 0
-ADCClamp14
-Wire Wire Line
-	4500 1900 4650 1900
-Wire Wire Line
-	4650 2000 4500 2000
 Wire Wire Line
 	4500 2100 4650 2100
 Wire Wire Line
@@ -79,21 +80,11 @@ Wire Wire Line
 Wire Wire Line
 	4500 2500 4650 2500
 Wire Wire Line
-	4650 2600 4500 2600
+	5850 2600 6000 2600
 Wire Wire Line
-	5850 1900 6000 1900
+	6000 2500 5850 2500
 Wire Wire Line
-	6000 2000 5850 2000
+	5850 2400 6000 2400
 Wire Wire Line
-	5850 2100 6000 2100
-Wire Wire Line
-	6000 2200 5850 2200
-Wire Wire Line
-	5850 2300 6000 2300
-Wire Wire Line
-	6000 2400 5850 2400
-Wire Wire Line
-	5850 2500 6000 2500
-Wire Wire Line
-	6000 2600 5850 2600
+	6000 2300 5850 2300
 $EndSCHEMATC
