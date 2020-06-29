@@ -24,15 +24,15 @@ F 3 "~" H 2600 2000 50  0001 C CNN
 	1    2600 2000
 	1    0    0    -1  
 $EndComp
-Text GLabel 2250 1200 0    50   Input ~ 0
+Text GLabel 2250 1200 0    50   Output ~ 0
 TPSSensor
-Text GLabel 2250 1400 0    50   Input ~ 0
+Text GLabel 2250 1400 0    50   Output ~ 0
 IATSensor
-Text GLabel 2250 1600 0    50   Input ~ 0
+Text GLabel 2250 1600 0    50   Output ~ 0
 CLTSensor
-Text GLabel 2250 1800 0    50   Input ~ 0
+Text GLabel 2250 1800 0    50   Output ~ 0
 O2Sensor
-Text GLabel 2250 2200 0    50   Input ~ 0
+Text GLabel 2250 2200 0    50   Output ~ 0
 CrankSensor+
 $Comp
 L Connector_Generic:Conn_01x12 J2
@@ -97,11 +97,11 @@ F 3 "~" H 4100 3050 50  0001 C CNN
 	1    4100 3050
 	-1   0    0    1   
 $EndComp
-Text GLabel 2250 2400 0    50   Input ~ 0
+Text GLabel 2250 2400 0    50   Output ~ 0
 CamSensor+
-Text GLabel 2250 2700 0    50   Input ~ 0
+Text GLabel 2250 2700 0    50   Output ~ 0
 FuelPressureSensor
-Text GLabel 2250 2900 0    50   Input ~ 0
+Text GLabel 2250 2900 0    50   Output ~ 0
 OilPressureSensor
 $Comp
 L Connector_Generic:Conn_01x10 J3
@@ -120,15 +120,15 @@ Text GLabel 2200 5200 0    50   Input ~ 0
 Fan-OUT
 Text GLabel 2200 5300 0    50   Input ~ 0
 IdlePWM-OUT
-Text GLabel 2250 2000 0    50   Output ~ 0
+Text GLabel 2250 2000 0    50   Input ~ 0
 5V
-Text GLabel 2250 2600 0    50   Output ~ 0
+Text GLabel 2250 2600 0    50   Input ~ 0
 5V
 Wire Wire Line
 	4800 1850 4300 1850
 Wire Wire Line
 	4300 1950 4800 1950
-Text GLabel 1300 1300 0    50   Output ~ 0
+Text GLabel 1300 1300 0    50   Input ~ 0
 SignalGnd
 Wire Wire Line
 	2150 3450 2400 3450
@@ -172,9 +172,9 @@ Wire Wire Line
 	4300 2950 4800 2950
 Wire Wire Line
 	4800 3050 4300 3050
-Text GLabel 2250 2300 0    50   Input ~ 0
+Text GLabel 2250 2300 0    50   Output ~ 0
 CrankSensor-
-Text GLabel 2250 2500 0    50   Input ~ 0
+Text GLabel 2250 2500 0    50   Output ~ 0
 CamSensor-
 Wire Wire Line
 	2250 1200 2400 1200
@@ -242,9 +242,9 @@ Wire Wire Line
 	4800 2050 4300 2050
 Wire Wire Line
 	4800 2150 4300 2150
-Text GLabel 2250 1000 0    50   Input ~ 0
+Text GLabel 2250 1000 0    50   Output ~ 0
 FlexFuelSensor
-Text GLabel 2250 3100 0    50   Input ~ 0
+Text GLabel 2250 3100 0    50   Output ~ 0
 ClutchSwitch
 Wire Wire Line
 	2250 3100 2400 3100
@@ -279,9 +279,9 @@ Wire Wire Line
 	4300 3150 4800 3150
 Wire Wire Line
 	4800 3250 4300 3250
-Text GLabel 4500 950  0    50   Output ~ 0
+Text GLabel 4500 950  0    50   Input ~ 0
 SignalGnd
-Text GLabel 4500 1100 0    50   Output ~ 0
+Text GLabel 4500 1100 0    50   Input ~ 0
 PowerGnd
 $Comp
 L power:GND #PWR0105
@@ -384,10 +384,10 @@ Wire Wire Line
 Wire Wire Line
 	7300 3400 7000 3400
 $Comp
-L Connector_Generic:Conn_01x06 J?
+L Connector_Generic:Conn_01x06 J7
 U 1 1 5EFFD7CF
 P 4100 4050
-F 0 "J?" H 4018 3525 50  0000 C CNN
+F 0 "J7" H 4018 3525 50  0000 C CNN
 F 1 "Canbus" H 4018 3616 50  0000 C CNN
 F 2 "Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Horizontal" H 4100 4050 50  0001 C CNN
 F 3 "~" H 4100 4050 50  0001 C CNN
@@ -454,4 +454,88 @@ Text GLabel 7300 4450 2    50   Input ~ 0
 CPU-D29
 Wire Wire Line
 	7300 4450 7000 4450
+Text GLabel 8800 1900 0    50   Input ~ 0
+O2-Signal-3.3V
+Text GLabel 9250 1900 2    50   Output ~ 0
+CPU-A8
+Text GLabel 8800 2050 0    50   Input ~ 0
+TPS-Signal-3.3V
+Text GLabel 9250 2050 2    50   Output ~ 0
+CPU-A2
+Text GLabel 8800 2200 0    50   Input ~ 0
+BRV-Signal-3.3V
+Text GLabel 9250 2200 2    50   Output ~ 0
+CPU-A4
+Text GLabel 8800 2350 0    50   Input ~ 0
+MAP-Signal-3.3V
+Text GLabel 9250 2350 2    50   Output ~ 0
+CPU-A3
+Text GLabel 8800 2500 0    50   Input ~ 0
+Barro-Signal-3.3V
+Text GLabel 9250 2500 2    50   Output ~ 0
+CPU-A5
+Text GLabel 8800 2650 0    50   Input ~ 0
+CLT-Signal-3.3V
+Text GLabel 9250 2650 2    50   Output ~ 0
+CPU-A1
+Text GLabel 8800 2800 0    50   Input ~ 0
+FPress-Signal-3.3V
+Text GLabel 9250 2800 2    50   Output ~ 0
+CPU-A10
+Text GLabel 8800 2950 0    50   Input ~ 0
+OPress-Signal-3.3V
+Text GLabel 9250 2950 2    50   Output ~ 0
+CPU-A11
+Text GLabel 8800 3350 0    50   Input ~ 0
+FlexFuel-Signal
+Text GLabel 8800 3200 0    50   Input ~ 0
+ClutchIn-Signal
+Text GLabel 9250 3200 2    50   Output ~ 0
+CPU-D24
+Text GLabel 9250 3350 2    50   Output ~ 0
+CPU-D25
+Wire Wire Line
+	8800 1900 9250 1900
+Wire Wire Line
+	9250 2050 8800 2050
+Wire Wire Line
+	8800 2200 9250 2200
+Wire Wire Line
+	9250 2350 8800 2350
+Wire Wire Line
+	8800 2500 9250 2500
+Wire Wire Line
+	9250 2650 8800 2650
+Wire Wire Line
+	8800 2800 9250 2800
+Wire Wire Line
+	9250 2950 8800 2950
+Wire Wire Line
+	8800 3200 9250 3200
+Wire Wire Line
+	9250 3350 8800 3350
+Text GLabel 8800 4000 0    50   Input ~ 0
+Spare-Signal-3.3V-02
+Text GLabel 8800 4150 0    50   Input ~ 0
+Spare-Signal-3.3V-03
+Text GLabel 8800 3850 0    50   Input ~ 0
+Spare-Signal-3.3V-01
+Text GLabel 8800 1750 0    50   Input ~ 0
+IAT-Signal-3.3V
+Text GLabel 9250 1750 2    50   Output ~ 0
+CPU-A0
+Wire Wire Line
+	8800 1750 9250 1750
+Text GLabel 8800 3550 0    50   Input ~ 0
+Crank-Signal
+Text GLabel 8800 3700 0    50   Input ~ 0
+Cam-Signal
+Text GLabel 9250 3700 2    50   Output ~ 0
+CPU-D36
+Text GLabel 9250 3550 2    50   Output ~ 0
+CPU-D23
+Wire Wire Line
+	8800 3700 9250 3700
+Wire Wire Line
+	9250 3550 8800 3550
 $EndSCHEMATC

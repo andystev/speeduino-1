@@ -14,31 +14,31 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 1000 7000 600  500 
+S 550  7000 600  500 
 U 5EF0527D
 F0 "Connectors" 50
 F1 "connectors.sch" 50
 $EndSheet
 $Sheet
-S 2750 7000 600  500 
+S 2300 7000 600  500 
 U 5EF09064
 F0 "Inputs" 50
 F1 "inputs.sch" 50
 $EndSheet
 $Sheet
-S 1850 7000 550  500 
+S 1400 7000 550  500 
 U 5EF090BF
 F0 "Fuel and Spark" 50
 F1 "fuel_spark.sch" 50
 $EndSheet
 $Sheet
-S 3550 7000 550  500 
+S 3100 7000 550  500 
 U 5EF0923F
 F0 "Power" 50
 F1 "power.sch" 50
 $EndSheet
 $Sheet
-S 4250 7000 550  500 
+S 3800 7000 550  500 
 U 5EF0F56B
 F0 "ADC Clamp" 50
 F1 "ADC_Clamp.sch" 50
@@ -46,136 +46,136 @@ $EndSheet
 $Comp
 L Amplifier_Operational:LMV324 U2
 U 1 1 5EF269AD
-P 2350 4850
-F 0 "U2" V 2304 5080 50  0000 L CNN
-F 1 "LMV324" V 2395 5080 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2300 4950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 2400 5050 50  0001 C CNN
-	1    2350 4850
+P 2500 4850
+F 0 "U2" V 2454 5080 50  0000 L CNN
+F 1 "LMV324" V 2545 5080 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2450 4950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 2550 5050 50  0001 C CNN
+	1    2500 4850
 	0    1    1    0   
 $EndComp
 Text GLabel 4500 5150 0    50   Input ~ 0
 CPU-A0
-Text GLabel 2900 1400 2    50   Input ~ 0
+Text GLabel 3050 1400 2    50   Input ~ 0
 IAT-Signal-5V
 $Comp
 L Amplifier_Operational:LMV324 U2
 U 5 1 5EF2AA53
-P 2000 6600
-F 0 "U2" V 2095 6600 50  0000 C CNN
-F 1 "LMV324" V 2004 6600 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 1950 6700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 2050 6800 50  0001 C CNN
-	5    2000 6600
+P 2150 6600
+F 0 "U2" V 2245 6600 50  0000 C CNN
+F 1 "LMV324" V 2154 6600 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2100 6700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 2200 6800 50  0001 C CNN
+	5    2150 6600
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Amplifier_Operational:LMV324 U2
 U 4 1 5EF29653
-P 1550 5950
-F 0 "U2" V 1504 6180 50  0000 L CNN
-F 1 "LMV324" V 1595 6180 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 1500 6050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 1600 6150 50  0001 C CNN
-	4    1550 5950
+P 1700 5950
+F 0 "U2" V 1654 6180 50  0000 L CNN
+F 1 "LMV324" V 1745 6180 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 1650 6050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 1750 6150 50  0001 C CNN
+	4    1700 5950
 	0    1    1    0   
 $EndComp
 $Comp
 L Amplifier_Operational:LMV324 U2
 U 3 1 5EF28816
-P 2350 5950
-F 0 "U2" V 2304 6180 50  0000 L CNN
-F 1 "LMV324" V 2395 6180 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2300 6050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 2400 6150 50  0001 C CNN
-	3    2350 5950
+P 2500 5950
+F 0 "U2" V 2454 6180 50  0000 L CNN
+F 1 "LMV324" V 2545 6180 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2450 6050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 2550 6150 50  0001 C CNN
+	3    2500 5950
 	0    1    1    0   
 $EndComp
 $Comp
 L Amplifier_Operational:LMV324 U2
 U 2 1 5EF27908
-P 1550 4850
-F 0 "U2" V 1504 5080 50  0000 L CNN
-F 1 "LMV324" V 1595 5080 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 1500 4950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 1600 5050 50  0001 C CNN
-	2    1550 4850
+P 1700 4850
+F 0 "U2" V 1654 5080 50  0000 L CNN
+F 1 "LMV324" V 1745 5080 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 1650 4950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 1750 5050 50  0001 C CNN
+	2    1700 4850
 	0    1    1    0   
 $EndComp
 $Comp
 L Amplifier_Operational:LMV324 U1
 U 5 1 5EF1765F
-P 2000 3650
-F 0 "U1" V 2095 3650 50  0000 C CNN
-F 1 "LMV324" V 2004 3650 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 1950 3750 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 2050 3850 50  0001 C CNN
-	5    2000 3650
+P 2150 3650
+F 0 "U1" V 2245 3650 50  0000 C CNN
+F 1 "LMV324" V 2154 3650 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2100 3750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 2200 3850 50  0001 C CNN
+	5    2150 3650
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Amplifier_Operational:LMV324 U1
 U 4 1 5EF15CB9
-P 1550 3000
-F 0 "U1" V 1504 3230 50  0000 L CNN
-F 1 "LMV324" V 1595 3230 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 1500 3100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 1600 3200 50  0001 C CNN
-	4    1550 3000
+P 1700 3000
+F 0 "U1" V 1654 3230 50  0000 L CNN
+F 1 "LMV324" V 1745 3230 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 1650 3100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 1750 3200 50  0001 C CNN
+	4    1700 3000
 	0    1    1    0   
 $EndComp
 $Comp
 L Amplifier_Operational:LMV324 U1
 U 3 1 5EF13FA6
-P 2350 3000
-F 0 "U1" V 2304 3230 50  0000 L CNN
-F 1 "LMV324" V 2395 3230 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2300 3100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 2400 3200 50  0001 C CNN
-	3    2350 3000
+P 2500 3000
+F 0 "U1" V 2454 3230 50  0000 L CNN
+F 1 "LMV324" V 2545 3230 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2450 3100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 2550 3200 50  0001 C CNN
+	3    2500 3000
 	0    1    1    0   
 $EndComp
 $Comp
 L Amplifier_Operational:LMV324 U1
 U 2 1 5EF12CA3
-P 1550 1900
-F 0 "U1" V 1504 2130 50  0000 L CNN
-F 1 "LMV324" V 1595 2130 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 1500 2000 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 1600 2100 50  0001 C CNN
-	2    1550 1900
+P 1700 1900
+F 0 "U1" V 1654 2130 50  0000 L CNN
+F 1 "LMV324" V 1745 2130 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 1650 2000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 1750 2100 50  0001 C CNN
+	2    1700 1900
 	0    1    1    0   
 $EndComp
 $Comp
 L Amplifier_Operational:LMV324 U1
 U 1 1 5EF11DA3
-P 2350 1900
-F 0 "U1" V 2304 2130 50  0000 L CNN
-F 1 "LMV324" V 2395 2130 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2300 2000 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 2400 2100 50  0001 C CNN
-	1    2350 1900
+P 2500 1900
+F 0 "U1" V 2454 2130 50  0000 L CNN
+F 1 "LMV324" V 2545 2130 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2450 2000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 2550 2100 50  0001 C CNN
+	1    2500 1900
 	0    1    1    0   
 $EndComp
-Text GLabel 2900 2200 2    50   Output ~ 0
+Text GLabel 3050 2200 2    50   Output ~ 0
 IAT-Signal-3.3V
-Text GLabel 2900 2300 2    50   Output ~ 0
+Text GLabel 3050 2300 2    50   Output ~ 0
 CLT-Signal-3.3V
 Text GLabel 4500 5250 0    50   Input ~ 0
 CPU-A1
-Text GLabel 2900 5150 2    50   Output ~ 0
+Text GLabel 3050 5150 2    50   Output ~ 0
 FPress-Signal-3.3V
 Text GLabel 7500 5450 2    50   Input ~ 0
 CPU-A4
-Text GLabel 2900 4450 2    50   Input ~ 0
+Text GLabel 3050 4450 2    50   Input ~ 0
 FPress-Signal-5V
-Text GLabel 2900 6250 2    50   Output ~ 0
+Text GLabel 3050 6250 2    50   Output ~ 0
 O2-Signal-3.3V
 Text GLabel 7500 5050 2    50   Input ~ 0
 CPU-A8
-Text GLabel 2900 5550 2    50   Input ~ 0
+Text GLabel 3050 5550 2    50   Input ~ 0
 O2-Signal-5V
-Text GLabel 2900 3300 2    50   Output ~ 0
+Text GLabel 3050 3300 2    50   Output ~ 0
 TPS-Signal-3.3V
 Text GLabel 4500 5350 0    50   Input ~ 0
 CPU-A2
@@ -184,237 +184,237 @@ CPU-A3
 $Comp
 L Device:R R5
 U 1 1 5EF3D8A0
-P 1850 1400
-F 0 "R5" V 2057 1400 50  0000 C CNN
-F 1 "330k" V 1966 1400 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1780 1400 50  0001 C CNN
-F 3 "~" H 1850 1400 50  0001 C CNN
-	1    1850 1400
+P 2000 1400
+F 0 "R5" V 2207 1400 50  0000 C CNN
+F 1 "330k" V 2116 1400 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1930 1400 50  0001 C CNN
+F 3 "~" H 2000 1400 50  0001 C CNN
+	1    2000 1400
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R9
 U 1 1 5EF3E7A6
-P 2250 1400
-F 0 "R9" V 2457 1400 50  0000 C CNN
-F 1 "330k" V 2366 1400 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2180 1400 50  0001 C CNN
-F 3 "~" H 2250 1400 50  0001 C CNN
-	1    2250 1400
+P 2400 1400
+F 0 "R9" V 2607 1400 50  0000 C CNN
+F 1 "330k" V 2516 1400 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2330 1400 50  0001 C CNN
+F 3 "~" H 2400 1400 50  0001 C CNN
+	1    2400 1400
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R1
 U 1 1 5EF3EFF8
-P 1350 1400
-F 0 "R1" V 1557 1400 50  0000 C CNN
-F 1 "180k" V 1466 1400 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1280 1400 50  0001 C CNN
-F 3 "~" H 1350 1400 50  0001 C CNN
-	1    1350 1400
+P 1500 1400
+F 0 "R1" V 1707 1400 50  0000 C CNN
+F 1 "180k" V 1616 1400 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1430 1400 50  0001 C CNN
+F 3 "~" H 1500 1400 50  0001 C CNN
+	1    1500 1400
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R13
 U 1 1 5EF3F34D
-P 2650 1400
-F 0 "R13" V 2857 1400 50  0000 C CNN
-F 1 "180k" V 2766 1400 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2580 1400 50  0001 C CNN
-F 3 "~" H 2650 1400 50  0001 C CNN
-	1    2650 1400
+P 2800 1400
+F 0 "R13" V 3007 1400 50  0000 C CNN
+F 1 "180k" V 2916 1400 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2730 1400 50  0001 C CNN
+F 3 "~" H 2800 1400 50  0001 C CNN
+	1    2800 1400
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2500 1400 2450 1400
+	2650 1400 2600 1400
 Wire Wire Line
-	2450 1600 2450 1400
-Connection ~ 2450 1400
+	2600 1600 2600 1400
+Connection ~ 2600 1400
 Wire Wire Line
-	2450 1400 2400 1400
+	2600 1400 2550 1400
 Wire Wire Line
-	2800 1400 2900 1400
+	2950 1400 3050 1400
 Wire Wire Line
-	1700 1400 1650 1400
+	1850 1400 1800 1400
 Wire Wire Line
-	1650 1600 1650 1400
-Connection ~ 1650 1400
+	1800 1600 1800 1400
+Connection ~ 1800 1400
 Wire Wire Line
-	1650 1400 1500 1400
+	1800 1400 1650 1400
 $Comp
 L Device:R R14
 U 1 1 5EF5077D
-P 2650 2600
-F 0 "R14" V 2857 2600 50  0000 C CNN
-F 1 "180k" V 2766 2600 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2580 2600 50  0001 C CNN
-F 3 "~" H 2650 2600 50  0001 C CNN
-	1    2650 2600
+P 2800 2600
+F 0 "R14" V 3007 2600 50  0000 C CNN
+F 1 "180k" V 2916 2600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2730 2600 50  0001 C CNN
+F 3 "~" H 2800 2600 50  0001 C CNN
+	1    2800 2600
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R10
 U 1 1 5EF50AF8
-P 2250 2600
-F 0 "R10" V 2457 2600 50  0000 C CNN
-F 1 "330k" V 2366 2600 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2180 2600 50  0001 C CNN
-F 3 "~" H 2250 2600 50  0001 C CNN
-	1    2250 2600
+P 2400 2600
+F 0 "R10" V 2607 2600 50  0000 C CNN
+F 1 "330k" V 2516 2600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2330 2600 50  0001 C CNN
+F 3 "~" H 2400 2600 50  0001 C CNN
+	1    2400 2600
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R6
 U 1 1 5EF50FAD
-P 1850 2600
-F 0 "R6" V 2057 2600 50  0000 C CNN
-F 1 "330k" V 1966 2600 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1780 2600 50  0001 C CNN
-F 3 "~" H 1850 2600 50  0001 C CNN
-	1    1850 2600
+P 2000 2600
+F 0 "R6" V 2207 2600 50  0000 C CNN
+F 1 "330k" V 2116 2600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1930 2600 50  0001 C CNN
+F 3 "~" H 2000 2600 50  0001 C CNN
+	1    2000 2600
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R2
 U 1 1 5EF51573
-P 1350 2600
-F 0 "R2" V 1557 2600 50  0000 C CNN
-F 1 "180k" V 1466 2600 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1280 2600 50  0001 C CNN
-F 3 "~" H 1350 2600 50  0001 C CNN
-	1    1350 2600
+P 1500 2600
+F 0 "R2" V 1707 2600 50  0000 C CNN
+F 1 "180k" V 1616 2600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1430 2600 50  0001 C CNN
+F 3 "~" H 1500 2600 50  0001 C CNN
+	1    1500 2600
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1100 1400 0    50   Input ~ 0
+Text GLabel 1250 1400 0    50   Input ~ 0
 CLT-Signal-5V
-Text GLabel 1100 2600 0    50   Input ~ 0
+Text GLabel 1250 2600 0    50   Input ~ 0
 MAP-Signal-5V
 Wire Wire Line
-	1100 2600 1200 2600
+	1250 2600 1350 2600
 Wire Wire Line
-	1500 2600 1650 2600
+	1650 2600 1800 2600
 Wire Wire Line
-	2400 2600 2450 2600
+	2550 2600 2600 2600
 Wire Wire Line
-	2450 2700 2450 2600
-Connection ~ 2450 2600
+	2600 2700 2600 2600
+Connection ~ 2600 2600
 Wire Wire Line
-	2450 2600 2500 2600
+	2600 2600 2650 2600
 Wire Wire Line
-	1650 2700 1650 2600
-Connection ~ 1650 2600
+	1800 2700 1800 2600
+Connection ~ 1800 2600
 Wire Wire Line
-	1650 2600 1700 2600
+	1800 2600 1850 2600
 Wire Wire Line
-	2900 2200 2350 2200
+	3050 2200 2500 2200
 Wire Wire Line
-	2900 2300 1550 2300
+	3050 2300 1700 2300
 Wire Wire Line
-	1550 2300 1550 2200
+	1700 2300 1700 2200
 Wire Wire Line
-	2250 1600 2100 1600
+	2400 1600 2250 1600
 Wire Wire Line
-	2100 1600 2100 2200
+	2250 1600 2250 2200
 Wire Wire Line
-	2100 2200 2350 2200
-Connection ~ 2350 2200
+	2250 2200 2500 2200
+Connection ~ 2500 2200
 Wire Wire Line
-	1450 1600 1300 1600
+	1600 1600 1450 1600
 Wire Wire Line
-	1300 1600 1300 2300
+	1450 1600 1450 2300
 Wire Wire Line
-	1300 2300 1550 2300
-Connection ~ 1550 2300
-Text GLabel 1650 3750 0    50   Input ~ 0
+	1450 2300 1700 2300
+Connection ~ 1700 2300
+Text GLabel 1800 3750 0    50   Input ~ 0
 3V3
 Wire Wire Line
-	1650 3750 1700 3750
+	1800 3750 1850 3750
 Wire Wire Line
-	1550 3400 1550 3300
+	1700 3400 1700 3300
 Wire Wire Line
-	2250 2700 2100 2700
+	2400 2700 2250 2700
 Wire Wire Line
-	2100 2700 2100 3300
+	2250 2700 2250 3300
 Wire Wire Line
-	2100 3300 2350 3300
+	2250 3300 2500 3300
 Wire Wire Line
-	1450 2700 1300 2700
+	1600 2700 1450 2700
 Wire Wire Line
-	1300 2700 1300 3400
+	1450 2700 1450 3400
 Wire Wire Line
-	1300 3400 1550 3400
-Connection ~ 1550 3400
+	1450 3400 1700 3400
+Connection ~ 1700 3400
 Wire Wire Line
-	2900 3300 2350 3300
-Connection ~ 2350 3300
+	3050 3300 2500 3300
+Connection ~ 2500 3300
 Wire Wire Line
-	1550 3400 2900 3400
-Text GLabel 1100 4450 0    50   Input ~ 0
+	1700 3400 3050 3400
+Text GLabel 1250 4450 0    50   Input ~ 0
 Barro-Signal-5V
 Wire Wire Line
-	1100 1400 1200 1400
+	1250 1400 1350 1400
 Wire Wire Line
-	2800 2600 2900 2600
-Text GLabel 2900 2600 2    50   Input ~ 0
+	2950 2600 3050 2600
+Text GLabel 3050 2600 2    50   Input ~ 0
 TPS-Signal-5V
-Text GLabel 1100 5550 0    50   Input ~ 0
+Text GLabel 1250 5550 0    50   Input ~ 0
 OPress-Signal-5V
-Text GLabel 2900 5250 2    50   Output ~ 0
+Text GLabel 3050 5250 2    50   Output ~ 0
 Barro-Signal-3.3V
-Text GLabel 2900 6350 2    50   Output ~ 0
+Text GLabel 3050 6350 2    50   Output ~ 0
 OPress-Signal-3.3V
 $Comp
 L Device:R R15
 U 1 1 5EF79DE0
-P 2650 4450
-F 0 "R15" V 2857 4450 50  0000 C CNN
-F 1 "180k" V 2766 4450 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2580 4450 50  0001 C CNN
-F 3 "~" H 2650 4450 50  0001 C CNN
-	1    2650 4450
+P 2800 4450
+F 0 "R15" V 3007 4450 50  0000 C CNN
+F 1 "180k" V 2916 4450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2730 4450 50  0001 C CNN
+F 3 "~" H 2800 4450 50  0001 C CNN
+	1    2800 4450
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R11
 U 1 1 5EF7A2E9
-P 2250 4450
-F 0 "R11" V 2457 4450 50  0000 C CNN
-F 1 "330k" V 2366 4450 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2180 4450 50  0001 C CNN
-F 3 "~" H 2250 4450 50  0001 C CNN
-	1    2250 4450
+P 2400 4450
+F 0 "R11" V 2607 4450 50  0000 C CNN
+F 1 "330k" V 2516 4450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2330 4450 50  0001 C CNN
+F 3 "~" H 2400 4450 50  0001 C CNN
+	1    2400 4450
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R7
 U 1 1 5EF7A9BE
-P 1850 4450
-F 0 "R7" V 2057 4450 50  0000 C CNN
-F 1 "330k" V 1966 4450 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1780 4450 50  0001 C CNN
-F 3 "~" H 1850 4450 50  0001 C CNN
-	1    1850 4450
+P 2000 4450
+F 0 "R7" V 2207 4450 50  0000 C CNN
+F 1 "330k" V 2116 4450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1930 4450 50  0001 C CNN
+F 3 "~" H 2000 4450 50  0001 C CNN
+	1    2000 4450
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R3
 U 1 1 5EF7AF81
-P 1400 4450
-F 0 "R3" V 1607 4450 50  0000 C CNN
-F 1 "180k" V 1516 4450 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1330 4450 50  0001 C CNN
-F 3 "~" H 1400 4450 50  0001 C CNN
-	1    1400 4450
+P 1550 4450
+F 0 "R3" V 1757 4450 50  0000 C CNN
+F 1 "180k" V 1666 4450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1480 4450 50  0001 C CNN
+F 3 "~" H 1550 4450 50  0001 C CNN
+	1    1550 4450
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1100 4450 1250 4450
+	1250 4450 1400 4450
 Wire Wire Line
-	1550 4450 1650 4450
+	1700 4450 1800 4450
 Wire Wire Line
-	2400 4450 2450 4450
+	2550 4450 2600 4450
 Wire Wire Line
-	2800 4450 2900 4450
+	2950 4450 3050 4450
 Text GLabel 7500 5350 2    50   Input ~ 0
 CPU-A5
 Text GLabel 7500 4250 2    50   Input ~ 0
@@ -426,132 +426,132 @@ Wire Wire Line
 Wire Wire Line
 	7500 5450 7200 5450
 Wire Wire Line
-	2450 4550 2450 4450
-Connection ~ 2450 4450
+	2600 4550 2600 4450
+Connection ~ 2600 4450
 Wire Wire Line
-	2450 4450 2500 4450
+	2600 4450 2650 4450
 Wire Wire Line
-	1650 4550 1650 4450
-Connection ~ 1650 4450
+	1800 4550 1800 4450
+Connection ~ 1800 4450
 Wire Wire Line
-	1650 4450 1700 4450
+	1800 4450 1850 4450
 $Comp
 L Device:R R16
 U 1 1 5EF8F4E8
-P 2650 5550
-F 0 "R16" V 2857 5550 50  0000 C CNN
-F 1 "180k" V 2766 5550 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2580 5550 50  0001 C CNN
-F 3 "~" H 2650 5550 50  0001 C CNN
-	1    2650 5550
+P 2800 5550
+F 0 "R16" V 3007 5550 50  0000 C CNN
+F 1 "180k" V 2916 5550 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2730 5550 50  0001 C CNN
+F 3 "~" H 2800 5550 50  0001 C CNN
+	1    2800 5550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R12
 U 1 1 5EF8F97D
-P 2250 5550
-F 0 "R12" V 2457 5550 50  0000 C CNN
-F 1 "330k" V 2366 5550 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2180 5550 50  0001 C CNN
-F 3 "~" H 2250 5550 50  0001 C CNN
-	1    2250 5550
+P 2400 5550
+F 0 "R12" V 2607 5550 50  0000 C CNN
+F 1 "330k" V 2516 5550 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2330 5550 50  0001 C CNN
+F 3 "~" H 2400 5550 50  0001 C CNN
+	1    2400 5550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R8
 U 1 1 5EF8FF14
-P 1850 5550
-F 0 "R8" V 2057 5550 50  0000 C CNN
-F 1 "330k" V 1966 5550 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1780 5550 50  0001 C CNN
-F 3 "~" H 1850 5550 50  0001 C CNN
-	1    1850 5550
+P 2000 5550
+F 0 "R8" V 2207 5550 50  0000 C CNN
+F 1 "330k" V 2116 5550 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1930 5550 50  0001 C CNN
+F 3 "~" H 2000 5550 50  0001 C CNN
+	1    2000 5550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R4
 U 1 1 5EF9052F
-P 1400 5550
-F 0 "R4" V 1607 5550 50  0000 C CNN
-F 1 "180k" V 1516 5550 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1330 5550 50  0001 C CNN
-F 3 "~" H 1400 5550 50  0001 C CNN
-	1    1400 5550
+P 1550 5550
+F 0 "R4" V 1757 5550 50  0000 C CNN
+F 1 "180k" V 1666 5550 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1480 5550 50  0001 C CNN
+F 3 "~" H 1550 5550 50  0001 C CNN
+	1    1550 5550
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1100 5550 1250 5550
+	1250 5550 1400 5550
 Wire Wire Line
-	1550 5550 1650 5550
+	1700 5550 1800 5550
 Wire Wire Line
-	2400 5550 2450 5550
+	2550 5550 2600 5550
 Wire Wire Line
-	2450 5650 2450 5550
-Connection ~ 2450 5550
+	2600 5650 2600 5550
+Connection ~ 2600 5550
 Wire Wire Line
-	2450 5550 2500 5550
+	2600 5550 2650 5550
 Wire Wire Line
-	1650 5650 1650 5550
-Connection ~ 1650 5550
+	1800 5650 1800 5550
+Connection ~ 1800 5550
 Wire Wire Line
-	1650 5550 1700 5550
+	1800 5550 1850 5550
 Wire Wire Line
-	2900 6250 2350 6250
+	3050 6250 2500 6250
 Wire Wire Line
-	2900 6350 1550 6350
+	3050 6350 1700 6350
 Wire Wire Line
-	1550 6350 1550 6250
+	1700 6350 1700 6250
 Wire Wire Line
-	1450 5650 1300 5650
+	1600 5650 1450 5650
 Wire Wire Line
-	1300 5650 1300 6350
+	1450 5650 1450 6350
 Wire Wire Line
-	1300 6350 1550 6350
-Connection ~ 1550 6350
+	1450 6350 1700 6350
+Connection ~ 1700 6350
 Wire Wire Line
-	2250 5650 2100 5650
+	2400 5650 2250 5650
 Wire Wire Line
-	2100 5650 2100 6250
+	2250 5650 2250 6250
 Wire Wire Line
-	2100 6250 2350 6250
-Connection ~ 2350 6250
-Text GLabel 1650 6700 0    50   Input ~ 0
+	2250 6250 2500 6250
+Connection ~ 2500 6250
+Text GLabel 1800 6700 0    50   Input ~ 0
 3V3
 Wire Wire Line
-	1700 6700 1650 6700
+	1850 6700 1800 6700
 Wire Wire Line
-	2900 5150 2350 5150
+	3050 5150 2500 5150
 Wire Wire Line
-	2900 5250 1550 5250
+	3050 5250 1700 5250
 Wire Wire Line
-	1550 5250 1550 5150
+	1700 5250 1700 5150
 Wire Wire Line
-	1450 4550 1300 4550
+	1600 4550 1450 4550
 Wire Wire Line
-	1300 4550 1300 5250
+	1450 4550 1450 5250
 Wire Wire Line
-	1300 5250 1550 5250
-Connection ~ 1550 5250
+	1450 5250 1700 5250
+Connection ~ 1700 5250
 Wire Wire Line
-	2250 4550 2100 4550
+	2400 4550 2250 4550
 Wire Wire Line
-	2100 4550 2100 5150
+	2250 4550 2250 5150
 Wire Wire Line
-	2100 5150 2350 5150
-Connection ~ 2350 5150
+	2250 5150 2500 5150
+Connection ~ 2500 5150
 Wire Wire Line
-	2900 5550 2800 5550
+	3050 5550 2950 5550
 Text GLabel 4500 3650 0    50   Output ~ 0
 3V3
 Text GLabel 7500 4650 2    50   Input ~ 0
 5V
-Text GLabel 2400 3750 2    50   Input ~ 0
+Text GLabel 2550 3750 2    50   Input ~ 0
 SignalGnd
 Wire Wire Line
-	2400 3750 2300 3750
-Text GLabel 2400 6700 2    50   Input ~ 0
+	2550 3750 2450 3750
+Text GLabel 2550 6700 2    50   Input ~ 0
 SignalGnd
-Text GLabel 7500 4750 2    50   Output ~ 0
+Text GLabel 7500 4750 2    50   Input ~ 0
 SignalGnd
 Text GLabel 7500 3550 2    50   Input ~ 0
 PowerGnd
@@ -570,7 +570,7 @@ Text GLabel 4500 2550 0    50   Output ~ 0
 Wire Wire Line
 	4500 2550 4900 2550
 Wire Wire Line
-	2300 6700 2400 6700
+	2450 6700 2550 6700
 Text GLabel 7500 4350 2    50   Input ~ 0
 CPU-A10
 Text GLabel 4500 1250 0    50   Input ~ 0
@@ -578,11 +578,11 @@ BluetoothTx
 Text GLabel 4500 1350 0    50   Input ~ 0
 BluetoothRx
 Text GLabel 7500 4950 2    50   Input ~ 0
-Crank-CPU-D23
+CPU-D23
 Wire Wire Line
 	7500 4950 7200 4950
 Text GLabel 4500 4350 0    50   Input ~ 0
-Cam-CPU-D36
+CPU-D36
 Wire Wire Line
 	4900 4350 4500 4350
 Text GLabel 4500 2050 0    50   Input ~ 0
@@ -672,7 +672,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 3050 4900 3050
 $Sheet
-S 5100 7000 550  500 
+S 4650 7000 550  500 
 U 5F198969
 F0 "Outputs" 50
 F1 "outputs.sch" 50
@@ -719,21 +719,21 @@ Wire Wire Line
 	7500 3650 7200 3650
 Wire Wire Line
 	4500 4950 4900 4950
-Text GLabel 2050 1400 3    50   Input ~ 0
+Text GLabel 2200 1400 3    50   Input ~ 0
 SignalGnd
 Wire Wire Line
-	2000 1400 2100 1400
+	2150 1400 2250 1400
 Wire Wire Line
-	2000 2600 2100 2600
-Text GLabel 2050 2600 3    50   Input ~ 0
+	2150 2600 2250 2600
+Text GLabel 2200 2600 3    50   Input ~ 0
 SignalGnd
 Wire Wire Line
-	2000 4450 2100 4450
-Text GLabel 2050 4450 3    50   Input ~ 0
+	2150 4450 2250 4450
+Text GLabel 2200 4450 3    50   Input ~ 0
 SignalGnd
 Wire Wire Line
-	2000 5550 2100 5550
-Text GLabel 2050 5550 3    50   Input ~ 0
+	2150 5550 2250 5550
+Text GLabel 2200 5550 3    50   Input ~ 0
 SignalGnd
 $Comp
 L Amplifier_Operational:LMV324 U4
@@ -983,7 +983,7 @@ Wire Wire Line
 	4900 3150 4500 3150
 NoConn ~ 4900 4750
 NoConn ~ 4900 4850
-Text GLabel 2900 3400 2    50   Output ~ 0
+Text GLabel 3050 3400 2    50   Output ~ 0
 MAP-Signal-3.3V
 Text GLabel 4500 2650 0    50   Input ~ 0
 CPU-D24

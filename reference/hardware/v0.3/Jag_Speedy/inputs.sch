@@ -570,9 +570,9 @@ CrankSensor+
 Text GLabel 8450 3150 3    50   Input ~ 0
 CamSensor+
 Text GLabel 10350 2300 2    50   Input ~ 0
-Crank-CPU-D23
+Crank-Signal
 Text GLabel 10350 2400 2    50   Input ~ 0
-Cam-CPU-D36
+Cam-Signal
 Text GLabel 9800 1700 1    50   Input ~ 0
 ADCClamp01
 $Comp
