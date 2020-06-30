@@ -419,11 +419,11 @@ X Rs 8 -400 -200 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Jag_Speedy-rescue_1N5919BG-1N5919BG
+# Jag_Speedy-rescue_1N5919BG-1N5919BG-Jag_Speedy-rescue
 #
-DEF Jag_Speedy-rescue_1N5919BG-1N5919BG D 0 30 Y Y 1 F N
+DEF Jag_Speedy-rescue_1N5919BG-1N5919BG-Jag_Speedy-rescue D 0 30 Y Y 1 F N
 F0 "D" 450 200 50 H V L CNN
-F1 "Jag_Speedy-rescue_1N5919BG-1N5919BG" 450 100 50 H V L CNN
+F1 "Jag_Speedy-rescue_1N5919BG-1N5919BG-Jag_Speedy-rescue" 450 100 50 H V L CNN
 F2 "DIOAD1405W86L465D235" 450 0 50 H I L CNN
 F3 "http://uk.rs-online.com/web/p/products/1455289" 450 -100 50 H I L CNN
 F4 "ON Semiconductor 1N5919BG Zener Diode, 5.6V 5% 3 W Through Hole 2-Pin DO-41" 450 -200 50 H I L CNN "Description"
@@ -441,11 +441,11 @@ X ~ 2 600 0 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# Jag_Speedy-rescue_ERZV14D220-ERZV14D220
+# Jag_Speedy-rescue_ERZV14D220-ERZV14D220-Jag_Speedy-rescue
 #
-DEF Jag_Speedy-rescue_ERZV14D220-ERZV14D220 RV 0 30 Y Y 1 F N
+DEF Jag_Speedy-rescue_ERZV14D220-ERZV14D220-Jag_Speedy-rescue RV 0 30 Y Y 1 F N
 F0 "RV" 550 250 50 H V L CNN
-F1 "Jag_Speedy-rescue_ERZV14D220-ERZV14D220" 550 150 50 H V L CNN
+F1 "Jag_Speedy-rescue_ERZV14D220-ERZV14D220-Jag_Speedy-rescue" 550 150 50 H V L CNN
 F2 "RESAD3000W70L1400D400" 550 50 50 H I L CNN
 F3 "https://componentsearchengine.com/Datasheets/2/ERZV14D220.pdf" 550 -50 50 H I L CNN
 F4 "PANASONIC - ERZV14D220 - TVS Varistor, 14 V, 18 V, 43 V, Disc 14mm, Zinc Oxide Non-Linear Resistor (ZNR)" 550 -150 50 H I L CNN "Description"
@@ -460,11 +460,11 @@ X ~ 2 700 0 200 L 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
-# Jag_Speedy-rescue_LM2940T-5.0_NOPB-LM2940T
+# Jag_Speedy-rescue_LM2940T-5.0_NOPB-LM2940T-Jag_Speedy-rescue
 #
-DEF Jag_Speedy-rescue_LM2940T-5.0_NOPB-LM2940T IC 0 30 Y Y 1 F N
+DEF Jag_Speedy-rescue_LM2940T-5.0_NOPB-LM2940T-Jag_Speedy-rescue IC 0 30 Y Y 1 F N
 F0 "IC" 750 300 50 H V L CNN
-F1 "Jag_Speedy-rescue_LM2940T-5.0_NOPB-LM2940T" 750 200 50 H V L CNN
+F1 "Jag_Speedy-rescue_LM2940T-5.0_NOPB-LM2940T-Jag_Speedy-rescue" 750 200 50 H V L CNN
 F2 "TO254P470X1028X1955-3P" 750 100 50 H I L CNN
 F3 "http://www.ti.com/lit/ds/symlink/lm2940-n.pdf" 750 0 50 H I L CNN
 F4 "Texas Instruments LM2940T-5.0/NOPB, LDO Voltage Regulator, 1A, 5 V, 6.25  26 Vin 3-Pin, TO-220" 750 -100 50 H I L CNN "Description"
@@ -483,11 +483,11 @@ X OUT 3 0 -200 200 R 50 50 0 0 O
 ENDDRAW
 ENDDEF
 #
-# Jag_Speedy-rescue_MM3Z5V1ST1G-MM3Z5V1ST1G
+# Jag_Speedy-rescue_MM3Z5V1ST1G-MM3Z5V1ST1G-Jag_Speedy-rescue
 #
-DEF Jag_Speedy-rescue_MM3Z5V1ST1G-MM3Z5V1ST1G Z 0 30 Y Y 1 F N
+DEF Jag_Speedy-rescue_MM3Z5V1ST1G-MM3Z5V1ST1G-Jag_Speedy-rescue Z 0 30 Y Y 1 F N
 F0 "Z" 400 350 50 H V L CNN
-F1 "Jag_Speedy-rescue_MM3Z5V1ST1G-MM3Z5V1ST1G" 400 250 50 H V L CNN
+F1 "Jag_Speedy-rescue_MM3Z5V1ST1G-MM3Z5V1ST1G-Jag_Speedy-rescue" 400 250 50 H V L CNN
 F2 "SOD2512X110N" 400 150 50 H I L CNN
 F3 "http://www.onsemi.com/pub/Collateral/MM3Z2V4ST1-D.PDF" 400 50 50 H I L CNN
 F4 "ON Semiconductor MM3Z5V1ST1G Zener Diode, 5.2V 2% 200 mW SMT 2-Pin SOD-323" 400 -50 50 H I L CNN "Description"
@@ -510,11 +510,11 @@ X ~ 2 600 0 100 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# Jag_Speedy-rescue_MPX4250AP-MPX4250AP
+# Jag_Speedy-rescue_MPX4250AP-MPX4250AP-Jag_Speedy-rescue
 #
-DEF Jag_Speedy-rescue_MPX4250AP-MPX4250AP IC 0 30 Y Y 1 F N
+DEF Jag_Speedy-rescue_MPX4250AP-MPX4250AP-Jag_Speedy-rescue IC 0 30 Y Y 1 F N
 F0 "IC" 850 300 50 H V L CNN
-F1 "Jag_Speedy-rescue_MPX4250AP-MPX4250AP" 850 200 50 H V L CNN
+F1 "Jag_Speedy-rescue_MPX4250AP-MPX4250AP-Jag_Speedy-rescue" 850 200 50 H V L CNN
 F2 "MPX4250GP" 850 100 50 H I L CNN
 F3 "http://www.nxp.com/docs/en/data-sheet/MPX4250A.pdf" 850 0 50 H I L CNN
 F4 "MPX4250AP, Absolute Pressure Sensor, 250kPa 0.2 V  4.9 V Output, 6-Pin" 850 -100 50 H I L CNN "Description"
@@ -536,11 +536,11 @@ X DNC_3 6 0 -500 200 R 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# Jag_Speedy-rescue_SP720APP-SP720APP
+# Jag_Speedy-rescue_SP720APP-SP720APP-Jag_Speedy-rescue
 #
-DEF Jag_Speedy-rescue_SP720APP-SP720APP IC 0 30 Y Y 1 F N
+DEF Jag_Speedy-rescue_SP720APP-SP720APP-Jag_Speedy-rescue IC 0 30 Y Y 1 F N
 F0 "IC" 1050 300 50 H V L CNN
-F1 "Jag_Speedy-rescue_SP720APP-SP720APP" 1050 200 50 H V L CNN
+F1 "Jag_Speedy-rescue_SP720APP-SP720APP-Jag_Speedy-rescue" 1050 200 50 H V L CNN
 F2 "DIP794W56P254L1917H533Q16N" 1050 100 50 H I L CNN
 F3 "https://componentsearchengine.com/Datasheets/1/SP720APP.pdf" 1050 0 50 H I L CNN
 F4 "TVS Diode Arrays 14 CH DIODE ARRAY" 1050 -100 50 H I L CNN "Description"
@@ -572,11 +572,11 @@ X IN_8 9 1200 -700 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# Jag_Speedy-rescue_SSM3K357R,LF-SSM3K357R
+# Jag_Speedy-rescue_SSM3K357R,LF-SSM3K357R-Jag_Speedy-rescue
 #
-DEF Jag_Speedy-rescue_SSM3K357R,LF-SSM3K357R Q 0 30 Y Y 1 F N
+DEF Jag_Speedy-rescue_SSM3K357R,LF-SSM3K357R-Jag_Speedy-rescue Q 0 30 Y Y 1 F N
 F0 "Q" 450 150 50 H V L CNN
-F1 "Jag_Speedy-rescue_SSM3K357R,LF-SSM3K357R" 450 50 50 H V L CNN
+F1 "Jag_Speedy-rescue_SSM3K357R,LF-SSM3K357R-Jag_Speedy-rescue" 450 50 50 H V L CNN
 F2 "SOTFL95P240X88-3N" 450 -50 50 H I L CNN
 F3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=59207&prodName=SSM3K357R" 450 -150 50 H I L CNN
 F4 "MOSFET LowON Res MOSFET ID=.65A VDSS=60V" 450 -250 50 H I L CNN "Description"
@@ -605,11 +605,11 @@ X ~ 3 300 -200 100 U 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# Jag_Speedy-rescue_TC4424EPA-TC4424EPA
+# Jag_Speedy-rescue_TC4424EPA-TC4424EPA-Jag_Speedy-rescue
 #
-DEF Jag_Speedy-rescue_TC4424EPA-TC4424EPA IC 0 30 Y Y 1 F N
+DEF Jag_Speedy-rescue_TC4424EPA-TC4424EPA-Jag_Speedy-rescue IC 0 30 Y Y 1 F N
 F0 "IC" 1050 300 50 H V L CNN
-F1 "Jag_Speedy-rescue_TC4424EPA-TC4424EPA" 1050 200 50 H V L CNN
+F1 "Jag_Speedy-rescue_TC4424EPA-TC4424EPA-Jag_Speedy-rescue" 1050 200 50 H V L CNN
 F2 "DIP794W56P254L946H432Q8N" 1050 100 50 H I L CNN
 F3 "https://componentsearchengine.com/Datasheets/2/TC4424EPA.pdf" 1050 0 50 H I L CNN
 F4 "Microchip TC4424EPA, Dual MOSFET Power Driver 3A, 4.5  18 V, Non-Inverting, 8-Pin PDIP" 1050 -100 50 H I L CNN "Description"
@@ -633,11 +633,11 @@ X NC_2 8 1200 0 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# Jag_Speedy-rescue_Teensy3.5-Teensy
+# Jag_Speedy-rescue_Teensy3.5-Teensy-Jag_Speedy-rescue
 #
-DEF Jag_Speedy-rescue_Teensy3.5-Teensy U 0 40 Y Y 1 F N
+DEF Jag_Speedy-rescue_Teensy3.5-Teensy-Jag_Speedy-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 2350 60 H V C CNN
-F1 "Jag_Speedy-rescue_Teensy3.5-Teensy" 0 -2350 60 H V C CNN
+F1 "Jag_Speedy-rescue_Teensy3.5-Teensy-Jag_Speedy-rescue" 0 -2350 60 H V C CNN
 F2 "" -100 2250 60 H V C CNN
 F3 "https://www.pjrc.com/teensy/card8a_rev2.pdf" 0 2450 60 H V C CNN
 F4 "https://www.pjrc.com/teensy/pinout.html" 0 2550 50 H V C CNN "Pinouts"
@@ -734,11 +734,11 @@ X not_used ~ 1150 -650 200 L 50 50 1 1 N
 ENDDRAW
 ENDDEF
 #
-# Jag_Speedy-rescue_VNS3NV04DP-E-VNS3NV04DP-E
+# Jag_Speedy-rescue_VNS3NV04DP-E-VNS3NV04DP-E-Jag_Speedy-rescue
 #
-DEF Jag_Speedy-rescue_VNS3NV04DP-E-VNS3NV04DP-E IC 0 30 Y Y 1 F N
+DEF Jag_Speedy-rescue_VNS3NV04DP-E-VNS3NV04DP-E-Jag_Speedy-rescue IC 0 30 Y Y 1 F N
 F0 "IC" 1450 300 50 H V L CNN
-F1 "Jag_Speedy-rescue_VNS3NV04DP-E-VNS3NV04DP-E" 1450 200 50 H V L CNN
+F1 "Jag_Speedy-rescue_VNS3NV04DP-E-VNS3NV04DP-E-Jag_Speedy-rescue" 1450 200 50 H V L CNN
 F2 "SOIC127P600X175-8N" 1450 100 50 H I L CNN
 F3 "https://www.st.com/resource/en/datasheet/vns3nv04dp-e.pdf" 1450 0 50 H I L CNN
 F4 "STMicroelectronics VNS3NV04DP-E Load Switch IC, 8-Pin, SOIC" 1450 -100 50 H I L CNN "Description"

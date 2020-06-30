@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Jag_Speedy-rescue:LM2940T-5.0_NOPB-LM2940T IC9
+L Jag_Speedy-rescue:LM2940T-5.0_NOPB-LM2940T-Jag_Speedy-rescue IC9
 U 1 1 5EFCE38E
 P 4650 2950
 F 0 "IC9" V 5038 2622 50  0000 R CNN
@@ -33,7 +33,7 @@ F 11 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM2940T-50-NOPB?q
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Jag_Speedy-rescue:ERZV14D220-ERZV14D220 RV1
+L Jag_Speedy-rescue:ERZV14D220-ERZV14D220-Jag_Speedy-rescue RV1
 U 1 1 5EFCEC0A
 P 3050 2950
 F 0 "RV1" V 3446 2822 50  0000 R CNN
@@ -63,7 +63,7 @@ F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 3500 2950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jag_Speedy-rescue:1N5919BG-1N5919BG D20
+L Jag_Speedy-rescue:1N5919BG-1N5919BG-Jag_Speedy-rescue D20
 U 1 1 5EFD0FB3
 P 5900 2950
 AR Path="/5EFD0FB3" Ref="D20"  Part="1" 

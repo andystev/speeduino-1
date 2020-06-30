@@ -16,267 +16,267 @@ $EndDescr
 $Comp
 L Device:R R18
 U 1 1 5F0677E3
-P 1650 1250
-F 0 "R18" V 1857 1250 50  0000 C CNN
-F 1 "470" V 1766 1250 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1580 1250 50  0001 C CNN
-F 3 "~" H 1650 1250 50  0001 C CNN
-	1    1650 1250
+P 2750 1050
+F 0 "R18" V 2957 1050 50  0000 C CNN
+F 1 "470" V 2866 1050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2680 1050 50  0001 C CNN
+F 3 "~" H 2750 1050 50  0001 C CNN
+	1    2750 1050
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1050 1250 0    50   Input ~ 0
+Text GLabel 2150 1050 0    50   Input ~ 0
 O2Sensor
 $Comp
 L Device:C C1
 U 1 1 5F067BE6
-P 1250 1400
-F 0 "C1" H 1365 1446 50  0000 L CNN
-F 1 "0.1uF" H 1365 1355 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 1288 1250 50  0001 C CNN
-F 3 "~" H 1250 1400 50  0001 C CNN
-	1    1250 1400
+P 2350 1200
+F 0 "C1" H 2465 1246 50  0000 L CNN
+F 1 "0.1uF" H 2465 1155 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 2388 1050 50  0001 C CNN
+F 3 "~" H 2350 1200 50  0001 C CNN
+	1    2350 1200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C5
 U 1 1 5F06830C
-P 2000 1400
-F 0 "C5" H 2115 1446 50  0000 L CNN
-F 1 "0.22uF" H 2115 1355 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 2038 1250 50  0001 C CNN
-F 3 "~" H 2000 1400 50  0001 C CNN
-	1    2000 1400
+P 3100 1200
+F 0 "C5" H 3215 1246 50  0000 L CNN
+F 1 "0.22uF" H 3215 1155 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 3138 1050 50  0001 C CNN
+F 3 "~" H 3100 1200 50  0001 C CNN
+	1    3100 1200
 	1    0    0    -1  
 $EndComp
-Text GLabel 2350 1250 2    50   Output ~ 0
+Text GLabel 3450 1050 2    50   Output ~ 0
 O2-Signal-5V
 Wire Wire Line
-	1050 1250 1250 1250
+	2150 1050 2350 1050
 Wire Wire Line
-	1250 1250 1500 1250
-Connection ~ 1250 1250
+	2350 1050 2600 1050
+Connection ~ 2350 1050
 Wire Wire Line
-	2000 1250 2350 1250
-Connection ~ 2000 1250
+	3100 1050 3450 1050
+Connection ~ 3100 1050
 Wire Wire Line
-	2000 1550 1650 1550
-Text GLabel 1650 1600 3    50   Input ~ 0
+	3100 1350 2750 1350
+Text GLabel 2750 1400 3    50   Input ~ 0
 SensorGnd
 Wire Wire Line
-	1650 1600 1650 1550
-Connection ~ 1650 1550
+	2750 1400 2750 1350
+Connection ~ 2750 1350
 Wire Wire Line
-	1650 1550 1250 1550
-Text Notes 650  950  0    118  ~ 0
+	2750 1350 2350 1350
+Text Notes 1750 750  0    118  ~ 0
 O2 Sensor
 $Comp
 L Device:R R22
 U 1 1 5F06BCA9
-P 4300 1250
-F 0 "R22" V 4507 1250 50  0000 C CNN
-F 1 "470" V 4416 1250 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 4230 1250 50  0001 C CNN
-F 3 "~" H 4300 1250 50  0001 C CNN
-	1    4300 1250
+P 1700 2650
+F 0 "R22" V 1907 2650 50  0000 C CNN
+F 1 "470" V 1816 2650 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1630 2650 50  0001 C CNN
+F 3 "~" H 1700 2650 50  0001 C CNN
+	1    1700 2650
 	0    -1   -1   0   
 $EndComp
-Text GLabel 3700 1250 0    50   Input ~ 0
+Text GLabel 1100 2650 0    50   Input ~ 0
 TPSSensor
 $Comp
 L Device:C C9
 U 1 1 5F06BCB1
-P 3900 1400
-F 0 "C9" H 4015 1446 50  0000 L CNN
-F 1 "0.1uF" H 4015 1355 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 3938 1250 50  0001 C CNN
-F 3 "~" H 3900 1400 50  0001 C CNN
-	1    3900 1400
+P 1300 2800
+F 0 "C9" H 1415 2846 50  0000 L CNN
+F 1 "0.1uF" H 1415 2755 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 1338 2650 50  0001 C CNN
+F 3 "~" H 1300 2800 50  0001 C CNN
+	1    1300 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C11
 U 1 1 5F06BCB7
-P 4650 1400
-F 0 "C11" H 4765 1446 50  0000 L CNN
-F 1 "0.22uF" H 4765 1355 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 4688 1250 50  0001 C CNN
-F 3 "~" H 4650 1400 50  0001 C CNN
-	1    4650 1400
+P 2050 2800
+F 0 "C11" H 2165 2846 50  0000 L CNN
+F 1 "0.22uF" H 2165 2755 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 2088 2650 50  0001 C CNN
+F 3 "~" H 2050 2800 50  0001 C CNN
+	1    2050 2800
 	1    0    0    -1  
 $EndComp
-Text GLabel 5000 1250 2    50   Output ~ 0
+Text GLabel 2400 2650 2    50   Output ~ 0
 TPS-Signal-5V
 Wire Wire Line
-	3700 1250 3900 1250
+	1100 2650 1300 2650
 Wire Wire Line
-	3900 1250 4150 1250
-Connection ~ 3900 1250
+	1300 2650 1550 2650
+Connection ~ 1300 2650
 Wire Wire Line
-	4650 1250 5000 1250
-Connection ~ 4650 1250
+	2050 2650 2400 2650
+Connection ~ 2050 2650
 Wire Wire Line
-	4650 1550 4300 1550
-Text GLabel 4300 1600 3    50   Input ~ 0
+	2050 2950 1700 2950
+Text GLabel 1700 3000 3    50   Input ~ 0
 SensorGnd
 Wire Wire Line
-	4300 1600 4300 1550
-Connection ~ 4300 1550
+	1700 3000 1700 2950
+Connection ~ 1700 2950
 Wire Wire Line
-	4300 1550 3900 1550
-Text Notes 3300 1100 0    118  ~ 0
+	1700 2950 1300 2950
+Text Notes 850  2450 0    118  ~ 0
 Throttle\nPosition\nSensor
-Text GLabel 2150 3800 3    50   Input ~ 0
+Text GLabel 2150 5100 3    50   Input ~ 0
 SensorGnd
 $Comp
 L Device:C C4
 U 1 1 5F06DCC7
-P 1750 3750
-F 0 "C4" H 1865 3796 50  0000 L CNN
-F 1 "0.3uF" H 1865 3705 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 1788 3600 50  0001 C CNN
-F 3 "~" H 1750 3750 50  0001 C CNN
-	1    1750 3750
+P 1750 5050
+F 0 "C4" H 1865 5096 50  0000 L CNN
+F 1 "0.3uF" H 1865 5005 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 1788 4900 50  0001 C CNN
+F 3 "~" H 1750 5050 50  0001 C CNN
+	1    1750 5050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C3
 U 1 1 5F06DF92
-P 1750 3450
-F 0 "C3" H 1865 3496 50  0000 L CNN
-F 1 "1uF" H 1865 3405 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 1788 3300 50  0001 C CNN
-F 3 "~" H 1750 3450 50  0001 C CNN
-	1    1750 3450
+P 1750 4750
+F 0 "C3" H 1865 4796 50  0000 L CNN
+F 1 "1uF" H 1865 4705 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 1788 4600 50  0001 C CNN
+F 3 "~" H 1750 4750 50  0001 C CNN
+	1    1750 4750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C6
 U 1 1 5F06E207
-P 2150 3450
-F 0 "C6" H 2265 3496 50  0000 L CNN
-F 1 "0.01uF" H 2265 3405 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 2188 3300 50  0001 C CNN
-F 3 "~" H 2150 3450 50  0001 C CNN
-	1    2150 3450
+P 2150 4750
+F 0 "C6" H 2265 4796 50  0000 L CNN
+F 1 "0.01uF" H 2265 4705 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 2188 4600 50  0001 C CNN
+F 3 "~" H 2150 4750 50  0001 C CNN
+	1    2150 4750
 	1    0    0    -1  
 $EndComp
-Text GLabel 2150 3150 1    50   Input ~ 0
+Text GLabel 2150 4450 1    50   Input ~ 0
 5V
 $Comp
 L Device:R R17
 U 1 1 5F06F672
-P 1550 3300
-F 0 "R17" H 1350 3350 50  0000 L CNN
-F 1 "750" H 1350 3250 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1480 3300 50  0001 C CNN
-F 3 "~" H 1550 3300 50  0001 C CNN
-	1    1550 3300
+P 1550 4600
+F 0 "R17" H 1350 4650 50  0000 L CNN
+F 1 "750" H 1350 4550 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1480 4600 50  0001 C CNN
+F 3 "~" H 1550 4600 50  0001 C CNN
+	1    1550 4600
 	1    0    0    -1  
 $EndComp
-Text GLabel 1150 2850 1    50   Output ~ 0
+Text GLabel 1150 4150 1    50   Output ~ 0
 MAP-Signal-5V
 Wire Wire Line
-	2150 3150 2150 3300
+	2150 4450 2150 4600
 Wire Wire Line
-	2150 3300 1750 3300
-Connection ~ 2150 3300
+	2150 4600 1750 4600
+Connection ~ 2150 4600
 Wire Wire Line
-	1750 3300 1750 3100
-Connection ~ 1750 3300
+	1750 4600 1750 4400
+Connection ~ 1750 4600
 Wire Wire Line
-	2150 3600 2150 3800
+	2150 4900 2150 5100
 Wire Wire Line
-	1750 3600 2150 3600
-Connection ~ 2150 3600
-Connection ~ 1750 3600
+	1750 4900 2150 4900
+Connection ~ 2150 4900
+Connection ~ 1750 4900
 Wire Wire Line
-	1150 3900 1550 3900
+	1150 5200 1550 5200
 Wire Wire Line
-	1550 3450 1550 3900
-Connection ~ 1550 3900
+	1550 4750 1550 5200
+Connection ~ 1550 5200
 Wire Wire Line
-	1550 3900 1750 3900
+	1550 5200 1750 5200
 Wire Wire Line
-	1550 3150 1550 3100
-Text Notes 900  4200 0    118  ~ 0
+	1550 4450 1550 4400
+Text Notes 900  5500 0    118  ~ 0
 MAP Sensor
-Text GLabel 3900 3800 3    50   Input ~ 0
+Text GLabel 3900 5100 3    50   Input ~ 0
 SensorGnd
 $Comp
 L Device:C C8
 U 1 1 5F07560C
-P 3500 3750
-F 0 "C8" H 3615 3796 50  0000 L CNN
-F 1 "0.3uF" H 3615 3705 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 3538 3600 50  0001 C CNN
-F 3 "~" H 3500 3750 50  0001 C CNN
-	1    3500 3750
+P 3500 5050
+F 0 "C8" H 3615 5096 50  0000 L CNN
+F 1 "0.3uF" H 3615 5005 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 3538 4900 50  0001 C CNN
+F 3 "~" H 3500 5050 50  0001 C CNN
+	1    3500 5050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C7
 U 1 1 5F075612
-P 3500 3450
-F 0 "C7" H 3615 3496 50  0000 L CNN
-F 1 "1uF" H 3615 3405 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 3538 3300 50  0001 C CNN
-F 3 "~" H 3500 3450 50  0001 C CNN
-	1    3500 3450
+P 3500 4750
+F 0 "C7" H 3615 4796 50  0000 L CNN
+F 1 "1uF" H 3615 4705 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 3538 4600 50  0001 C CNN
+F 3 "~" H 3500 4750 50  0001 C CNN
+	1    3500 4750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C10
 U 1 1 5F075618
-P 3900 3450
-F 0 "C10" H 4015 3496 50  0000 L CNN
-F 1 "0.01uF" H 4015 3405 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 3938 3300 50  0001 C CNN
-F 3 "~" H 3900 3450 50  0001 C CNN
-	1    3900 3450
+P 3900 4750
+F 0 "C10" H 4015 4796 50  0000 L CNN
+F 1 "0.01uF" H 4015 4705 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 3938 4600 50  0001 C CNN
+F 3 "~" H 3900 4750 50  0001 C CNN
+	1    3900 4750
 	1    0    0    -1  
 $EndComp
-Text GLabel 3900 3150 1    50   Input ~ 0
+Text GLabel 3900 4450 1    50   Input ~ 0
 5V
 $Comp
 L Device:R R21
 U 1 1 5F07561F
-P 3300 3300
-F 0 "R21" H 3100 3350 50  0000 L CNN
-F 1 "750" H 3100 3250 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 3230 3300 50  0001 C CNN
-F 3 "~" H 3300 3300 50  0001 C CNN
-	1    3300 3300
+P 3300 4600
+F 0 "R21" H 3100 4650 50  0000 L CNN
+F 1 "750" H 3100 4550 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 3230 4600 50  0001 C CNN
+F 3 "~" H 3300 4600 50  0001 C CNN
+	1    3300 4600
 	1    0    0    -1  
 $EndComp
-Text GLabel 2900 2850 1    50   Output ~ 0
+Text GLabel 2900 4150 1    50   Output ~ 0
 Barro-Signal-5V
 Wire Wire Line
-	3900 3150 3900 3300
+	3900 4450 3900 4600
 Wire Wire Line
-	3900 3300 3500 3300
-Connection ~ 3900 3300
+	3900 4600 3500 4600
+Connection ~ 3900 4600
 Wire Wire Line
-	3500 3300 3500 3100
-Connection ~ 3500 3300
+	3500 4600 3500 4400
+Connection ~ 3500 4600
 Wire Wire Line
-	3900 3600 3900 3800
+	3900 4900 3900 5100
 Wire Wire Line
-	3500 3600 3900 3600
-Connection ~ 3900 3600
-Connection ~ 3500 3600
+	3500 4900 3900 4900
+Connection ~ 3900 4900
+Connection ~ 3500 4900
 Wire Wire Line
-	2900 3900 3300 3900
+	2900 5200 3300 5200
 Wire Wire Line
-	3300 3450 3300 3900
-Connection ~ 3300 3900
+	3300 4750 3300 5200
+Connection ~ 3300 5200
 Wire Wire Line
-	3300 3900 3500 3900
+	3300 5200 3500 5200
 Wire Wire Line
-	3300 3150 3300 3100
-Text Notes 2650 4200 0    118  ~ 0
+	3300 4450 3300 4400
+Text Notes 2650 5500 0    118  ~ 0
 Barro Sensor
 Text GLabel 6600 1250 2    50   Output ~ 0
-BRV-Signal-5V
+BRV-Signal-3V3
 $Comp
 L Device:R R33
 U 1 1 5F07B084
@@ -345,9 +345,9 @@ Text GLabel 6600 850  2    50   Input ~ 0
 Wire Wire Line
 	6600 850  5750 850 
 Text GLabel 6650 2250 2    50   Output ~ 0
-IAT-Signal-5V
+IAT-Signal-3V3
 Text GLabel 6650 1850 2    50   Input ~ 0
-5V
+3V3
 Text GLabel 6650 2550 2    50   Input ~ 0
 SensorGnd
 Text GLabel 5300 2250 0    50   Input ~ 0
@@ -416,9 +416,9 @@ Connection ~ 6450 2550
 Text Notes 4900 2150 0    118  ~ 0
 Inlet Air\nTemp\nSensor
 Text GLabel 6650 3400 2    50   Output ~ 0
-CLT-Signal-5V
+CLT-Signal-3V3
 Text GLabel 6650 3000 2    50   Input ~ 0
-5V
+3V3
 Text GLabel 6650 3700 2    50   Input ~ 0
 SensorGnd
 Text GLabel 5300 3400 0    50   Input ~ 0
@@ -697,111 +697,111 @@ Wire Wire Line
 	9950 2300 10350 2300
 Wire Wire Line
 	8450 2950 8450 3150
-Text Notes 900  4850 0    118  ~ 0
+Text Notes 900  5950 0    118  ~ 0
 Flex Sensor
-Text GLabel 1250 5450 0    50   Input ~ 0
+Text GLabel 1250 6550 0    50   Input ~ 0
 FlexFuelSensor
-Text GLabel 1250 5050 0    50   Output ~ 0
+Text GLabel 1250 6150 0    50   Output ~ 0
 FlexFuel-Signal
 $Comp
 L Device:R R19
 U 1 1 5F154320
-P 1700 5250
-F 0 "R19" V 1907 5250 50  0000 C CNN
-F 1 "2.49k" V 1816 5250 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1630 5250 50  0001 C CNN
-F 3 "~" H 1700 5250 50  0001 C CNN
-	1    1700 5250
+P 1700 6350
+F 0 "R19" V 1907 6350 50  0000 C CNN
+F 1 "2.49k" V 1816 6350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1630 6350 50  0001 C CNN
+F 3 "~" H 1700 6350 50  0001 C CNN
+	1    1700 6350
 	0    -1   -1   0   
 $EndComp
-Text GLabel 2000 5250 2    50   Input ~ 0
+Text GLabel 2000 6350 2    50   Input ~ 0
 5V
 $Comp
 L Device:C C2
 U 1 1 5F154878
-P 1500 5500
-F 0 "C2" H 1615 5546 50  0000 L CNN
-F 1 "0.22uF" H 1615 5455 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 1538 5350 50  0001 C CNN
-F 3 "~" H 1500 5500 50  0001 C CNN
-	1    1500 5500
+P 1500 6600
+F 0 "C2" H 1615 6646 50  0000 L CNN
+F 1 "0.22uF" H 1615 6555 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 1538 6450 50  0001 C CNN
+F 3 "~" H 1500 6600 50  0001 C CNN
+	1    1500 6600
 	1    0    0    -1  
 $EndComp
-Text GLabel 1500 5750 3    50   Input ~ 0
+Text GLabel 1500 6850 3    50   Input ~ 0
 SensorGnd
 Wire Wire Line
-	1250 5450 1350 5450
+	1250 6550 1350 6550
 Wire Wire Line
-	1350 5450 1350 5250
+	1350 6550 1350 6350
 Wire Wire Line
-	1350 5050 1250 5050
-Connection ~ 1350 5250
+	1350 6150 1250 6150
+Connection ~ 1350 6350
 Wire Wire Line
-	1350 5250 1350 5050
+	1350 6350 1350 6150
 Wire Wire Line
-	1350 5250 1500 5250
+	1350 6350 1500 6350
 Wire Wire Line
-	1850 5250 2000 5250
+	1850 6350 2000 6350
 Wire Wire Line
-	1500 5750 1500 5650
+	1500 6850 1500 6750
 Wire Wire Line
-	1500 5350 1500 5250
-Connection ~ 1500 5250
+	1500 6450 1500 6350
+Connection ~ 1500 6350
 Wire Wire Line
-	1500 5250 1550 5250
-Text Notes 2950 4800 0    118  ~ 0
+	1500 6350 1550 6350
+Text Notes 2950 5900 0    118  ~ 0
 Clutch Input
-Text GLabel 2950 5250 0    50   Input ~ 0
+Text GLabel 2950 6350 0    50   Input ~ 0
 ClutchSwitch
-Text GLabel 3650 5250 2    50   Output ~ 0
+Text GLabel 3650 6350 2    50   Output ~ 0
 ClutchIn-Signal
-Text GLabel 3400 6000 3    50   Input ~ 0
+Text GLabel 3400 7100 3    50   Input ~ 0
 SensorGnd
 $Comp
 L Device:R R20
 U 1 1 5F17C380
-P 3100 5250
-F 0 "R20" V 3307 5250 50  0000 C CNN
-F 1 "1k" V 3216 5250 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 3030 5250 50  0001 C CNN
-F 3 "~" H 3100 5250 50  0001 C CNN
-	1    3100 5250
+P 3100 6350
+F 0 "R20" V 3307 6350 50  0000 C CNN
+F 1 "1k" V 3216 6350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 3030 6350 50  0001 C CNN
+F 3 "~" H 3100 6350 50  0001 C CNN
+	1    3100 6350
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Jag_Speedy-rescue:MM3Z5V1ST1G-MM3Z5V1ST1G Z1
+L Jag_Speedy-rescue:MM3Z5V1ST1G-MM3Z5V1ST1G-Jag_Speedy-rescue Z1
 U 1 1 5F17D884
-P 3400 5250
-F 0 "Z1" V 3654 5378 50  0000 L CNN
-F 1 "MM3Z5V1ST1G" V 3745 5378 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal" H 3800 5400 50  0001 L CNN
-F 3 "http://www.onsemi.com/pub/Collateral/MM3Z2V4ST1-D.PDF" H 3800 5300 50  0001 L CNN
-F 4 "ON Semiconductor MM3Z5V1ST1G Zener Diode, 5.2V 2% 200 mW SMT 2-Pin SOD-323" H 3800 5200 50  0001 L CNN "Description"
-F 5 "1.1" H 3800 5100 50  0001 L CNN "Height"
-F 6 "ON Semiconductor" H 3800 5000 50  0001 L CNN "Manufacturer_Name"
-F 7 "MM3Z5V1ST1G" H 3800 4900 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "MM3Z5V1ST1G" H 3800 4800 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/mm3z5v1st1g/on-semiconductor" H 3800 4700 50  0001 L CNN "Arrow Price/Stock"
-F 10 "863-MM3Z5V1ST1G" H 3800 4600 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/MM3Z5V1ST1G?qs=HVbQlW5zcXXFXX%2FQxsNWFg%3D%3D" H 3800 4500 50  0001 L CNN "Mouser Price/Stock"
-	1    3400 5250
+P 3400 6350
+F 0 "Z1" V 3654 6478 50  0000 L CNN
+F 1 "MM3Z5V1ST1G" V 3745 6478 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal" H 3800 6500 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MM3Z2V4ST1-D.PDF" H 3800 6400 50  0001 L CNN
+F 4 "ON Semiconductor MM3Z5V1ST1G Zener Diode, 5.2V 2% 200 mW SMT 2-Pin SOD-323" H 3800 6300 50  0001 L CNN "Description"
+F 5 "1.1" H 3800 6200 50  0001 L CNN "Height"
+F 6 "ON Semiconductor" H 3800 6100 50  0001 L CNN "Manufacturer_Name"
+F 7 "MM3Z5V1ST1G" H 3800 6000 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "MM3Z5V1ST1G" H 3800 5900 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/mm3z5v1st1g/on-semiconductor" H 3800 5800 50  0001 L CNN "Arrow Price/Stock"
+F 10 "863-MM3Z5V1ST1G" H 3800 5700 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/MM3Z5V1ST1G?qs=HVbQlW5zcXXFXX%2FQxsNWFg%3D%3D" H 3800 5600 50  0001 L CNN "Mouser Price/Stock"
+	1    3400 6350
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3250 5250 3400 5250
+	3250 6350 3400 6350
 Wire Wire Line
-	3400 5250 3650 5250
-Connection ~ 3400 5250
+	3400 6350 3650 6350
+Connection ~ 3400 6350
 Wire Wire Line
-	3400 6000 3400 5850
-NoConn ~ 3800 3100
-NoConn ~ 3700 3100
-NoConn ~ 3600 3100
-NoConn ~ 2050 3100
-NoConn ~ 1950 3100
-NoConn ~ 1850 3100
+	3400 7100 3400 6950
+NoConn ~ 3800 4400
+NoConn ~ 3700 4400
+NoConn ~ 3600 4400
+NoConn ~ 2050 4400
+NoConn ~ 1950 4400
+NoConn ~ 1850 4400
 Text GLabel 6650 4150 2    50   Input ~ 0
-5V
+3V3
 Text GLabel 6650 4850 2    50   Input ~ 0
 SensorGnd
 Text GLabel 5300 4550 0    50   Input ~ 0
@@ -870,9 +870,9 @@ Connection ~ 6450 4850
 Text Notes 4750 4450 0    118  ~ 0
 Fuel\nPressure\nSensor
 Text GLabel 6650 4550 2    50   Output ~ 0
-FPress-Signal-5V
+FPress-Signal-3V3
 Text GLabel 6650 5400 2    50   Input ~ 0
-5V
+3V3
 Text GLabel 6650 6100 2    50   Input ~ 0
 SensorGnd
 Text GLabel 5300 5800 0    50   Input ~ 0
@@ -941,61 +941,61 @@ Connection ~ 6450 6100
 Text Notes 4750 5700 0    118  ~ 0
 Oil\nPressure\nSensor
 Text GLabel 6650 5800 2    50   Output ~ 0
-OPress-Signal-5V
-Text GLabel 1650 3100 3    50   Input ~ 0
+OPress-Signal-3V3
+Text GLabel 1650 4400 3    50   Input ~ 0
 SensorGnd
-Text GLabel 3400 3100 3    50   Input ~ 0
+Text GLabel 3400 4400 3    50   Input ~ 0
 SensorGnd
 $Comp
-L Jag_Speedy-rescue:MPX4250AP-MPX4250AP IC1
+L Jag_Speedy-rescue:MPX4250AP-MPX4250AP-Jag_Speedy-rescue IC1
 U 1 1 5F4B3E38
-P 1550 3100
-F 0 "IC1" V 1988 2472 50  0000 R CNN
-F 1 "MPX4250AP" V 1897 2472 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 2400 3200 50  0001 L CNN
-F 3 "http://www.nxp.com/docs/en/data-sheet/MPX4250A.pdf" H 2400 3100 50  0001 L CNN
-F 4 "MPX4250AP, Absolute Pressure Sensor, 250kPa 0.2 V  4.9 V Output, 6-Pin" H 2400 3000 50  0001 L CNN "Description"
-F 5 "29.34" H 2400 2900 50  0001 L CNN "Height"
-F 6 "NXP" H 2400 2800 50  0001 L CNN "Manufacturer_Name"
-F 7 "MPX4250AP" H 2400 2700 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "MPX4250AP" H 2400 2600 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/mpx4250ap/nxp-semiconductors" H 2400 2500 50  0001 L CNN "Arrow Price/Stock"
-F 10 "841-MPX4250AP" H 2400 2400 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/MPX4250AP?qs=r8OyiFxb6Rev6%252BQxsx%2Fehw%3D%3D" H 2400 2300 50  0001 L CNN "Mouser Price/Stock"
-	1    1550 3100
+P 1550 4400
+F 0 "IC1" V 1988 3772 50  0000 R CNN
+F 1 "MPX4250AP" V 1897 3772 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 2400 4500 50  0001 L CNN
+F 3 "http://www.nxp.com/docs/en/data-sheet/MPX4250A.pdf" H 2400 4400 50  0001 L CNN
+F 4 "MPX4250AP, Absolute Pressure Sensor, 250kPa 0.2 V  4.9 V Output, 6-Pin" H 2400 4300 50  0001 L CNN "Description"
+F 5 "29.34" H 2400 4200 50  0001 L CNN "Height"
+F 6 "NXP" H 2400 4100 50  0001 L CNN "Manufacturer_Name"
+F 7 "MPX4250AP" H 2400 4000 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "MPX4250AP" H 2400 3900 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/mpx4250ap/nxp-semiconductors" H 2400 3800 50  0001 L CNN "Arrow Price/Stock"
+F 10 "841-MPX4250AP" H 2400 3700 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/MPX4250AP?qs=r8OyiFxb6Rev6%252BQxsx%2Fehw%3D%3D" H 2400 3600 50  0001 L CNN "Mouser Price/Stock"
+	1    1550 4400
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Jag_Speedy-rescue:MPX4250AP-MPX4250AP IC2
+L Jag_Speedy-rescue:MPX4250AP-MPX4250AP-Jag_Speedy-rescue IC2
 U 1 1 5F4B556C
-P 3300 3100
-F 0 "IC2" V 3738 2472 50  0000 R CNN
-F 1 "MPX4250AP" V 3647 2472 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 4150 3200 50  0001 L CNN
-F 3 "http://www.nxp.com/docs/en/data-sheet/MPX4250A.pdf" H 4150 3100 50  0001 L CNN
-F 4 "MPX4250AP, Absolute Pressure Sensor, 250kPa 0.2 V  4.9 V Output, 6-Pin" H 4150 3000 50  0001 L CNN "Description"
-F 5 "29.34" H 4150 2900 50  0001 L CNN "Height"
-F 6 "NXP" H 4150 2800 50  0001 L CNN "Manufacturer_Name"
-F 7 "MPX4250AP" H 4150 2700 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "MPX4250AP" H 4150 2600 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/mpx4250ap/nxp-semiconductors" H 4150 2500 50  0001 L CNN "Arrow Price/Stock"
-F 10 "841-MPX4250AP" H 4150 2400 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/MPX4250AP?qs=r8OyiFxb6Rev6%252BQxsx%2Fehw%3D%3D" H 4150 2300 50  0001 L CNN "Mouser Price/Stock"
-	1    3300 3100
+P 3300 4400
+F 0 "IC2" V 3738 3772 50  0000 R CNN
+F 1 "MPX4250AP" V 3647 3772 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 4150 4500 50  0001 L CNN
+F 3 "http://www.nxp.com/docs/en/data-sheet/MPX4250A.pdf" H 4150 4400 50  0001 L CNN
+F 4 "MPX4250AP, Absolute Pressure Sensor, 250kPa 0.2 V  4.9 V Output, 6-Pin" H 4150 4300 50  0001 L CNN "Description"
+F 5 "29.34" H 4150 4200 50  0001 L CNN "Height"
+F 6 "NXP" H 4150 4100 50  0001 L CNN "Manufacturer_Name"
+F 7 "MPX4250AP" H 4150 4000 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "MPX4250AP" H 4150 3900 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/mpx4250ap/nxp-semiconductors" H 4150 3800 50  0001 L CNN "Arrow Price/Stock"
+F 10 "841-MPX4250AP" H 4150 3700 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/MPX4250AP?qs=r8OyiFxb6Rev6%252BQxsx%2Fehw%3D%3D" H 4150 3600 50  0001 L CNN "Mouser Price/Stock"
+	1    3300 4400
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1800 1250 2000 1250
+	2900 1050 3100 1050
 Wire Wire Line
-	4450 1250 4650 1250
+	1850 2650 2050 2650
 Wire Wire Line
 	6450 2250 6650 2250
 Wire Wire Line
 	6450 3400 6650 3400
 Wire Wire Line
-	2900 2850 2900 3900
+	2900 4150 2900 5200
 Wire Wire Line
-	1150 2850 1150 3900
+	1150 4150 1150 5200
 Wire Wire Line
 	6450 5800 6650 5800
 Wire Wire Line
@@ -1009,18 +1009,18 @@ Wire Wire Line
 Connection ~ 9800 2400
 Wire Wire Line
 	9800 2400 9950 2400
-Text GLabel 2350 1150 2    50   Input ~ 0
+Text GLabel 3450 950  2    50   Input ~ 0
 ADCClamp03
 Wire Wire Line
-	2350 1150 2000 1150
+	3450 950  3100 950 
 Wire Wire Line
-	2000 1150 2000 1250
-Text GLabel 5000 1150 2    50   Input ~ 0
+	3100 950  3100 1050
+Text GLabel 2400 2550 2    50   Input ~ 0
 ADCClamp04
 Wire Wire Line
-	5000 1150 4650 1150
+	2400 2550 2050 2550
 Wire Wire Line
-	4650 1150 4650 1250
+	2050 2550 2050 2650
 Text GLabel 6600 1150 2    50   Input ~ 0
 ADCClamp05
 Wire Wire Line
@@ -1030,20 +1030,20 @@ Wire Wire Line
 Connection ~ 6500 1250
 Wire Wire Line
 	6500 1250 6450 1250
-Text GLabel 1050 2850 1    50   Input ~ 0
+Text GLabel 1050 4150 1    50   Input ~ 0
 ADCClamp06
 Wire Wire Line
-	1050 2850 1050 3900
+	1050 4150 1050 5200
 Wire Wire Line
-	1050 3900 1150 3900
-Connection ~ 1150 3900
-Text GLabel 2800 2850 1    50   Input ~ 0
+	1050 5200 1150 5200
+Connection ~ 1150 5200
+Text GLabel 2800 4150 1    50   Input ~ 0
 ADCClamp07
 Wire Wire Line
-	2800 2850 2800 3900
+	2800 4150 2800 5200
 Wire Wire Line
-	2800 3900 2900 3900
-Connection ~ 2900 3900
+	2800 5200 2900 5200
+Connection ~ 2900 5200
 Text GLabel 6650 2150 2    50   Input ~ 0
 ADCClamp08
 Wire Wire Line

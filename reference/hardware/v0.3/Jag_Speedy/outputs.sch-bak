@@ -128,7 +128,9 @@ $Comp
 L Jag_Speedy-rescue:VNS3NV04DP-E-VNS3NV04DP-E IC?
 U 1 1 5F04664C
 P 4650 1600
-F 0 "IC?" H 5450 1865 50  0000 C CNN
+AR Path="/5EF090BF/5F04664C" Ref="IC?"  Part="1" 
+AR Path="/5F198969/5F04664C" Ref="IC11"  Part="1" 
+F 0 "IC11" H 5450 1865 50  0000 C CNN
 F 1 "VNS3NV04DP-E" H 5450 1774 50  0000 C CNN
 F 2 "SOIC127P600X175-8N" H 6100 1700 50  0001 L CNN
 F 3 "https://www.st.com/resource/en/datasheet/vns3nv04dp-e.pdf" H 6100 1600 50  0001 L CNN
@@ -154,10 +156,10 @@ IdlePWM-OUT
 Text GLabel 4100 1900 0    50   Input ~ 0
 BoostPWM-Signal
 $Comp
-L Device:R R?
+L Device:R R81
 U 1 1 5F0474F4
 P 4250 2050
-F 0 "R?" H 4050 2100 50  0000 L CNN
+F 0 "R81" H 4050 2100 50  0000 L CNN
 F 1 "100k" H 4000 2000 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 4180 2050 50  0001 C CNN
 F 3 "~" H 4250 2050 50  0001 C CNN
@@ -165,10 +167,10 @@ F 3 "~" H 4250 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R83
 U 1 1 5F0474FA
 P 4500 1900
-F 0 "R?" V 4300 1900 50  0000 C CNN
+F 0 "R83" V 4300 1900 50  0000 C CNN
 F 1 "1k" V 4400 1900 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 4430 1900 50  0001 C CNN
 F 3 "~" H 4500 1900 50  0001 C CNN
@@ -180,7 +182,7 @@ Wire Wire Line
 Wire Wire Line
 	4250 1900 4350 1900
 Connection ~ 4250 1900
-Text GLabel 4250 2200 2    50   Input ~ 0
+Text GLabel 4250 2200 0    50   Input ~ 0
 SignalGnd
 Connection ~ 4250 1700
 Wire Wire Line
@@ -188,10 +190,10 @@ Wire Wire Line
 Wire Wire Line
 	4250 1700 4100 1700
 $Comp
-L Device:R R?
+L Device:R R82
 U 1 1 5F049205
 P 4500 1700
-F 0 "R?" V 4707 1700 50  0000 C CNN
+F 0 "R82" V 4707 1700 50  0000 C CNN
 F 1 "1k" V 4616 1700 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 4430 1700 50  0001 C CNN
 F 3 "~" H 4500 1700 50  0001 C CNN
@@ -199,10 +201,10 @@ F 3 "~" H 4500 1700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R80
 U 1 1 5F0491FF
 P 4250 1550
-F 0 "R?" H 4050 1600 50  0000 L CNN
+F 0 "R80" H 4050 1600 50  0000 L CNN
 F 1 "100k" H 4000 1500 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 4180 1550 50  0001 C CNN
 F 3 "~" H 4250 1550 50  0001 C CNN
@@ -213,4 +215,6 @@ Text GLabel 4100 1700 0    50   Input ~ 0
 IdlePWM-Signal
 NoConn ~ 6250 1800
 NoConn ~ 6250 1600
+Text GLabel 4250 1400 0    50   Input ~ 0
+SignalGnd
 $EndSCHEMATC

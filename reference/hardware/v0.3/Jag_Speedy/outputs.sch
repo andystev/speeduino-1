@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Jag_Speedy-rescue:SSM3K357R,LF-SSM3K357R Q1
+L Jag_Speedy-rescue:SSM3K357R,LF-SSM3K357R-Jag_Speedy-rescue Q1
 U 1 1 5F1A72FA
 P 1550 2700
 F 0 "Q1" H 1980 2846 50  0000 L CNN
@@ -33,7 +33,7 @@ F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=757-SSM3K357RLF" H 2000 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jag_Speedy-rescue:SSM3K357R,LF-SSM3K357R Q2
+L Jag_Speedy-rescue:SSM3K357R,LF-SSM3K357R-Jag_Speedy-rescue Q2
 U 1 1 5F1A78B8
 P 1600 4050
 F 0 "Q2" H 2030 4196 50  0000 L CNN
@@ -78,7 +78,7 @@ Wire Wire Line
 Text Notes 750  2100 0    118  ~ 0
 Fan
 $Comp
-L Jag_Speedy-rescue:SSM3K357R,LF-SSM3K357R Q3
+L Jag_Speedy-rescue:SSM3K357R,LF-SSM3K357R-Jag_Speedy-rescue Q3
 U 1 1 5F1AD432
 P 1650 1450
 F 0 "Q3" H 2080 1596 50  0000 L CNN
@@ -115,24 +115,24 @@ PWM Idle & Boost
 Text GLabel 4350 2850 0    50   Input ~ 0
 Idle02-Signal
 NoConn ~ 4350 2850
-Text GLabel 4350 3150 0    50   Input ~ 0
-VVT-Signal
+Text GLabel 4100 1900 0    50   Input ~ 0
+CCPump-Signal
 NoConn ~ 4350 3150
 Text GLabel 4900 2850 2    50   Input ~ 0
 Idle02-OUT
-Text GLabel 4900 3150 2    50   Input ~ 0
-VVT-OUT
+Text GLabel 6250 1900 2    50   Input ~ 0
+CCPump-OUT
 NoConn ~ 4900 3150
 NoConn ~ 4900 2850
 $Comp
-L Jag_Speedy-rescue:VNS3NV04DP-E-VNS3NV04DP-E IC?
+L Jag_Speedy-rescue:VNS3NV04DP-E-VNS3NV04DP-E-Jag_Speedy-rescue IC?
 U 1 1 5F04664C
 P 4650 1600
 AR Path="/5EF090BF/5F04664C" Ref="IC?"  Part="1" 
 AR Path="/5F198969/5F04664C" Ref="IC11"  Part="1" 
 F 0 "IC11" H 5450 1865 50  0000 C CNN
 F 1 "VNS3NV04DP-E" H 5450 1774 50  0000 C CNN
-F 2 "SOIC127P600X175-8N" H 6100 1700 50  0001 L CNN
+F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 6100 1700 50  0001 L CNN
 F 3 "https://www.st.com/resource/en/datasheet/vns3nv04dp-e.pdf" H 6100 1600 50  0001 L CNN
 F 4 "STMicroelectronics VNS3NV04DP-E Load Switch IC, 8-Pin, SOIC" H 6100 1500 50  0001 L CNN "Description"
 F 5 "1.75" H 6100 1400 50  0001 L CNN "Height"
@@ -149,11 +149,11 @@ Text GLabel 4650 1800 0    50   Input ~ 0
 PowerGnd
 Text GLabel 4650 1600 1    50   Input ~ 0
 PowerGnd
-Text GLabel 6250 1900 2    50   Input ~ 0
+Text GLabel 4900 3150 2    50   Input ~ 0
 BoostPWM-OUT
 Text GLabel 6250 1700 2    50   Input ~ 0
 IdlePWM-OUT
-Text GLabel 4100 1900 0    50   Input ~ 0
+Text GLabel 4350 3150 0    50   Input ~ 0
 BoostPWM-Signal
 $Comp
 L Device:R R81

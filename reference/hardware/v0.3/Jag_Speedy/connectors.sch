@@ -264,7 +264,7 @@ Tacho-OUT
 Text GLabel 2200 4800 0    50   Input ~ 0
 BoostPWM-OUT
 Text GLabel 2200 4900 0    50   Input ~ 0
-VVT-OUT
+CCPump-OUT
 Wire Wire Line
 	2200 5500 2400 5500
 Wire Wire Line
@@ -331,7 +331,7 @@ Text GLabel 7300 2200 2    50   Input ~ 0
 CPU-D11
 Text GLabel 7300 2350 2    50   Input ~ 0
 CPU-D12
-Text GLabel 7300 3700 2    50   Input ~ 0
+Text GLabel 7300 3800 2    50   Input ~ 0
 CPU-D07
 Text GLabel 7000 2350 0    50   Output ~ 0
 Inj05-Trigger
@@ -347,84 +347,84 @@ Wire Wire Line
 	7000 2350 7300 2350
 Wire Wire Line
 	7300 2500 7000 2500
-Text GLabel 7000 2650 0    50   Output ~ 0
+Text GLabel 7000 2700 0    50   Output ~ 0
 Ign01-Trigger
-Text GLabel 7000 2800 0    50   Output ~ 0
+Text GLabel 7000 2850 0    50   Output ~ 0
 Ign02-Trigger
-Text GLabel 7000 2950 0    50   Output ~ 0
+Text GLabel 7000 3000 0    50   Output ~ 0
 Ign03-Trigger
-Text GLabel 7000 3100 0    50   Output ~ 0
+Text GLabel 7000 3150 0    50   Output ~ 0
 Ign04-Trigger
-Text GLabel 7000 3250 0    50   Output ~ 0
+Text GLabel 7000 3300 0    50   Output ~ 0
 Ign05-Trigger
-Text GLabel 7000 3400 0    50   Output ~ 0
+Text GLabel 7000 3450 0    50   Output ~ 0
 Ign06-Trigger
-Text GLabel 7300 2650 2    50   Input ~ 0
+Text GLabel 7300 2700 2    50   Input ~ 0
 CPU-D39
-Text GLabel 7300 2800 2    50   Input ~ 0
+Text GLabel 7300 2850 2    50   Input ~ 0
 CPU-D38
-Text GLabel 7300 2950 2    50   Input ~ 0
+Text GLabel 7300 3000 2    50   Input ~ 0
 CPU-D31
-Text GLabel 7300 3100 2    50   Input ~ 0
+Text GLabel 7300 3150 2    50   Input ~ 0
 CPU-D21
-Text GLabel 7300 3250 2    50   Input ~ 0
+Text GLabel 7300 3300 2    50   Input ~ 0
 CPU-D32
-Text GLabel 7300 3400 2    50   Input ~ 0
+Text GLabel 7300 3450 2    50   Input ~ 0
 CPU-D35
 Wire Wire Line
-	7000 2650 7300 2650
+	7000 2700 7300 2700
 Wire Wire Line
-	7300 2800 7000 2800
+	7300 2850 7000 2850
 Wire Wire Line
-	7000 2950 7300 2950
+	7000 3000 7300 3000
 Wire Wire Line
-	7300 3100 7000 3100
+	7300 3150 7000 3150
 Wire Wire Line
-	7000 3250 7300 3250
+	7000 3300 7300 3300
 Wire Wire Line
-	7300 3400 7000 3400
-Text GLabel 7000 3550 0    50   Output ~ 0
+	7300 3450 7000 3450
+Text GLabel 7000 3650 0    50   Output ~ 0
 IdlePWM-Signal
-Text GLabel 7000 3850 0    50   Output ~ 0
+Text GLabel 7000 3950 0    50   Output ~ 0
 TachoOut-Signal
-Text GLabel 7000 4000 0    50   Output ~ 0
+Text GLabel 7000 4100 0    50   Output ~ 0
 Fan-Signal
-Text GLabel 7000 4150 0    50   Output ~ 0
+Text GLabel 7000 4250 0    50   Output ~ 0
 FuelPump-Signal
-Text GLabel 7300 3550 2    50   Input ~ 0
+Text GLabel 7300 3650 2    50   Input ~ 0
 CPU-D05
 Text GLabel 7300 2500 2    50   Input ~ 0
 CPU-D13
-Text GLabel 7300 3850 2    50   Input ~ 0
+Text GLabel 7300 3950 2    50   Input ~ 0
 CPU-D28
-Text GLabel 7300 4000 2    50   Input ~ 0
+Text GLabel 7300 4100 2    50   Input ~ 0
 CPU-D27
-Text GLabel 7300 4150 2    50   Input ~ 0
+Text GLabel 7300 4250 2    50   Input ~ 0
 CPU-D37
-Text GLabel 7000 3700 0    50   Output ~ 0
+Text GLabel 7000 3800 0    50   Output ~ 0
 BoostPWM-Signal
-Text GLabel 7000 4300 0    50   Output ~ 0
+Text GLabel 7000 4400 0    50   Output ~ 0
 Idle02-Signal
-Text GLabel 7300 4300 2    50   Input ~ 0
+Text GLabel 7300 4400 2    50   Input ~ 0
 CPU-D06
-Text GLabel 7000 4450 0    50   Output ~ 0
-VVT-Signal
+Text GLabel 7000 4550 0    50   Output ~ 0
+CCPump-Signal
 Wire Wire Line
-	7000 3550 7300 3550
+	7000 3650 7300 3650
 Wire Wire Line
-	7300 3700 7000 3700
+	7300 3800 7000 3800
 Wire Wire Line
-	7000 3850 7300 3850
+	7000 3950 7300 3950
 Wire Wire Line
-	7300 4000 7000 4000
+	7300 4100 7000 4100
 Wire Wire Line
-	7000 4150 7300 4150
+	7000 4250 7300 4250
 Wire Wire Line
-	7300 4300 7000 4300
-Text GLabel 7300 4450 2    50   Input ~ 0
+	7300 4400 7000 4400
+Text GLabel 7300 4550 2    50   Input ~ 0
 CPU-D29
 Wire Wire Line
-	7300 4450 7000 4450
+	7300 4550 7000 4550
 Text GLabel 8800 1900 0    50   Input ~ 0
 O2-Signal-3.3V
 Text GLabel 9250 1900 2    50   Output ~ 0
@@ -434,7 +434,7 @@ TPS-Signal-3.3V
 Text GLabel 9250 2050 2    50   Output ~ 0
 CPU-A2
 Text GLabel 8800 2200 0    50   Input ~ 0
-BRV-Signal-3.3V
+BRV-Signal-3V3
 Text GLabel 9250 2200 2    50   Output ~ 0
 CPU-A4
 Text GLabel 8800 2350 0    50   Input ~ 0
@@ -446,24 +446,24 @@ Barro-Signal-3.3V
 Text GLabel 9250 2500 2    50   Output ~ 0
 CPU-A5
 Text GLabel 8800 2650 0    50   Input ~ 0
-CLT-Signal-3.3V
+CLT-Signal-3V3
 Text GLabel 9250 2650 2    50   Output ~ 0
 CPU-A1
 Text GLabel 8800 2800 0    50   Input ~ 0
-FPress-Signal-3.3V
+FPress-Signal-3V3
 Text GLabel 9250 2800 2    50   Output ~ 0
 CPU-A10
 Text GLabel 8800 2950 0    50   Input ~ 0
-OPress-Signal-3.3V
+OPress-Signal-3V3
 Text GLabel 9250 2950 2    50   Output ~ 0
 CPU-A11
-Text GLabel 8800 3350 0    50   Input ~ 0
+Text GLabel 8800 3300 0    50   Input ~ 0
 FlexFuel-Signal
-Text GLabel 8800 3200 0    50   Input ~ 0
+Text GLabel 8800 3150 0    50   Input ~ 0
 ClutchIn-Signal
-Text GLabel 9250 3200 2    50   Output ~ 0
+Text GLabel 9250 3150 2    50   Output ~ 0
 CPU-D24
-Text GLabel 9250 3350 2    50   Output ~ 0
+Text GLabel 9250 3300 2    50   Output ~ 0
 CPU-D25
 Wire Wire Line
 	8800 1900 9250 1900
@@ -482,33 +482,27 @@ Wire Wire Line
 Wire Wire Line
 	9250 2950 8800 2950
 Wire Wire Line
-	8800 3200 9250 3200
+	8800 3150 9250 3150
 Wire Wire Line
-	9250 3350 8800 3350
-Text GLabel 8800 4000 0    50   Input ~ 0
-Spare-Signal-3.3V-02
-Text GLabel 8800 4150 0    50   Input ~ 0
-Spare-Signal-3.3V-03
-Text GLabel 8800 3850 0    50   Input ~ 0
-Spare-Signal-3.3V-01
+	9250 3300 8800 3300
 Text GLabel 8800 1750 0    50   Input ~ 0
-IAT-Signal-3.3V
+IAT-Signal-3V3
 Text GLabel 9250 1750 2    50   Output ~ 0
 CPU-A0
 Wire Wire Line
 	8800 1750 9250 1750
-Text GLabel 8800 3550 0    50   Input ~ 0
+Text GLabel 8800 3500 0    50   Input ~ 0
 Crank-Signal
-Text GLabel 8800 3700 0    50   Input ~ 0
+Text GLabel 8800 3650 0    50   Input ~ 0
 Cam-Signal
-Text GLabel 9250 3700 2    50   Output ~ 0
+Text GLabel 9250 3650 2    50   Output ~ 0
 CPU-D36
-Text GLabel 9250 3550 2    50   Output ~ 0
+Text GLabel 9250 3500 2    50   Output ~ 0
 CPU-D23
 Wire Wire Line
-	8800 3700 9250 3700
+	8800 3650 9250 3650
 Wire Wire Line
-	9250 3550 8800 3550
+	9250 3500 8800 3500
 $Comp
 L Interface_CAN_LIN:SN65HVD230 U?
 U 1 1 5F25636D
@@ -547,7 +541,7 @@ U 1 1 5F25F382
 P 4200 5150
 F 0 "R92" V 4407 5150 50  0000 C CNN
 F 1 "10K" V 4316 5150 50  0000 C CNN
-F 2 "" V 4130 5150 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 4130 5150 50  0001 C CNN
 F 3 "~" H 4200 5150 50  0001 C CNN
 	1    4200 5150
 	0    -1   -1   0   
@@ -576,4 +570,10 @@ Wire Wire Line
 Wire Wire Line
 	5100 4600 4850 4600
 NoConn ~ 4050 4700
+Text Notes 7350 1200 0    157  ~ 0
+Pin Mapping
+Text Notes 6650 1550 0    157  ~ 0
+Outputs
+Text Notes 8500 1550 0    157  ~ 0
+Inputs
 $EndSCHEMATC
