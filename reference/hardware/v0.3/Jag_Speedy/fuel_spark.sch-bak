@@ -20,7 +20,7 @@ Injector 03 & 04
 Text Notes 1650 5150 0    157  ~ 0
 Injector 05 & 06
 $Comp
-L Jag_Speedy-rescue:TC4424EPA-TC4424EPA IC6
+L Jag_Speedy-rescue:TC4424EPA-TC4424EPA-Jag_Speedy-rescue IC6
 U 1 1 5F1EF1D7
 P 8200 1550
 AR Path="/5EF090BF/5F1EF1D7" Ref="IC6"  Part="1" 
@@ -206,8 +206,6 @@ Wire Wire Line
 	10150 1750 10250 1750
 Wire Wire Line
 	9200 1200 8750 1200
-Text GLabel 7700 1200 0    50   Input ~ 0
-PowerGnd
 Wire Wire Line
 	7700 1200 7750 1200
 Connection ~ 7750 1650
@@ -218,8 +216,6 @@ Wire Wire Line
 	7750 1200 8450 1200
 Wire Wire Line
 	7700 1750 8200 1750
-Text GLabel 7700 2250 0    50   Input ~ 0
-PowerGnd
 Connection ~ 7750 1850
 Wire Wire Line
 	7750 2150 7750 2250
@@ -274,7 +270,7 @@ Connection ~ 9500 2250
 Wire Wire Line
 	9500 1850 9500 2250
 $Comp
-L Jag_Speedy-rescue:TC4424EPA-TC4424EPA IC7
+L Jag_Speedy-rescue:TC4424EPA-TC4424EPA-Jag_Speedy-rescue IC7
 U 1 1 5F0F7B19
 P 8250 3500
 AR Path="/5EF090BF/5F0F7B19" Ref="IC7"  Part="1" 
@@ -454,8 +450,6 @@ Wire Wire Line
 	10200 3700 10300 3700
 Wire Wire Line
 	9250 3150 8800 3150
-Text GLabel 7750 3150 0    50   Input ~ 0
-PowerGnd
 Wire Wire Line
 	7750 3150 7800 3150
 Connection ~ 7800 3600
@@ -466,8 +460,6 @@ Wire Wire Line
 	7800 3150 8500 3150
 Wire Wire Line
 	7750 3700 8250 3700
-Text GLabel 7750 4200 0    50   Input ~ 0
-PowerGnd
 Connection ~ 7800 3800
 Wire Wire Line
 	7800 4100 7800 4200
@@ -522,7 +514,7 @@ Connection ~ 9550 4200
 Wire Wire Line
 	9550 3800 9550 4200
 $Comp
-L Jag_Speedy-rescue:TC4424EPA-TC4424EPA IC8
+L Jag_Speedy-rescue:TC4424EPA-TC4424EPA-Jag_Speedy-rescue IC8
 U 1 1 5F10DC80
 P 8250 5450
 AR Path="/5EF090BF/5F10DC80" Ref="IC8"  Part="1" 
@@ -702,8 +694,6 @@ Wire Wire Line
 	10200 5650 10300 5650
 Wire Wire Line
 	9250 5100 8800 5100
-Text GLabel 7750 5100 0    50   Input ~ 0
-PowerGnd
 Wire Wire Line
 	7750 5100 7800 5100
 Connection ~ 7800 5550
@@ -714,8 +704,6 @@ Wire Wire Line
 	7800 5100 8500 5100
 Wire Wire Line
 	7750 5650 8250 5650
-Text GLabel 7750 6150 0    50   Input ~ 0
-PowerGnd
 Connection ~ 7800 5750
 Wire Wire Line
 	7800 6050 7800 6150
@@ -801,12 +789,12 @@ NoConn ~ 8250 3500
 NoConn ~ 8250 5450
 NoConn ~ 9450 5450
 $Comp
-L Jag_Speedy-rescue:VNS3NV04DP-E-VNS3NV04DP-E IC3
+L Jag_Speedy-rescue:VNS3NV04DP-E-VNS3NV04DP-E-Jag_Speedy-rescue IC3
 U 1 1 5F28A4DE
 P 2150 1650
 F 0 "IC3" H 2950 1915 50  0000 C CNN
 F 1 "VNS3NV04DP-E" H 2950 1824 50  0000 C CNN
-F 2 "SOIC127P600X175-8N" H 3600 1750 50  0001 L CNN
+F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 3600 1750 50  0001 L CNN
 F 3 "https://www.st.com/resource/en/datasheet/vns3nv04dp-e.pdf" H 3600 1650 50  0001 L CNN
 F 4 "STMicroelectronics VNS3NV04DP-E Load Switch IC, 8-Pin, SOIC" H 3600 1550 50  0001 L CNN "Description"
 F 5 "1.75" H 3600 1450 50  0001 L CNN "Height"
@@ -1010,12 +998,12 @@ Connection ~ 1350 1950
 Wire Wire Line
 	1350 1950 1450 1950
 $Comp
-L Jag_Speedy-rescue:VNS3NV04DP-E-VNS3NV04DP-E IC4
+L Jag_Speedy-rescue:VNS3NV04DP-E-VNS3NV04DP-E-Jag_Speedy-rescue IC4
 U 1 1 5F0265BB
 P 2150 3850
 F 0 "IC4" H 2950 4115 50  0000 C CNN
 F 1 "VNS3NV04DP-E" H 2950 4024 50  0000 C CNN
-F 2 "SOIC127P600X175-8N" H 3600 3950 50  0001 L CNN
+F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 3600 3950 50  0001 L CNN
 F 3 "https://www.st.com/resource/en/datasheet/vns3nv04dp-e.pdf" H 3600 3850 50  0001 L CNN
 F 4 "STMicroelectronics VNS3NV04DP-E Load Switch IC, 8-Pin, SOIC" H 3600 3750 50  0001 L CNN "Description"
 F 5 "1.75" H 3600 3650 50  0001 L CNN "Height"
@@ -1047,7 +1035,7 @@ F 1 "100k" H 1100 3650 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1280 3700 50  0001 C CNN
 F 3 "~" H 1350 3700 50  0001 C CNN
 	1    1350 3700
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R41
@@ -1219,12 +1207,12 @@ Connection ~ 1350 4150
 Wire Wire Line
 	1350 4150 1450 4150
 $Comp
-L Jag_Speedy-rescue:VNS3NV04DP-E-VNS3NV04DP-E IC5
+L Jag_Speedy-rescue:VNS3NV04DP-E-VNS3NV04DP-E-Jag_Speedy-rescue IC5
 U 1 1 5F03E989
 P 2150 6150
 F 0 "IC5" H 2950 6415 50  0000 C CNN
 F 1 "VNS3NV04DP-E" H 2950 6324 50  0000 C CNN
-F 2 "SOIC127P600X175-8N" H 3600 6250 50  0001 L CNN
+F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 3600 6250 50  0001 L CNN
 F 3 "https://www.st.com/resource/en/datasheet/vns3nv04dp-e.pdf" H 3600 6150 50  0001 L CNN
 F 4 "STMicroelectronics VNS3NV04DP-E Load Switch IC, 8-Pin, SOIC" H 3600 6050 50  0001 L CNN "Description"
 F 5 "1.75" H 3600 5950 50  0001 L CNN "Height"
@@ -1433,4 +1421,16 @@ NoConn ~ 3750 3850
 NoConn ~ 3750 4050
 NoConn ~ 3750 6150
 NoConn ~ 3750 6350
+Text GLabel 7750 6150 0    50   Input ~ 0
+PowerGnd
+Text GLabel 7750 5100 0    50   Input ~ 0
+PowerGnd
+Text GLabel 7750 4200 0    50   Input ~ 0
+PowerGnd
+Text GLabel 7750 3150 0    50   Input ~ 0
+PowerGnd
+Text GLabel 7700 2250 0    50   Input ~ 0
+PowerGnd
+Text GLabel 7700 1200 0    50   Input ~ 0
+PowerGnd
 $EndSCHEMATC

@@ -24,50 +24,50 @@ F 3 "~" H 2600 2000 50  0001 C CNN
 	1    2600 2000
 	1    0    0    -1  
 $EndComp
-Text GLabel 2250 1200 0    50   Output ~ 0
+Text GLabel 2250 1200 0    50   Input ~ 0
 TPSSensor
-Text GLabel 2250 1400 0    50   Output ~ 0
+Text GLabel 2250 1400 0    50   Input ~ 0
 IATSensor
-Text GLabel 2250 1600 0    50   Output ~ 0
+Text GLabel 2250 1600 0    50   Input ~ 0
 CLTSensor
-Text GLabel 2250 1800 0    50   Output ~ 0
+Text GLabel 2250 1800 0    50   Input ~ 0
 O2Sensor
-Text GLabel 2250 2200 0    50   Output ~ 0
+Text GLabel 2250 2200 0    50   Input ~ 0
 CrankSensor+
 $Comp
-L Connector_Generic:Conn_01x12 J2
+L Connector_Generic:Conn_01x14 J2
 U 1 1 5EF06693
-P 2600 3950
-F 0 "J2" H 2680 3942 50  0000 L CNN
-F 1 "Ouputs01" H 2680 3851 50  0000 L CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_2x06_P1.00mm_Horizontal" H 2600 3950 50  0001 C CNN
-F 3 "~" H 2600 3950 50  0001 C CNN
-	1    2600 3950
+P 2600 4150
+F 0 "J2" H 2680 4142 50  0000 L CNN
+F 1 "Ouputs01" H 2680 4051 50  0000 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_2x07_P1.00mm_Horizontal" H 2600 4150 50  0001 C CNN
+F 3 "~" H 2600 4150 50  0001 C CNN
+	1    2600 4150
 	1    0    0    -1  
 $EndComp
-Text GLabel 2150 3450 0    50   Input ~ 0
+Text GLabel 2150 3650 0    50   Output ~ 0
 Inj01-OUT
-Text GLabel 2150 3550 0    50   Input ~ 0
+Text GLabel 2150 3750 0    50   Output ~ 0
 Inj02-OUT
-Text GLabel 2150 3650 0    50   Input ~ 0
+Text GLabel 2150 3850 0    50   Output ~ 0
 Inj03-OUT
-Text GLabel 2150 3750 0    50   Input ~ 0
+Text GLabel 2150 3950 0    50   Output ~ 0
 Inj04-OUT
-Text GLabel 2150 3850 0    50   Input ~ 0
+Text GLabel 2150 4050 0    50   Output ~ 0
 Inj05-OUT
-Text GLabel 2150 3950 0    50   Input ~ 0
+Text GLabel 2150 4150 0    50   Output ~ 0
 Inj06-OUT
-Text GLabel 2150 4050 0    50   Input ~ 0
+Text GLabel 2150 4250 0    50   Output ~ 0
 Ign01-OUT
-Text GLabel 2150 4150 0    50   Input ~ 0
+Text GLabel 2150 4350 0    50   Output ~ 0
 Ign02-OUT
-Text GLabel 2150 4250 0    50   Input ~ 0
+Text GLabel 2150 4450 0    50   Output ~ 0
 Ign03-OUT
-Text GLabel 2150 4350 0    50   Input ~ 0
+Text GLabel 2150 4550 0    50   Output ~ 0
 Ign04-OUT
-Text GLabel 2150 4450 0    50   Input ~ 0
+Text GLabel 2150 4650 0    50   Output ~ 0
 Ign05-OUT
-Text GLabel 2150 4550 0    50   Input ~ 0
+Text GLabel 2150 4750 0    50   Output ~ 0
 Ign06-OUT
 $Comp
 L Connector_Generic:Conn_01x05 J4
@@ -97,32 +97,32 @@ F 3 "~" H 4100 3050 50  0001 C CNN
 	1    4100 3050
 	-1   0    0    1   
 $EndComp
-Text GLabel 2250 2400 0    50   Output ~ 0
+Text GLabel 2250 2400 0    50   Input ~ 0
 CamSensor+
-Text GLabel 2250 2700 0    50   Output ~ 0
+Text GLabel 2250 2700 0    50   Input ~ 0
 FuelPressureSensor
-Text GLabel 2250 2900 0    50   Output ~ 0
+Text GLabel 2250 2900 0    50   Input ~ 0
 OilPressureSensor
 $Comp
 L Connector_Generic:Conn_01x10 J3
 U 1 1 5EF09634
-P 2600 5200
-F 0 "J3" H 2680 5192 50  0000 L CNN
-F 1 "Outputs02" H 2680 5101 50  0000 L CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_2x05_P1.00mm_Horizontal" H 2600 5200 50  0001 C CNN
-F 3 "~" H 2600 5200 50  0001 C CNN
-	1    2600 5200
+P 2600 5600
+F 0 "J3" H 2680 5592 50  0000 L CNN
+F 1 "Outputs02" H 2680 5501 50  0000 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_2x05_P1.00mm_Horizontal" H 2600 5600 50  0001 C CNN
+F 3 "~" H 2600 5600 50  0001 C CNN
+	1    2600 5600
 	1    0    0    -1  
 $EndComp
-Text GLabel 2200 5100 0    50   Input ~ 0
+Text GLabel 2200 5500 0    50   Output ~ 0
 FuelPump-OUT
-Text GLabel 2200 5200 0    50   Input ~ 0
+Text GLabel 2200 5600 0    50   Output ~ 0
 Fan-OUT
-Text GLabel 2200 5300 0    50   Input ~ 0
+Text GLabel 2200 5700 0    50   Output ~ 0
 IdlePWM-OUT
-Text GLabel 2250 2000 0    50   Input ~ 0
-5V
-Text GLabel 2250 2600 0    50   Input ~ 0
+Text GLabel 2250 2000 0    50   Output ~ 0
+3V3
+Text GLabel 2250 2600 0    50   Output ~ 0
 5V
 Wire Wire Line
 	4800 1850 4300 1850
@@ -130,10 +130,6 @@ Wire Wire Line
 	4300 1950 4800 1950
 Text GLabel 1300 1300 0    50   Input ~ 0
 SignalGnd
-Wire Wire Line
-	2150 3450 2400 3450
-Wire Wire Line
-	2400 3550 2150 3550
 Wire Wire Line
 	2150 3650 2400 3650
 Wire Wire Line
@@ -155,11 +151,15 @@ Wire Wire Line
 Wire Wire Line
 	2400 4550 2150 4550
 Wire Wire Line
-	2200 5100 2400 5100
+	2150 4650 2400 4650
 Wire Wire Line
-	2400 5200 2200 5200
+	2400 4750 2150 4750
 Wire Wire Line
-	2200 5300 2400 5300
+	2200 5500 2400 5500
+Wire Wire Line
+	2400 5600 2200 5600
+Wire Wire Line
+	2200 5700 2400 5700
 Text GLabel 4800 3250 2    50   Input ~ 0
 SignalGnd
 Text GLabel 4800 3050 2    50   Input ~ 0
@@ -172,9 +172,9 @@ Wire Wire Line
 	4300 2950 4800 2950
 Wire Wire Line
 	4800 3050 4300 3050
-Text GLabel 2250 2300 0    50   Output ~ 0
+Text GLabel 2250 2300 0    50   Input ~ 0
 CrankSensor-
-Text GLabel 2250 2500 0    50   Output ~ 0
+Text GLabel 2250 2500 0    50   Input ~ 0
 CamSensor-
 Wire Wire Line
 	2250 1200 2400 1200
@@ -242,9 +242,9 @@ Wire Wire Line
 	4800 2050 4300 2050
 Wire Wire Line
 	4800 2150 4300 2150
-Text GLabel 2250 1000 0    50   Output ~ 0
+Text GLabel 2250 1000 0    50   Input ~ 0
 FlexFuelSensor
-Text GLabel 2250 3100 0    50   Output ~ 0
+Text GLabel 2250 3100 0    50   Input ~ 0
 ClutchSwitch
 Wire Wire Line
 	2250 3100 2400 3100
@@ -259,22 +259,22 @@ Wire Wire Line
 Wire Wire Line
 	1400 3200 1400 3000
 Connection ~ 1400 3000
-Text GLabel 2200 5500 0    50   Input ~ 0
+Text GLabel 2200 5900 0    50   Output ~ 0
 Tacho-OUT
-Text GLabel 2200 4800 0    50   Input ~ 0
+Text GLabel 2200 5200 0    50   Output ~ 0
 BoostPWM-OUT
-Text GLabel 2200 4900 0    50   Input ~ 0
+Text GLabel 2200 5300 0    50   Output ~ 0
 CCPump-OUT
 Wire Wire Line
-	2200 5500 2400 5500
+	2200 5900 2400 5900
 Wire Wire Line
-	2200 4800 2400 4800
+	2200 5200 2400 5200
 Wire Wire Line
-	2200 4900 2400 4900
-Text GLabel 2200 5400 0    50   Input ~ 0
+	2200 5300 2400 5300
+Text GLabel 2200 5800 0    50   Output ~ 0
 Idle02-OUT
 Wire Wire Line
-	2200 5400 2400 5400
+	2200 5800 2400 5800
 Wire Wire Line
 	4300 3150 4800 3150
 Wire Wire Line
@@ -303,12 +303,8 @@ Wire Wire Line
 Connection ~ 4900 1100
 Wire Wire Line
 	4900 1100 4900 1300
-NoConn ~ 2400 900 
 NoConn ~ 4300 2750
 NoConn ~ 4300 2850
-NoConn ~ 2400 5700
-NoConn ~ 2400 5600
-NoConn ~ 2400 5000
 Wire Wire Line
 	4300 1750 4800 1750
 Text GLabel 7000 1750 0    50   Output ~ 0
@@ -528,8 +524,8 @@ $Comp
 L Connector_Generic:Conn_01x02 J7
 U 1 1 5F25E793
 P 5300 4600
-F 0 "J7" H 5218 4075 50  0000 C CNN
-F 1 "Canbus" H 5218 4166 50  0000 C CNN
+F 0 "J7" H 5300 4250 50  0000 C CNN
+F 1 "Canbus" H 5300 4350 50  0000 C CNN
 F 2 "Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Horizontal" H 5300 4600 50  0001 C CNN
 F 3 "~" H 5300 4600 50  0001 C CNN
 	1    5300 4600
@@ -576,4 +572,28 @@ Text Notes 6650 1550 0    157  ~ 0
 Outputs
 Text Notes 8500 1550 0    157  ~ 0
 Inputs
+Text GLabel 2250 900  0    50   Output ~ 0
+3V3
+Wire Wire Line
+	2400 900  2250 900 
+Text GLabel 2200 5400 0    50   Input ~ 0
+PowerGnd
+Wire Wire Line
+	2200 6100 2400 6100
+Wire Wire Line
+	2400 6000 2200 6000
+Wire Wire Line
+	2200 5400 2400 5400
+Text GLabel 2150 3550 0    50   Input ~ 0
+PowerGnd
+Wire Wire Line
+	2150 3550 2400 3550
+Text GLabel 2150 4850 0    50   Input ~ 0
+PowerGnd
+Wire Wire Line
+	2400 4850 2150 4850
+Text GLabel 2200 6100 0    50   Input ~ 0
+PowerGnd
+Text GLabel 2200 6000 0    50   Input ~ 0
+PowerGnd
 $EndSCHEMATC

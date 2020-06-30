@@ -167,12 +167,12 @@ Wire Wire Line
 Wire Wire Line
 	9800 1750 9400 1750
 Connection ~ 9800 1750
-Text Notes 7150 850  0    157  ~ 0
-Spark 01 (D39) & 02 (D38)
-Text Notes 7150 2800 0    157  ~ 0
-Spark 03 (D31) & 04 (D21)
-Text Notes 7150 4750 0    157  ~ 0
-Spark 05 (D32) & 06 (D35)
+Text Notes 7900 800  0    157  ~ 0
+Spark 01 & 02
+Text Notes 7900 2750 0    157  ~ 0
+Spark 03 & 04
+Text Notes 7900 4700 0    157  ~ 0
+Spark 05 & 06
 Wire Wire Line
 	9800 1750 10150 1750
 $Comp
