@@ -56,7 +56,7 @@ U 1 1 5F118B50
 P 2000 1550
 F 0 "IC10" H 2600 1815 50  0000 C CNN
 F 1 "SP720APP" H 2600 1724 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 3050 1650 50  0001 L CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 3050 1650 50  0001 L CNN
 F 3 "https://componentsearchengine.com/Datasheets/1/SP720APP.pdf" H 3050 1550 50  0001 L CNN
 F 4 "TVS Diode Arrays 14 CH DIODE ARRAY" H 3050 1450 50  0001 L CNN "Description"
 F 5 "5.33" H 3050 1350 50  0001 L CNN "Height"
@@ -93,7 +93,7 @@ U 1 1 5F077DDD
 P 2000 2850
 F 0 "IC12" H 2600 3115 50  0000 C CNN
 F 1 "SP720APP" H 2600 3024 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 3050 2950 50  0001 L CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 3050 2950 50  0001 L CNN
 F 3 "https://componentsearchengine.com/Datasheets/1/SP720APP.pdf" H 3050 2850 50  0001 L CNN
 F 4 "TVS Diode Arrays 14 CH DIODE ARRAY" H 3050 2750 50  0001 L CNN "Description"
 F 5 "5.33" H 3050 2650 50  0001 L CNN "Height"
@@ -130,7 +130,7 @@ AR Path="/5F0A9466" Ref="U?"  Part="5"
 AR Path="/5EF0F56B/5F0A9466" Ref="U1"  Part="5" 
 F 0 "U1" V 6945 3600 50  0000 C CNN
 F 1 "LMV324" V 6854 3600 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 6800 3700 50  0001 C CNN
+F 2 "Package_SO:SO-14_5.3x10.2mm_P1.27mm" H 6800 3700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 6900 3800 50  0001 C CNN
 	5    6850 3600
 	0    -1   -1   0   
@@ -143,7 +143,7 @@ AR Path="/5F0A946C" Ref="U?"  Part="4"
 AR Path="/5EF0F56B/5F0A946C" Ref="U1"  Part="4" 
 F 0 "U1" V 6354 3180 50  0000 L CNN
 F 1 "LMV324" V 6445 3180 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 6350 3050 50  0001 C CNN
+F 2 "Package_SO:SO-14_5.3x10.2mm_P1.27mm" H 6350 3050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 6450 3150 50  0001 C CNN
 	4    6400 2950
 	0    1    1    0   
@@ -156,7 +156,7 @@ AR Path="/5F0A9472" Ref="U?"  Part="3"
 AR Path="/5EF0F56B/5F0A9472" Ref="U1"  Part="3" 
 F 0 "U1" V 7154 3180 50  0000 L CNN
 F 1 "LMV324" V 7245 3180 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 7150 3050 50  0001 C CNN
+F 2 "Package_SO:SO-14_5.3x10.2mm_P1.27mm" H 7150 3050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 7250 3150 50  0001 C CNN
 	3    7200 2950
 	0    1    1    0   
@@ -169,7 +169,7 @@ AR Path="/5F0A9478" Ref="U?"  Part="2"
 AR Path="/5EF0F56B/5F0A9478" Ref="U1"  Part="2" 
 F 0 "U1" V 6354 2080 50  0000 L CNN
 F 1 "LMV324" V 6445 2080 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 6350 1950 50  0001 C CNN
+F 2 "Package_SO:SO-14_5.3x10.2mm_P1.27mm" H 6350 1950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 6450 2050 50  0001 C CNN
 	2    6400 1850
 	0    1    1    0   
@@ -182,7 +182,7 @@ AR Path="/5F0A947E" Ref="U?"  Part="1"
 AR Path="/5EF0F56B/5F0A947E" Ref="U1"  Part="1" 
 F 0 "U1" V 7154 2080 50  0000 L CNN
 F 1 "LMV324" V 7245 2080 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 7150 1950 50  0001 C CNN
+F 2 "Package_SO:SO-14_5.3x10.2mm_P1.27mm" H 7150 1950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 7250 2050 50  0001 C CNN
 	1    7200 1850
 	0    1    1    0   
@@ -201,7 +201,7 @@ AR Path="/5F0A9487" Ref="R?"  Part="1"
 AR Path="/5EF0F56B/5F0A9487" Ref="R8"  Part="1" 
 F 0 "R8" V 7707 2550 50  0000 C CNN
 F 1 "180k" V 7616 2550 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 7430 2550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7430 2550 50  0001 C CNN
 F 3 "~" H 7500 2550 50  0001 C CNN
 	1    7500 2550
 	0    -1   -1   0   
@@ -214,7 +214,7 @@ AR Path="/5F0A948D" Ref="R?"  Part="1"
 AR Path="/5EF0F56B/5F0A948D" Ref="R6"  Part="1" 
 F 0 "R6" V 7307 2550 50  0000 C CNN
 F 1 "330k" V 7216 2550 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 7030 2550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7030 2550 50  0001 C CNN
 F 3 "~" H 7100 2550 50  0001 C CNN
 	1    7100 2550
 	0    -1   -1   0   
@@ -227,7 +227,7 @@ AR Path="/5F0A9493" Ref="R?"  Part="1"
 AR Path="/5EF0F56B/5F0A9493" Ref="R4"  Part="1" 
 F 0 "R4" V 6907 2550 50  0000 C CNN
 F 1 "330k" V 6816 2550 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 6630 2550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6630 2550 50  0001 C CNN
 F 3 "~" H 6700 2550 50  0001 C CNN
 	1    6700 2550
 	0    -1   -1   0   
@@ -240,7 +240,7 @@ AR Path="/5F0A9499" Ref="R?"  Part="1"
 AR Path="/5EF0F56B/5F0A9499" Ref="R1"  Part="1" 
 F 0 "R1" V 6407 2550 50  0000 C CNN
 F 1 "180k" V 6316 2550 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 6130 2550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6130 2550 50  0001 C CNN
 F 3 "~" H 6200 2550 50  0001 C CNN
 	1    6200 2550
 	0    -1   -1   0   
@@ -303,7 +303,7 @@ AR Path="/5F0A94BA" Ref="R?"  Part="1"
 AR Path="/5EF0F56B/5F0A94BA" Ref="R3"  Part="1" 
 F 0 "R3" V 6907 1450 50  0000 C CNN
 F 1 "330k" V 6816 1450 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 6630 1450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6630 1450 50  0001 C CNN
 F 3 "~" H 6700 1450 50  0001 C CNN
 	1    6700 1450
 	0    -1   -1   0   
@@ -316,7 +316,7 @@ AR Path="/5F0A94C0" Ref="R?"  Part="1"
 AR Path="/5EF0F56B/5F0A94C0" Ref="R2"  Part="1" 
 F 0 "R2" V 6457 1450 50  0000 C CNN
 F 1 "180k" V 6366 1450 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 6180 1450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6180 1450 50  0001 C CNN
 F 3 "~" H 6250 1450 50  0001 C CNN
 	1    6250 1450
 	0    -1   -1   0   
@@ -338,7 +338,7 @@ AR Path="/5F0A94CB" Ref="R?"  Part="1"
 AR Path="/5EF0F56B/5F0A94CB" Ref="R7"  Part="1" 
 F 0 "R7" V 7707 1450 50  0000 C CNN
 F 1 "180k" V 7616 1450 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 7430 1450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7430 1450 50  0001 C CNN
 F 3 "~" H 7500 1450 50  0001 C CNN
 	1    7500 1450
 	0    -1   -1   0   
@@ -351,7 +351,7 @@ AR Path="/5F0A94D1" Ref="R?"  Part="1"
 AR Path="/5EF0F56B/5F0A94D1" Ref="R5"  Part="1" 
 F 0 "R5" V 7307 1450 50  0000 C CNN
 F 1 "330k" V 7216 1450 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 7030 1450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7030 1450 50  0001 C CNN
 F 3 "~" H 7100 1450 50  0001 C CNN
 	1    7100 1450
 	0    -1   -1   0   

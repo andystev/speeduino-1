@@ -199,7 +199,6 @@ NoConn ~ 4900 2850
 NoConn ~ 4900 3250
 NoConn ~ 4900 3550
 NoConn ~ 4900 3850
-NoConn ~ 4900 3950
 NoConn ~ 7200 1150
 NoConn ~ 7200 1250
 NoConn ~ 7200 1350
@@ -282,4 +281,8 @@ Text GLabel 4500 2750 0    50   Input ~ 0
 CPU-D25
 Wire Wire Line
 	4900 2750 4500 2750
+Text GLabel 4500 3950 0    50   Input ~ 0
+Reset
+Wire Wire Line
+	4900 3950 4500 3950
 $EndSCHEMATC
