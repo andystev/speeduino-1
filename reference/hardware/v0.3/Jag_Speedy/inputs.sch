@@ -173,7 +173,7 @@ F 3 "~" H 1550 4600 50  0001 C CNN
 	1    1550 4600
 	1    0    0    -1  
 $EndComp
-Text GLabel 1150 4150 1    50   Output ~ 0
+Text GLabel 1350 4200 1    50   Output ~ 0
 MAP-Signal-5V
 Wire Wire Line
 	2150 4450 2150 4600
@@ -190,10 +190,7 @@ Wire Wire Line
 Connection ~ 2150 4900
 Connection ~ 1750 4900
 Wire Wire Line
-	1150 5200 1550 5200
-Wire Wire Line
 	1550 4750 1550 5200
-Connection ~ 1550 5200
 Wire Wire Line
 	1550 5200 1750 5200
 Wire Wire Line
@@ -248,7 +245,7 @@ F 3 "~" H 3300 4600 50  0001 C CNN
 	1    3300 4600
 	1    0    0    -1  
 $EndComp
-Text GLabel 2900 4150 1    50   Output ~ 0
+Text GLabel 3100 4200 1    50   Output ~ 0
 Barro-Signal-5V
 Wire Wire Line
 	3900 4450 3900 4600
@@ -265,10 +262,7 @@ Wire Wire Line
 Connection ~ 3900 4900
 Connection ~ 3500 4900
 Wire Wire Line
-	2900 5200 3300 5200
-Wire Wire Line
 	3300 4750 3300 5200
-Connection ~ 3300 5200
 Wire Wire Line
 	3300 5200 3500 5200
 Wire Wire Line
@@ -942,10 +936,6 @@ Text Notes 4750 5700 0    118  ~ 0
 Oil\nPressure\nSensor
 Text GLabel 6650 5800 2    50   Output ~ 0
 OPress-Signal-3V3
-Text GLabel 1650 4400 3    50   Input ~ 0
-SensorGnd
-Text GLabel 3400 4400 3    50   Input ~ 0
-SensorGnd
 $Comp
 L Jag_Speedy-rescue:MPX4250AP-MPX4250AP-Jag_Speedy-rescue IC1
 U 1 1 5F4B3E38
@@ -993,10 +983,6 @@ Wire Wire Line
 Wire Wire Line
 	6450 3400 6650 3400
 Wire Wire Line
-	2900 4150 2900 5200
-Wire Wire Line
-	1150 4150 1150 5200
-Wire Wire Line
 	6450 5800 6650 5800
 Wire Wire Line
 	6450 4550 6650 4550
@@ -1030,20 +1016,10 @@ Wire Wire Line
 Connection ~ 6500 1250
 Wire Wire Line
 	6500 1250 6450 1250
-Text GLabel 1050 4150 1    50   Input ~ 0
+Text GLabel 1250 4200 1    50   Input ~ 0
 ADCClamp06
-Wire Wire Line
-	1050 4150 1050 5200
-Wire Wire Line
-	1050 5200 1150 5200
-Connection ~ 1150 5200
-Text GLabel 2800 4150 1    50   Input ~ 0
+Text GLabel 3000 4200 1    50   Input ~ 0
 ADCClamp07
-Wire Wire Line
-	2800 4150 2800 5200
-Wire Wire Line
-	2800 5200 2900 5200
-Connection ~ 2900 5200
 Text GLabel 6650 2150 2    50   Input ~ 0
 ADCClamp08
 Wire Wire Line
@@ -1068,4 +1044,32 @@ Wire Wire Line
 	6650 5700 6450 5700
 Wire Wire Line
 	6450 5700 6450 5800
+Wire Wire Line
+	1650 4400 1650 4900
+Wire Wire Line
+	1650 4900 1750 4900
+Wire Wire Line
+	3400 4400 3400 4900
+Wire Wire Line
+	3400 4900 3500 4900
+Wire Wire Line
+	1550 5200 1350 5200
+Wire Wire Line
+	1250 5200 1250 4200
+Connection ~ 1550 5200
+Wire Wire Line
+	1350 4200 1350 5200
+Connection ~ 1350 5200
+Wire Wire Line
+	1350 5200 1250 5200
+Wire Wire Line
+	3000 4200 3000 5200
+Wire Wire Line
+	3000 5200 3100 5200
+Connection ~ 3300 5200
+Wire Wire Line
+	3100 4200 3100 5200
+Connection ~ 3100 5200
+Wire Wire Line
+	3100 5200 3300 5200
 $EndSCHEMATC

@@ -59,7 +59,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.05)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFFFFFF)
+    (visible_elements 7FFDFFFF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -4176,8 +4176,8 @@
     )
   )
 
-  (module Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical (layer F.Cu) (tedit 59FED738) (tstamp 5EFE5ABC)
-    (at 40.64 69.85 270)
+  (module Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical (layer F.Cu) (tedit 59FED738) (tstamp 5EFECA12)
+    (at 87.63 76.2 270)
     (descr "Through hole straight pin header, 1x03, 1.00mm pitch, single row")
     (tags "Through hole pin header THT 1x03 1.00mm single row")
     (path /5EF090BF/5F2B7284)

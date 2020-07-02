@@ -153,7 +153,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 2950 3050 2950
 Wire Wire Line
-	4850 2950 5450 2950
+	4850 2950 5000 2950
 Wire Wire Line
 	4750 3950 4750 3800
 Connection ~ 4750 3800
@@ -204,4 +204,70 @@ Wire Wire Line
 Connection ~ 3900 2950
 Wire Wire Line
 	3900 2950 4300 2950
+$Comp
+L Diode:1N5818 D21
+U 1 1 5F01DAB8
+P 6900 2950
+F 0 "D21" H 6900 2733 50  0000 C CNN
+F 1 "1N5818" H 6900 2824 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 6900 2775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 6900 2950 50  0001 C CNN
+	1    6900 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C33
+U 1 1 5F01E33E
+P 7150 3650
+F 0 "C33" H 7265 3696 50  0000 L CNN
+F 1 "4.7nF" H 7265 3605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7188 3500 50  0001 C CNN
+F 3 "~" H 7150 3650 50  0001 C CNN
+	1    7150 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 3250 5000 2950
+Connection ~ 5000 2950
+Wire Wire Line
+	5000 2950 5450 2950
+$Comp
+L Device:R R?
+U 1 1 5F01F707
+P 6900 3500
+AR Path="/5EF0527D/5F01F707" Ref="R?"  Part="1" 
+AR Path="/5EF0923F/5F01F707" Ref="R9"  Part="1" 
+F 0 "R9" V 7107 3500 50  0000 C CNN
+F 1 "10K" V 7016 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6830 3500 50  0001 C CNN
+F 3 "~" H 6900 3500 50  0001 C CNN
+	1    6900 3500
+	0    -1   -1   0   
+$EndComp
+Text GLabel 7400 2950 2    50   Input ~ 0
+Reset
+Wire Wire Line
+	7150 3800 5900 3800
+Connection ~ 5900 3800
+Wire Wire Line
+	6750 2950 6600 2950
+Wire Wire Line
+	6750 3500 6600 3500
+Wire Wire Line
+	6600 3500 6600 2950
+Connection ~ 6600 2950
+Wire Wire Line
+	6600 2950 5900 2950
+Wire Wire Line
+	7150 3500 7150 2950
+Wire Wire Line
+	7150 2950 7050 2950
+Wire Wire Line
+	7050 3500 7150 3500
+Connection ~ 7150 3500
+Wire Wire Line
+	7400 2950 7150 2950
+Connection ~ 7150 2950
+Text Notes 6500 2800 0    157  ~ 0
+Reset\nProtection
 $EndSCHEMATC
