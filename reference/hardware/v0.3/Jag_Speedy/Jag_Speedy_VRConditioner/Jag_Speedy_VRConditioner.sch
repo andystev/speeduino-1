@@ -37,7 +37,7 @@ L Connector_Generic:Conn_02x04_Counter_Clockwise J1
 U 1 1 5F034AAC
 P 3700 3850
 F 0 "J1" H 3750 4167 50  0000 C CNN
-F 1 "Conn_02x04_Counter_Clockwise" H 3750 4076 50  0000 C CNN
+F 1 "Conn" H 3750 4076 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 3700 3850 50  0001 C CNN
 F 3 "~" H 3700 3850 50  0001 C CNN
 	1    3700 3850
