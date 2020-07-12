@@ -341,6 +341,7 @@ F 0 "R7" H 8300 3000 50  0000 C CNN
 F 1 "4.7K" H 8300 3100 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 8080 3050 50  0001 C CNN
 F 3 "~" H 8150 3050 50  0001 C CNN
+F 4 "Resistor" H 8150 3050 50  0001 C CNN "Component"
 	1    8150 3050
 	-1   0    0    1   
 $EndComp
