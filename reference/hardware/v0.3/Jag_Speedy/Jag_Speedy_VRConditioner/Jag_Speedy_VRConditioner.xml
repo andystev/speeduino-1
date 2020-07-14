@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\andys\Documents\GitHub\speeduino\reference\hardware\v0.3\Jag_Speedy\Jag_Speedy_VRConditioner\Jag_Speedy_VRConditioner.sch</source>
+    <date>14/07/2020 15:22:37</date>
+    <tool>Eeschema (5.1.6)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Jag_Speedy_VRConditioner.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="IC1">
+      <value>MAX9926UAEE+</value>
+      <footprint>Package_SO:QSOP-16_3.9x4.9mm_P0.635mm</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX9924-MAX9927.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">MAX9926UAEE+</field>
+        <field name="Description">Variable Reluctance Sr Interface QSOP16 Maxim MAX9926UAEE+ Hall Effect Sensor IC 16-Pin QSOP, 4.5  5.5 V</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Maxim Integrated</field>
+        <field name="Manufacturer_Part_Number">MAX9926UAEE+</field>
+        <field name="Mouser Part Number">700-MAX9926UAEE</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX9926UAEE%2b?qs=CDqwynd4ZNrriQt4q8yT4w%3D%3D</field>
+      </fields>
+      <libsource lib="MAX9926" part="MAX9926UAEE+" description="Variable Reluctance Sr Interface QSOP16 Maxim MAX9926UAEE+ Hall Effect Sensor IC 16-Pin QSOP, 4.5  5.5 V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F034022</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm_Socket</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x04_Counter_Clockwise" description="Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F034AAC</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0378BD</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F038A85</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.01uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F03CABE</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F03E827</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F03ED16</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F043203</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0439CE</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F043F77</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>4.7K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F044A65</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F04DF55</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F04DF5B</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F04DF61</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>4.7K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Component">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F04DF67</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_02x04_Counter_Clockwise">
+      <description>Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x04_Counter_Clockwise</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MAX9926" part="MAX9926UAEE+">
+      <description>Variable Reluctance Sr Interface QSOP16 Maxim MAX9926UAEE+ Hall Effect Sensor IC 16-Pin QSOP, 4.5  5.5 V</description>
+      <docs>https://datasheets.maximintegrated.com/en/ds/MAX9924-MAX9927.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MAX9926UAEE+</field>
+        <field name="Footprint">SOP64P602X175-16N</field>
+        <field name="Datasheet">https://datasheets.maximintegrated.com/en/ds/MAX9924-MAX9927.pdf</field>
+        <field name="Description">Variable Reluctance Sr Interface QSOP16 Maxim MAX9926UAEE+ Hall Effect Sensor IC 16-Pin QSOP, 4.5  5.5 V</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Maxim Integrated</field>
+        <field name="Manufacturer_Part_Number">MAX9926UAEE+</field>
+        <field name="Arrow Part Number">MAX9926UAEE+</field>
+        <field name="Mouser Part Number">700-MAX9926UAEE</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX9926UAEE%2b?qs=CDqwynd4ZNrriQt4q8yT4w%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN_THRS1" type="passive"/>
+        <pin num="2" name="EX1" type="passive"/>
+        <pin num="3" name="BIAS1" type="passive"/>
+        <pin num="4" name="COUT1" type="passive"/>
+        <pin num="5" name="COUT2" type="passive"/>
+        <pin num="6" name="BIAS2" type="passive"/>
+        <pin num="7" name="EXT2" type="passive"/>
+        <pin num="8" name="INT_THRS2" type="passive"/>
+        <pin num="9" name="IN2+" type="passive"/>
+        <pin num="10" name="IN2-" type="passive"/>
+        <pin num="11" name="GND" type="passive"/>
+        <pin num="12" name="DIRN" type="passive"/>
+        <pin num="13" name="ZERO_EN" type="passive"/>
+        <pin num="14" name="VCC" type="passive"/>
+        <pin num="15" name="IN1-" type="passive"/>
+        <pin num="16" name="IN1+" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="MAX9926">
+      <uri>C:/Program Files/KiCad/lib/componentsearchengine.com/MAX9926UAEE+/KiCad/MAX9926UAEE+.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="VR2-">
+      <node ref="J1" pin="4"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="2" name="VR2+">
+      <node ref="J1" pin="3"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="3" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="IC1" pin="10"/>
+    </net>
+    <net code="4" name="Net-(C2-Pad2)">
+      <node ref="IC1" pin="9"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="5" name="VR1+">
+      <node ref="J1" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="6" name="VR1-">
+      <node ref="J1" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="7" name="Net-(C1-Pad2)">
+      <node ref="IC1" pin="15"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="8" name="Net-(C1-Pad1)">
+      <node ref="R3" pin="2"/>
+      <node ref="IC1" pin="16"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="9" name="Ground">
+      <node ref="IC1" pin="3"/>
+      <node ref="IC1" pin="6"/>
+      <node ref="IC1" pin="8"/>
+      <node ref="IC1" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="IC1" pin="11"/>
+      <node ref="IC1" pin="13"/>
+      <node ref="J1" pin="6"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="10" name="Output2">
+      <node ref="IC1" pin="5"/>
+      <node ref="J1" pin="7"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="11" name="Output1">
+      <node ref="R1" pin="1"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="12" name="5V">
+      <node ref="R1" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="IC1" pin="14"/>
+      <node ref="C5" pin="1"/>
+      <node ref="J1" pin="5"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="13" name="Net-(IC1-Pad2)">
+      <node ref="IC1" pin="2"/>
+    </net>
+    <net code="14" name="Net-(IC1-Pad7)">
+      <node ref="IC1" pin="7"/>
+    </net>
+    <net code="15" name="Net-(IC1-Pad12)">
+      <node ref="IC1" pin="12"/>
+    </net>
+  </nets>
+</export>
