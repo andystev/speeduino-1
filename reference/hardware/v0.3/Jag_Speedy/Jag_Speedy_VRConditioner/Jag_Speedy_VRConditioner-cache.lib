@@ -67,11 +67,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MAX9926_MAX9926UAEE+
+# Jag_Speedy_VRConditioner-rescue_MAX9926UAEE+-MAX9926
 #
-DEF MAX9926_MAX9926UAEE+ IC 0 30 Y Y 1 F N
+DEF Jag_Speedy_VRConditioner-rescue_MAX9926UAEE+-MAX9926 IC 0 30 Y Y 1 F N
 F0 "IC" 1350 300 50 H V L CNN
-F1 "MAX9926_MAX9926UAEE+" 1350 200 50 H V L CNN
+F1 "Jag_Speedy_VRConditioner-rescue_MAX9926UAEE+-MAX9926" 1350 200 50 H V L CNN
 F2 "SOP64P602X175-16N" 1350 100 50 H I L CNN
 F3 "https://datasheets.maximintegrated.com/en/ds/MAX9924-MAX9927.pdf" 1350 0 50 H I L CNN
 F4 "Variable Reluctance Sr Interface QSOP16 Maxim MAX9926UAEE+ Hall Effect Sensor IC 16-Pin QSOP, 4.5  5.5 V" 1350 -100 50 H I L CNN "Description"
