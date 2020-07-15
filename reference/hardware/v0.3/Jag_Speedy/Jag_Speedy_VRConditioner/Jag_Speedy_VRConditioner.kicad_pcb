@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 7)
+    (drawings 8)
     (tracks 111)
     (zones 0)
     (modules 15)
@@ -744,6 +744,9 @@
     )
   )
 
+  (gr_text "Speeduino Dual VR Conditioner" (at 147.32 99.06) (layer F.SilkS)
+    (effects (font (size 0.5 0.5) (thickness 0.125)))
+  )
   (dimension 22.86 (width 0.15) (layer Dwgs.User)
     (gr_text "22.860 mm" (at 162.59 88.9 90) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
