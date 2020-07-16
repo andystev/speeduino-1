@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MAX9926:MAX9926UAEE+ IC1
+L Jag_Speedy_VRConditioner-rescue:MAX9926UAEE+-MAX9926-Jag_Speedy_VRConditioner-rescue IC1
 U 1 1 5F034022
 P 5650 3650
 F 0 "IC1" H 6400 3915 50  0000 C CNN
