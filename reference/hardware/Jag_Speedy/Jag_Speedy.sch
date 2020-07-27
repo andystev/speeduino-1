@@ -196,7 +196,6 @@ $EndSheet
 Wire Wire Line
 	4500 1150 4900 1150
 NoConn ~ 4900 2850
-NoConn ~ 4900 3250
 NoConn ~ 4900 3550
 NoConn ~ 4900 3850
 NoConn ~ 7200 1150
@@ -285,4 +284,8 @@ Text GLabel 4500 3950 0    50   Input ~ 0
 Reset
 Wire Wire Line
 	4900 3950 4500 3950
+Text GLabel 4500 3250 0    50   Input ~ 0
+CPU-D30
+Wire Wire Line
+	4900 3250 4500 3250
 $EndSCHEMATC

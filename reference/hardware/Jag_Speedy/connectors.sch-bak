@@ -441,7 +441,7 @@ U 1 1 5F160030
 P 1950 3150
 F 0 "J1" H 2450 3415 50  0000 C CNN
 F 1 "776087-1" H 2450 3324 50  0000 C CNN
-F 2 "7760871" H 2800 3250 50  0001 L CNN
+F 2 "776087-1:7760871" H 2800 3250 50  0001 L CNN
 F 3 "https://componentsearchengine.com/Datasheets/1/776087-1.pdf" H 2800 3150 50  0001 L CNN
 F 4 "TE Connectivity AMPSEAL, 4mm Pitch, 23 Way, 3 Row, Right Angle PCB Header, Through Hole" H 2800 3050 50  0001 L CNN "Description"
 F 5 "32.1" H 2800 2950 50  0001 L CNN "Height"
@@ -460,7 +460,7 @@ U 1 1 5F16118B
 P 2050 850
 F 0 "J2" H 2500 1115 50  0000 C CNN
 F 1 "776163-1" H 2500 1024 50  0000 C CNN
-F 2 "776163-1" H 2800 950 50  0001 L CNN
+F 2 "776163-1:776163-1" H 2800 950 50  0001 L CNN
 F 3 "http://docs-emea.rs-online.com/webdocs/0fa1/0900766b80fa14ad.pdf" H 2800 850 50  0001 L CNN
 F 4 "AMPSEAL 35 way right angle plug header TE Connectivity 776163-1, 35 Way 3 Row Black Male Panel Mount Header, Solder Termination" H 2800 750 50  0001 L CNN "Description"
 F 5 "" H 2800 650 50  0001 L CNN "Height"
