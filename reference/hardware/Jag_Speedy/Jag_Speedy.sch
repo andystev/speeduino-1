@@ -273,7 +273,6 @@ F 4 "https://www.pjrc.com/teensy/pinout.html" H 6050 5623 50  0000 C CNN "Pinout
 	1    6050 3300
 	1    0    0    -1  
 $EndComp
-NoConn ~ 7200 5250
 NoConn ~ 4900 4150
 NoConn ~ 4900 4050
 Text GLabel 4500 2750 0    50   Input ~ 0
@@ -288,4 +287,8 @@ Text GLabel 4500 3250 0    50   Input ~ 0
 CPU-D30
 Wire Wire Line
 	4900 3250 4500 3250
+Text GLabel 7500 5250 2    50   Input ~ 0
+CPU-A6
+Wire Wire Line
+	7200 5250 7500 5250
 $EndSCHEMATC

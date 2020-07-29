@@ -217,4 +217,68 @@ NoConn ~ 6250 1800
 NoConn ~ 6250 1600
 Text GLabel 4250 1400 0    50   Input ~ 0
 SignalGnd
+Text Notes 4200 3800 0    118  ~ 0
+PWM Water Pump
+$Comp
+L Jag_Speedy-rescue:VNS3NV04DP-E-VNS3NV04DP-E-Jag_Speedy-rescue IC?
+U 1 1 5F1F22C8
+P 4600 4450
+AR Path="/5EF090BF/5F1F22C8" Ref="IC?"  Part="1" 
+AR Path="/5F198969/5F1F22C8" Ref="IC13"  Part="1" 
+F 0 "IC13" H 5400 4715 50  0000 C CNN
+F 1 "VNS3NV04DP-E" H 5400 4624 50  0000 C CNN
+F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 6050 4550 50  0001 L CNN
+F 3 "https://www.st.com/resource/en/datasheet/vns3nv04dp-e.pdf" H 6050 4450 50  0001 L CNN
+F 4 "STMicroelectronics VNS3NV04DP-E Load Switch IC, 8-Pin, SOIC" H 6050 4350 50  0001 L CNN "Description"
+F 5 "1.75" H 6050 4250 50  0001 L CNN "Height"
+F 6 "STMicroelectronics" H 6050 4150 50  0001 L CNN "Manufacturer_Name"
+F 7 "VNS3NV04DP-E" H 6050 4050 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "VNS3NV04DP-E" H 6050 3950 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/vns3nv04dp-e/stmicroelectronics" H 6050 3850 50  0001 L CNN "Arrow Price/Stock"
+F 10 "511-VNS3NV04DP-E" H 6050 3750 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=511-VNS3NV04DP-E" H 6050 3650 50  0001 L CNN "Mouser Price/Stock"
+	1    4600 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 4600 4650 0    50   Input ~ 0
+PowerGnd
+Text GLabel 4600 4450 1    50   Input ~ 0
+PowerGnd
+Text GLabel 6200 4550 2    50   Input ~ 0
+WPPWM-OUT
+Connection ~ 4200 4550
+Wire Wire Line
+	4200 4550 4300 4550
+Wire Wire Line
+	4200 4550 4050 4550
+$Comp
+L Device:R R11
+U 1 1 5F1F22E4
+P 4450 4550
+F 0 "R11" V 4657 4550 50  0000 C CNN
+F 1 "1k" V 4566 4550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4380 4550 50  0001 C CNN
+F 3 "~" H 4450 4550 50  0001 C CNN
+	1    4450 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5F1F22EA
+P 4200 4400
+F 0 "R10" H 4000 4450 50  0000 L CNN
+F 1 "100k" H 3950 4350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4130 4400 50  0001 C CNN
+F 3 "~" H 4200 4400 50  0001 C CNN
+	1    4200 4400
+	1    0    0    -1  
+$EndComp
+Text GLabel 4050 4550 0    50   Input ~ 0
+WPPWM-Signal
+NoConn ~ 6200 4650
+NoConn ~ 6200 4450
+Text GLabel 4200 4250 0    50   Input ~ 0
+SignalGnd
+NoConn ~ 6200 4750
+NoConn ~ 4600 4750
 $EndSCHEMATC

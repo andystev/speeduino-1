@@ -119,8 +119,6 @@ Wire Wire Line
 	1050 1850 1050 1650
 Wire Wire Line
 	2050 2050 1050 2050
-Wire Wire Line
-	1050 2050 1050 1950
 Text GLabel 3200 3650 2    50   Output ~ 0
 5V
 Text GLabel 3200 3750 2    50   Output ~ 0
@@ -313,14 +311,6 @@ Text GLabel 8800 2950 0    50   Input ~ 0
 OPress-Signal-3V3
 Text GLabel 9250 2950 2    50   Output ~ 0
 CPU-A11
-Text GLabel 8800 3300 0    50   Input ~ 0
-FlexFuel-Signal
-Text GLabel 8800 3150 0    50   Input ~ 0
-ClutchIn-Signal
-Text GLabel 9250 3150 2    50   Output ~ 0
-CPU-D24
-Text GLabel 9250 3300 2    50   Output ~ 0
-CPU-D25
 Wire Wire Line
 	8800 1900 9250 1900
 Wire Wire Line
@@ -337,28 +327,12 @@ Wire Wire Line
 	8800 2800 9250 2800
 Wire Wire Line
 	9250 2950 8800 2950
-Wire Wire Line
-	8800 3150 9250 3150
-Wire Wire Line
-	9250 3300 8800 3300
 Text GLabel 8800 1750 0    50   Input ~ 0
 IAT-Signal-3V3
 Text GLabel 9250 1750 2    50   Output ~ 0
 CPU-A0
 Wire Wire Line
 	8800 1750 9250 1750
-Text GLabel 8800 3500 0    50   Input ~ 0
-Crank-Signal
-Text GLabel 8800 3650 0    50   Input ~ 0
-Cam-Signal
-Text GLabel 9250 3650 2    50   Output ~ 0
-CPU-D36
-Text GLabel 9250 3500 2    50   Output ~ 0
-CPU-D23
-Wire Wire Line
-	8800 3650 9250 3650
-Wire Wire Line
-	9250 3500 8800 3500
 $Comp
 L Interface_CAN_LIN:SN65HVD230 U?
 U 1 1 5F25636D
@@ -476,11 +450,6 @@ $EndComp
 Text GLabel 3100 950  2    50   Input ~ 0
 OilPressureSensor
 Wire Wire Line
-	2050 1950 1050 1950
-Connection ~ 1050 1950
-Wire Wire Line
-	1050 1950 1050 1850
-Wire Wire Line
 	3100 850  2950 850 
 Wire Wire Line
 	2950 950  3100 950 
@@ -577,4 +546,40 @@ Text GLabel 7300 4700 2    50   Input ~ 0
 CPU-D30
 Wire Wire Line
 	7300 4700 7000 4700
+Wire Wire Line
+	1050 1850 1050 2050
+Text GLabel 1900 1950 0    50   Input ~ 0
+EGRSensor
+Text GLabel 8800 3100 0    50   Input ~ 0
+EGR-Signal-3V3
+Text GLabel 9250 3100 2    50   Output ~ 0
+CPU-A6
+Wire Wire Line
+	9250 3100 8800 3100
+Wire Wire Line
+	9250 3700 8800 3700
+Wire Wire Line
+	8800 3850 9250 3850
+Text GLabel 9250 3700 2    50   Output ~ 0
+CPU-D23
+Text GLabel 9250 3850 2    50   Output ~ 0
+CPU-D36
+Text GLabel 8800 3850 0    50   Input ~ 0
+Cam-Signal
+Text GLabel 8800 3700 0    50   Input ~ 0
+Crank-Signal
+Wire Wire Line
+	9250 3500 8800 3500
+Wire Wire Line
+	8800 3350 9250 3350
+Text GLabel 9250 3500 2    50   Output ~ 0
+CPU-D25
+Text GLabel 9250 3350 2    50   Output ~ 0
+CPU-D24
+Text GLabel 8800 3350 0    50   Input ~ 0
+ClutchIn-Signal
+Text GLabel 8800 3500 0    50   Input ~ 0
+FlexFuel-Signal
+Wire Wire Line
+	2050 1950 1900 1950
 $EndSCHEMATC

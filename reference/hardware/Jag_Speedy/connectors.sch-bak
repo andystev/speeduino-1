@@ -565,7 +565,16 @@ Wire Wire Line
 Wire Wire Line
 	1750 4150 1950 4150
 NoConn ~ 1950 4350
-NoConn ~ 1950 4250
 NoConn ~ 2950 4250
 NoConn ~ 2950 4150
+Text GLabel 1750 4250 0    50   Output ~ 0
+WPPWM-OUT
+Wire Wire Line
+	1750 4250 1950 4250
+Text GLabel 7000 4700 0    50   Output ~ 0
+WPPWM-Signal
+Text GLabel 7300 4700 2    50   Input ~ 0
+CPU-D30
+Wire Wire Line
+	7300 4700 7000 4700
 $EndSCHEMATC
