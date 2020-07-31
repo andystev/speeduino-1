@@ -1,0 +1,219 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Sensor_Temperature:AD8495 U1
+U 1 1 5F22E723
+P 5600 4150
+F 0 "U1" H 5550 4500 50  0000 L CNN
+F 1 "AD8495" H 5550 4400 50  0000 L CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 6500 3900 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ad8494_8495_8496_8497.pdf" H 5600 4150 50  0001 C CNN
+	1    5600 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5F22FA4E
+P 3750 3850
+F 0 "J1" H 3830 3842 50  0000 L CNN
+F 1 "Conn_01x02" H 3830 3751 50  0000 L CNN
+F 2 "" H 3750 3850 50  0001 C CNN
+F 3 "~" H 3750 3850 50  0001 C CNN
+	1    3750 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J2
+U 1 1 5F230294
+P 3750 4250
+F 0 "J2" H 3830 4292 50  0000 L CNN
+F 1 "Conn_01x02" H 3830 4201 50  0000 L CNN
+F 2 "" H 3750 4250 50  0001 C CNN
+F 3 "~" H 3750 4250 50  0001 C CNN
+	1    3750 4250
+	1    0    0    -1  
+$EndComp
+Text GLabel 5500 3350 1    50   Input ~ 0
+Vss
+Text GLabel 3450 4150 0    50   Input ~ 0
+Vss
+Text GLabel 3450 4250 0    50   Input ~ 0
+Gnd
+Text GLabel 3450 3850 0    50   Input ~ 0
++In
+Text GLabel 3450 3950 0    50   Input ~ 0
+-In
+Text GLabel 3450 4350 0    50   Input ~ 0
+SignalOut
+Text GLabel 6400 4150 2    50   Input ~ 0
+SignalOut
+Text GLabel 4700 4300 0    50   Input ~ 0
++In
+Text GLabel 4700 4000 0    50   Input ~ 0
+-In
+$Comp
+L Device:C C5
+U 1 1 5F236B87
+P 5900 3650
+F 0 "C5" H 6015 3696 50  0000 L CNN
+F 1 "0.1uF" H 6015 3605 50  0000 L CNN
+F 2 "" H 5938 3500 50  0001 C CNN
+F 3 "~" H 5900 3650 50  0001 C CNN
+	1    5900 3650
+	1    0    0    -1  
+$EndComp
+Text GLabel 5300 5100 3    50   Input ~ 0
+Gnd
+Text GLabel 5900 3850 3    50   Input ~ 0
+Gnd
+Text GLabel 5000 3350 1    50   Input ~ 0
+Gnd
+$Comp
+L Device:R R1
+U 1 1 5F238862
+P 4700 4650
+F 0 "R1" H 4770 4696 50  0000 L CNN
+F 1 "1M" H 4770 4605 50  0000 L CNN
+F 2 "" V 4630 4650 50  0001 C CNN
+F 3 "~" H 4700 4650 50  0001 C CNN
+	1    4700 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5F239312
+P 5300 4800
+F 0 "C4" H 5415 4846 50  0000 L CNN
+F 1 "0.1uF" H 5415 4755 50  0000 L CNN
+F 2 "" H 5338 4650 50  0001 C CNN
+F 3 "~" H 5300 4800 50  0001 C CNN
+	1    5300 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5F239D9A
+P 5000 4650
+F 0 "C3" H 5115 4696 50  0000 L CNN
+F 1 "0.1uF" H 5115 4605 50  0000 L CNN
+F 2 "" H 5038 4500 50  0001 C CNN
+F 3 "~" H 5000 4650 50  0001 C CNN
+	1    5000 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5F23A44C
+P 5000 4150
+F 0 "C2" H 5050 4250 50  0000 L CNN
+F 1 "0.1uF" H 5050 3950 50  0000 L CNN
+F 2 "" H 5038 4000 50  0001 C CNN
+F 3 "~" H 5000 4150 50  0001 C CNN
+	1    5000 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5F23AE68
+P 5000 3650
+F 0 "C1" H 5115 3696 50  0000 L CNN
+F 1 "0.1uF" H 5115 3605 50  0000 L CNN
+F 2 "" H 5038 3500 50  0001 C CNN
+F 3 "~" H 5000 3650 50  0001 C CNN
+	1    5000 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 4050 5200 4000
+Wire Wire Line
+	5200 4000 5000 4000
+Connection ~ 5000 4000
+Wire Wire Line
+	5200 4250 5200 4300
+Wire Wire Line
+	5200 4300 5000 4300
+Wire Wire Line
+	5000 4300 4700 4300
+Connection ~ 5000 4300
+Wire Wire Line
+	4700 4500 4700 4300
+Wire Wire Line
+	5000 4500 5000 4300
+Wire Wire Line
+	5000 4000 5000 3800
+Wire Wire Line
+	3550 3850 3450 3850
+Wire Wire Line
+	3450 3950 3550 3950
+Wire Wire Line
+	3550 4150 3450 4150
+Wire Wire Line
+	3450 4250 3550 4250
+Wire Wire Line
+	3550 4350 3450 4350
+Wire Wire Line
+	5000 3350 5000 3500
+Wire Wire Line
+	5700 4450 5700 5100
+Wire Wire Line
+	4700 5100 4700 4800
+Wire Wire Line
+	4700 5100 5000 5100
+Wire Wire Line
+	5000 4800 5000 5100
+Connection ~ 5000 5100
+Wire Wire Line
+	5000 5100 5300 5100
+Wire Wire Line
+	5300 4950 5300 5100
+Connection ~ 5300 5100
+Wire Wire Line
+	5300 5100 5500 5100
+Wire Wire Line
+	5500 4450 5500 4600
+Connection ~ 5500 5100
+Wire Wire Line
+	5500 5100 5700 5100
+Wire Wire Line
+	5300 4650 5300 4600
+Wire Wire Line
+	5300 4600 5500 4600
+Connection ~ 5500 4600
+Wire Wire Line
+	5500 4600 5500 5100
+Wire Wire Line
+	6400 4150 6000 4150
+Wire Wire Line
+	5500 3350 5500 3450
+Wire Wire Line
+	5900 3500 5900 3450
+Wire Wire Line
+	5900 3450 5500 3450
+Connection ~ 5500 3450
+Wire Wire Line
+	5500 3450 5500 3850
+Wire Wire Line
+	5900 3800 5900 3850
+Wire Wire Line
+	5600 4450 5600 4550
+Wire Wire Line
+	5600 4550 6000 4550
+Wire Wire Line
+	6000 4550 6000 4150
+Connection ~ 6000 4150
+Wire Wire Line
+	4700 4000 5000 4000
+$EndSCHEMATC
