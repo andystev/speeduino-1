@@ -30,7 +30,7 @@ U 1 1 5F22FA4E
 P 3750 3400
 F 0 "J1" H 3830 3392 50  0000 L CNN
 F 1 "Input" H 3830 3301 50  0000 L CNN
-F 2 "" H 3750 3400 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3750 3400 50  0001 C CNN
 F 3 "~" H 3750 3400 50  0001 C CNN
 	1    3750 3400
 	1    0    0    -1  
@@ -41,7 +41,7 @@ U 1 1 5F230294
 P 3750 4250
 F 0 "J2" H 3830 4292 50  0000 L CNN
 F 1 "Output" H 3830 4201 50  0000 L CNN
-F 2 "" H 3750 4250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3750 4250 50  0001 C CNN
 F 3 "~" H 3750 4250 50  0001 C CNN
 	1    3750 4250
 	1    0    0    -1  
